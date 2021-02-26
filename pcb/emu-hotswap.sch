@@ -29,8 +29,6 @@ Text Label 1240 1945 2    50   ~ 0
 rowA
 Text Label 1240 2045 2    50   ~ 0
 rowB
-Text Label 2640 1345 0    50   ~ 0
-rowC
 Text Label 2640 1445 0    50   ~ 0
 rowD
 Text Label 2640 1545 0    50   ~ 0
@@ -56,17 +54,6 @@ F 2 "" H 2830 1245 50  0001 C CNN
 F 3 "" H 2830 1245 50  0001 C CNN
 	1    2830 1245
 	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5DAAE5C1
-P 3745 890
-F 0 "SW1" H 3745 1045 50  0000 C CNN
-F 1 "SW_Push" H 3745 1084 50  0001 C CNN
-F 2 "used_footprints:Switch_Mx_Hotswap_1u" H 3745 1090 50  0001 C CNN
-F 3 "~" H 3745 1090 50  0001 C CNN
-	1    3745 890 
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
@@ -830,10 +817,10 @@ Connection ~ 6945 890
 Wire Wire Line
 	6945 890  6945 1290
 $Comp
-L Switch:SW_Push SW31
+L Switch:SW_Push SW32
 U 1 1 5DBF73FF
 P 2720 3125
-F 0 "SW31" H 2720 3410 50  0000 C CNN
+F 0 "SW32" H 2720 3410 50  0000 C CNN
 F 1 "SW_Push" H 2720 3319 50  0000 C CNN
 F 2 "used_footprints:Switch_Reset_THT" H 2720 3325 50  0001 C CNN
 F 3 "~" H 2720 3325 50  0001 C CNN
@@ -1237,7 +1224,6 @@ Wire Wire Line
 	2705 1145 2640 1145
 Wire Wire Line
 	2830 1245 2640 1245
-NoConn ~ 2640 1645
 NoConn ~ 2640 1745
 NoConn ~ 2640 1845
 NoConn ~ 2640 1945
@@ -1247,10 +1233,54 @@ U 1 1 5DAA926E
 P 1940 1695
 F 0 "U1" H 1940 2732 60  0000 C CNN
 F 1 "ProMicro" H 1940 2626 60  0000 C CNN
-F 2 "used_footprints:Pro_Micro" H 2040 645 60  0001 C CNN
+F 2 "used_footprints:ArduinoProMicro" H 2040 645 60  0001 C CNN
 F 3 "" H 2040 645 60  0000 C CNN
 	1    1940 1695
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2640 2045
+Text Label 2640 1345 0    50   ~ 0
+rowC
+$Comp
+L Switch:SW_Push SW31
+U 1 1 603D9F6E
+P 6745 2890
+F 0 "SW31" H 6745 3045 50  0000 C CNN
+F 1 "SW_Push" H 6745 3084 50  0001 C CNN
+F 2 "used_footprints:Switch_Mx_Hotswap_1u" H 6745 3090 50  0001 C CNN
+F 3 "~" H 6745 3090 50  0001 C CNN
+	1    6745 2890
+	1    0    0    -1  
+$EndComp
+Connection ~ 6945 2490
+Text Label 3330 3090 0    50   ~ 0
+rowF
+Wire Wire Line
+	6945 2490 6945 2890
+$Comp
+L Device:D_Small D31
+U 1 1 603D9F74
+P 6545 2990
+F 0 "D31" V 6545 2922 50  0000 R CNN
+F 1 "1N4148" V 6500 2922 50  0001 R CNN
+F 2 "used_footprints:Diode_Hybrid_SOD-123" V 6545 2990 50  0001 C CNN
+F 3 "~" V 6545 2990 50  0001 C CNN
+	1    6545 2990
+	0    -1   -1   0   
+$EndComp
+Text Label 2640 1645 0    50   ~ 0
+rowF
+Wire Wire Line
+	6545 3090 3330 3090
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DAAE5C1
+P 3745 890
+F 0 "SW1" H 3745 1045 50  0000 C CNN
+F 1 "SW_Push" H 3745 1084 50  0001 C CNN
+F 2 "used_footprints:Switch_Mx_Hotswap_1u" H 3745 1090 50  0001 C CNN
+F 3 "~" H 3745 1090 50  0001 C CNN
+	1    3745 890 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
