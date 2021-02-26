@@ -1,4 +1,4 @@
-19314939733497270
+19318170136338270
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83867,12 +83867,40 @@ varistor SIOV
 2
 2
 used_footprints
+CherryMX_MidHeight_Hotswap_1.5u
+
+
+0
+4
+2
+used_footprints
+CherryMX_MidHeight_Hotswap_1.25u
+
+
+0
+4
+2
+used_footprints
+CherryMX_MidHeight_Hotswap_1u
+
+
+0
+4
+2
+used_footprints
 Cutout_Mx_14x14
 
 
 0
 4
 0
+used_footprints
+D3_TH_SMD
+Resitance 3 pas
+R
+0
+6
+2
 used_footprints
 Diode_Hybrid_SOD-123
 
@@ -83965,28 +83993,14 @@ SK6812MINI
 8
 4
 used_footprints
+SK6812MINI_rev
+
+
+0
+8
+4
+used_footprints
 Silk_Cover
-
-
-0
-0
-0
-used_footprints
-Silk_Logo_Cherry
-
-
-0
-0
-0
-used_footprints
-Silk_Logo_Classic
-
-
-0
-0
-0
-used_footprints
-Silk_Logo_Hotswap
 
 
 0
