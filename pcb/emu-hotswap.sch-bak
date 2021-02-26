@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 2640 945 
-NoConn ~ 2640 1645
 Text Label 1240 945  2    50   ~ 0
 col0
 Text Label 1240 1045 2    50   ~ 0
@@ -37,8 +35,6 @@ Text Label 2640 1445 0    50   ~ 0
 rowD
 Text Label 2640 1545 0    50   ~ 0
 rowE
-Text Label 2640 2045 0    50   ~ 0
-LED
 $Comp
 L power:GND #PWR06
 U 1 1 5DAACA3F
@@ -61,19 +57,6 @@ F 3 "" H 2830 1245 50  0001 C CNN
 	1    2830 1245
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5DAAD46C
-P 1240 1145
-F 0 "#PWR05" H 1240 895 50  0001 C CNN
-F 1 "GND" H 1320 1005 50  0000 R CNN
-F 2 "" H 1240 1145 50  0001 C CNN
-F 3 "" H 1240 1145 50  0001 C CNN
-	1    1240 1145
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1240 1245 1240 1145
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5DAAE5C1
@@ -934,21 +917,6 @@ F 3 "~" H 7365 1645 50  0001 C CNN
 	1    7365 1645
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2640 1945
-NoConn ~ 2640 1845
-NoConn ~ 2640 1745
-Connection ~ 1240 1145
-$Comp
-L emu-hotswap-rescue:ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue U1
-U 1 1 5DAA926E
-P 1940 1695
-F 0 "U1" H 1940 2732 60  0000 C CNN
-F 1 "ProMicro" H 1940 2626 60  0000 C CNN
-F 2 "used_footprints:ProMicro_Dual" H 2040 645 60  0001 C CNN
-F 3 "" H 2040 645 60  0000 C CNN
-	1    1940 1695
-	1    0    0    -1  
-$EndComp
 Text GLabel 725  1345 0    50   Input ~ 0
 SDA
 Text GLabel 725  1445 0    50   Input ~ 0
@@ -967,8 +935,6 @@ F 3 "~" H 810 1245 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 810  1345
-Wire Wire Line
-	810  1345 1240 1345
 $Comp
 L Device:R_Small R2
 U 1 1 5E5A67AE
@@ -983,8 +949,6 @@ $EndComp
 Wire Wire Line
 	725  1445 810  1445
 Connection ~ 810  1445
-Wire Wire Line
-	810  1445 1240 1445
 $Comp
 L power:VCC #PWR01
 U 1 1 5E5BBB5F
@@ -1123,12 +1087,6 @@ Wire Wire Line
 	2465 3125 2520 3125
 Text Label 2705 1145 0    50   ~ 0
 RST
-Wire Wire Line
-	2705 1145 2640 1145
-Wire Wire Line
-	2830 1245 2640 1245
-Wire Wire Line
-	2640 1045 2830 1045
 $Comp
 L Switch:SW_Push SW10
 U 1 1 6034E284
@@ -1252,4 +1210,47 @@ Wire Wire Line
 	4545 890  4545 1290
 Connection ~ 4545 890 
 Connection ~ 4545 1290
+Text Label 2640 2045 0    50   ~ 0
+LED
+Wire Wire Line
+	810  1445 1240 1445
+Wire Wire Line
+	810  1345 1240 1345
+Connection ~ 1240 1145
+Wire Wire Line
+	1240 1245 1240 1145
+$Comp
+L power:GND #PWR05
+U 1 1 5DAAD46C
+P 1240 1145
+F 0 "#PWR05" H 1240 895 50  0001 C CNN
+F 1 "GND" H 1320 1005 50  0000 R CNN
+F 2 "" H 1240 1145 50  0001 C CNN
+F 3 "" H 1240 1145 50  0001 C CNN
+	1    1240 1145
+	0    1    1    0   
+$EndComp
+NoConn ~ 2640 945 
+Wire Wire Line
+	2640 1045 2830 1045
+Wire Wire Line
+	2705 1145 2640 1145
+Wire Wire Line
+	2830 1245 2640 1245
+NoConn ~ 2640 1645
+NoConn ~ 2640 1745
+NoConn ~ 2640 1845
+NoConn ~ 2640 1945
+$Comp
+L emu-hotswap-rescue:ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue U1
+U 1 1 5DAA926E
+P 1940 1695
+F 0 "U1" H 1940 2732 60  0000 C CNN
+F 1 "ProMicro" H 1940 2626 60  0000 C CNN
+F 2 "used_footprints:ProMicro_Dual" H 2040 645 60  0001 C CNN
+F 3 "" H 2040 645 60  0000 C CNN
+	1    1940 1695
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2640 2045
 $EndSCHEMATC

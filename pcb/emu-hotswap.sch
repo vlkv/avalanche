@@ -1247,7 +1247,7 @@ U 1 1 5DAA926E
 P 1940 1695
 F 0 "U1" H 1940 2732 60  0000 C CNN
 F 1 "ProMicro" H 1940 2626 60  0000 C CNN
-F 2 "used_footprints:ProMicro_Dual" H 2040 645 60  0001 C CNN
+F 2 "used_footprints:Pro_Micro" H 2040 645 60  0001 C CNN
 F 3 "" H 2040 645 60  0000 C CNN
 	1    1940 1695
 	1    0    0    -1  

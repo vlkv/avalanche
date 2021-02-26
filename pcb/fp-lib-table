@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name Switch_Keyboard_Kailh)(type KiCad)(uri /home/vitvlkv/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty)(options "")(descr "")(disabled))
+  (lib (name Switch_Keyboard_Kailh)(type KiCad)(uri /home/vitvlkv/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty)(options "")(descr ""))
   (lib (name used_footprints)(type KiCad)(uri /home/vitvlkv/emu/used_footprints.pretty)(options "")(descr ""))
+  (lib (name Switch_Keyboard_Cherry_MX)(type KiCad)(uri /home/vitvlkv/keyswitch-kicad-library/modules/Switch_Keyboard_Cherry_MX.pretty)(options "")(descr ""))
 )
