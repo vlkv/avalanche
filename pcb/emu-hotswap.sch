@@ -1283,4 +1283,15 @@ F 3 "~" H 3745 1090 50  0001 C CNN
 	1    3745 890 
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole HM6
+U 1 1 60492C63
+P 7370 1840
+F 0 "HM6" H 7470 1886 50  0000 L CNN
+F 1 "CaseHole" H 7470 1795 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 7370 1840 50  0001 C CNN
+F 3 "~" H 7370 1840 50  0001 C CNN
+	1    7370 1840
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

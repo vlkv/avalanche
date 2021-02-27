@@ -1080,7 +1080,7 @@ U 1 1 6034E284
 P 4345 2490
 F 0 "SW10" H 4345 2645 50  0000 C CNN
 F 1 "SW_Push" H 4345 2684 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 4345 2690 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1.25u" H 4345 2690 50  0001 C CNN
 F 3 "~" H 4345 2690 50  0001 C CNN
 	1    4345 2490
 	1    0    0    -1  
@@ -1102,7 +1102,7 @@ U 1 1 603524E9
 P 4945 2490
 F 0 "SW15" H 4945 2645 50  0000 C CNN
 F 1 "SW_Push" H 4945 2684 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 4945 2690 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1.25u" H 4945 2690 50  0001 C CNN
 F 3 "~" H 4945 2690 50  0001 C CNN
 	1    4945 2490
 	1    0    0    -1  
