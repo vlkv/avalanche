@@ -1294,4 +1294,70 @@ F 3 "~" H 7370 1840 50  0001 C CNN
 	1    7370 1840
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole HM7
+U 1 1 60415820
+P 8215 1190
+F 0 "HM7" H 8315 1236 50  0000 L CNN
+F 1 "CaseHole" H 8315 1145 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8215 1190 50  0001 C CNN
+F 3 "~" H 8215 1190 50  0001 C CNN
+	1    8215 1190
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM8
+U 1 1 60415826
+P 8215 1380
+F 0 "HM8" H 8315 1426 50  0000 L CNN
+F 1 "CaseHole" H 8315 1335 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8215 1380 50  0001 C CNN
+F 3 "~" H 8215 1380 50  0001 C CNN
+	1    8215 1380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM9
+U 1 1 6041582C
+P 8215 1580
+F 0 "HM9" H 8315 1626 50  0000 L CNN
+F 1 "CaseHole" H 8315 1535 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8215 1580 50  0001 C CNN
+F 3 "~" H 8215 1580 50  0001 C CNN
+	1    8215 1580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM10
+U 1 1 60415832
+P 8215 1785
+F 0 "HM10" H 8315 1831 50  0000 L CNN
+F 1 "CaseHole" H 8315 1740 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8215 1785 50  0001 C CNN
+F 3 "~" H 8215 1785 50  0001 C CNN
+	1    8215 1785
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM11
+U 1 1 60415838
+P 8215 1975
+F 0 "HM11" H 8315 2021 50  0000 L CNN
+F 1 "CaseHole" H 8315 1930 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8215 1975 50  0001 C CNN
+F 3 "~" H 8215 1975 50  0001 C CNN
+	1    8215 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM12
+U 1 1 6041583E
+P 8220 2170
+F 0 "HM12" H 8320 2216 50  0000 L CNN
+F 1 "CaseHole" H 8320 2125 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8220 2170 50  0001 C CNN
+F 3 "~" H 8220 2170 50  0001 C CNN
+	1    8220 2170
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
