@@ -13,3 +13,6 @@ Emu design was inspired by
 Many thanks to ErgoTravel for their super detailed [Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md) that helped me a lot.
 
 ![Emu mockup](/images/emu_mockup_02.jpg)
+
+![Emu pcb 3D view](/images/pcb_design_mockup.png)
+
