@@ -14,5 +14,4 @@ Many thanks to ErgoTravel for their super detailed [Build Instructions](https://
 
 ![Emu mockup](/images/emu_mockup_02.jpg)
 
-![Emu pcb 3D view](/images/pcb_design_mockup.png)
-
+![Emu pcb 3D view](/images/emu_mockup_03.png)

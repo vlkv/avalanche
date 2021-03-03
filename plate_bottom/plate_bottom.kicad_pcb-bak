@@ -100,6 +100,30 @@
     (uvia_drill 0.1)
   )
 
+  (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603FC1FD) (tstamp 603FE31D)
+    (at 215.4 123.65 36)
+    (path /5DC03D38)
+    (fp_text reference HM1 (at -0.01 -2.09 36) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CaseHole (at 0.5 -3.77 36) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at -0.117557 0.161803 36) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603E7A8E) (tstamp 603FE319)
+    (at 164.44712 116.70512)
+    (path /5DC1BC70)
+    (fp_text reference HM4 (at -0.01 -2.09) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0.00288 -0.70512) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
   (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603EA186) (tstamp 603FE1FA)
     (at 114.55 59.9)
     (path /60415820)
@@ -122,18 +146,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at -0.65 -0.5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603FC1FD) (tstamp 603FE1F2)
-    (at 215.35 123.3 36)
-    (path /5DC03D38)
-    (fp_text reference HM1 (at -0.01 -2.09 36) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CaseHole (at 0.5 -3.77 36) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at -0.117557 0.161803 36) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603EA1D1) (tstamp 603FE1EE)
@@ -218,18 +230,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0.005 -0.12) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603E7A8E) (tstamp 603FE1D2)
-    (at 164.34712 115.85512)
-    (path /5DC1BC70)
-    (fp_text reference HM4 (at -0.01 -2.09) (layer Dwgs.User) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CaseHole (at 0.5 -3.77) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0.00288 -0.70512) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module used_footprints:Hole_Mount_M4 (layer F.Cu) (tedit 603EA1DA) (tstamp 603FE1CE)
