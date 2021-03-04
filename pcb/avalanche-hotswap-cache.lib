@@ -93,11 +93,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# emu-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue
+# avalanche-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue
 #
-DEF emu-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue J 0 40 Y Y 1 F N
+DEF avalanche-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "emu-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue" 0 -150 50 H V C CNN
+F1 "avalanche-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue" 0 -150 50 H V C CNN
 F2 "" 275 175 50 H I C CNN
 F3 "" 275 175 50 H I C CNN
 DRAW
@@ -114,11 +114,11 @@ X ~ D 200 25 79 L 28 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# emu-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue
+# avalanche-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue
 #
-DEF emu-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue U 0 40 Y Y 1 F N
+DEF avalanche-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "emu-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue" 0 -550 60 H V C CNN
+F1 "avalanche-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue" 0 -550 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW

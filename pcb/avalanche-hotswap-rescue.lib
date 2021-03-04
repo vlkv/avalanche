@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue
+# MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue
 #
-DEF MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue J 0 40 Y Y 1 F N
+DEF MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue" 0 -150 50 H V C CNN
+F1 "MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue" 0 -150 50 H V C CNN
 F2 "" 275 175 50 H I C CNN
 F3 "" 275 175 50 H I C CNN
 DRAW
@@ -22,11 +22,11 @@ X ~ D 200 25 79 L 28 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue
+# ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue
 #
-DEF ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue U 0 40 Y Y 1 F N
+DEF ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue" 0 -550 60 H V C CNN
+F1 "ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue" 0 -550 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW

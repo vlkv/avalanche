@@ -4,4 +4,5 @@
   (lib (name jiran-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/jiran-hotswap-rescue.lib)(options "")(descr ""))
   (lib (name thing60-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/thing60-hotswap-rescue.lib)(options "")(descr ""))
   (lib (name emu-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/emu-hotswap-rescue.lib)(options "")(descr ""))
+  (lib (name avalanche-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/avalanche-hotswap-rescue.lib)(options "")(descr ""))
 )

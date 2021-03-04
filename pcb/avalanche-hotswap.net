@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/vitvlkv/emu/pcb/emu-hotswap.sch)
-    (date "Tue 02 Mar 2021 23:33:25 MSK")
+    (source /home/vitvlkv/emu/pcb/avalanche-hotswap.sch)
+    (date "Thu 04 Mar 2021 23:12:38 MSK")
     (tool "Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source emu-hotswap.sch)
+        (source avalanche-hotswap.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -383,7 +383,7 @@
       (value TRRS)
       (footprint used_footprints:TRSS_DUAL_THT)
       (datasheet ~)
-      (libsource (lib emu-hotswap-rescue) (part MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue) (description ""))
+      (libsource (lib avalanche-hotswap-rescue) (part MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DBFACF7))
     (comp (ref HM1)
@@ -522,7 +522,7 @@
     (comp (ref U1)
       (value ProMicro)
       (footprint used_footprints:ProMicro_Dual)
-      (libsource (lib emu-hotswap-rescue) (part ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue) (description ""))
+      (libsource (lib avalanche-hotswap-rescue) (part ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DAA926E))
     (comp (ref SW31)
@@ -651,19 +651,19 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib emu-hotswap-rescue) (part MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue)
+    (libpart (lib avalanche-hotswap-rescue) (part MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue)
       (fields
         (field (name Reference) J)
-        (field (name Value) MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue))
+        (field (name Value) MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue))
       (pins
         (pin (num A) (name ~) (type input))
         (pin (num B) (name ~) (type input))
         (pin (num C) (name ~) (type input))
         (pin (num D) (name ~) (type input))))
-    (libpart (lib emu-hotswap-rescue) (part ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue)
+    (libpart (lib avalanche-hotswap-rescue) (part ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue)
       (fields
         (field (name Reference) U)
-        (field (name Value) ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue))
+        (field (name Value) ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue))
       (pins
         (pin (num 1) (name TX0/D3) (type BiDi))
         (pin (num 2) (name RX1/D2) (type BiDi))
@@ -698,8 +698,8 @@
       (uri /usr/share/kicad/library/Mechanical.lib))
     (library (logical Switch)
       (uri /usr/share/kicad/library/Switch.lib))
-    (library (logical emu-hotswap-rescue)
-      (uri /home/vitvlkv/emu/pcb/emu-hotswap-rescue.lib)))
+    (library (logical avalanche-hotswap-rescue)
+      (uri /home/vitvlkv/emu/pcb/avalanche-hotswap-rescue.lib)))
   (nets
     (net (code 1) (name VCC)
       (node (ref R2) (pin 2))
