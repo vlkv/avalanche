@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name avalanche-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/avalanche-hotswap-rescue.lib)(options "")(descr ""))
-  (lib (name 123_Lily58_Pro-cache)(type Legacy)(uri ${KIPRJMOD}/123_Lily58_Pro-cache.lib)(options "")(descr ""))
+  (lib (name avalanche-hotswap)(type Legacy)(uri ${KIPRJMOD}/avalanche-hotswap.lib)(options "")(descr ""))
 )

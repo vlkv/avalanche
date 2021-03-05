@@ -1,113 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 123_Lily58_Pro-cache_Device_Jumper
-#
-DEF 123_Lily58_Pro-cache_Device_Jumper JP 0 30 Y N 1 F N
-F0 "JP" 0 150 50 H V C CNN
-F1 "123_Lily58_Pro-cache_Device_Jumper" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
-C -100 0 35 0 1 0 N
-C 100 0 35 0 1 0 N
-X 1 1 -300 0 165 R 50 50 0 1 P
-X 2 2 300 0 165 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# 123_Lily58_Pro-cache_Device_Jumper_NO_Small
-#
-DEF 123_Lily58_Pro-cache_Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "123_Lily58_Pro-cache_Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# 123_Lily58_Pro-cache_Lily58-cache_LED
-#
-DEF 123_Lily58_Pro-cache_Lily58-cache_LED J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "123_Lily58_Pro-cache_Lily58-cache_LED" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 150 50 -150 1 1 10 f
-S 0 -95 50 -105 1 1 6 N
-S 0 5 50 -5 1 1 6 N
-S 0 105 50 95 1 1 6 N
-P 2 1 1 10 -50 -50 50 -50 N
-P 2 1 1 10 -50 50 50 50 N
-X Pin_1 1 200 100 150 L 50 50 1 1 P
-X Pin_2 2 200 0 150 L 50 50 1 1 P
-X Pin_3 3 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 123_Lily58_Pro-cache_Lily58-cache_OLED
-#
-DEF 123_Lily58_Pro-cache_Lily58-cache_OLED J 0 40 Y N 1 F N
-F0 "J" 0 250 50 H V C CNN
-F1 "123_Lily58_Pro-cache_Lily58-cache_OLED" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
-$ENDFPLIST
-DRAW
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 123_Lily58_Pro-cache_Lily58-cache_i2c_pin
-#
-DEF 123_Lily58_Pro-cache_Lily58-cache_i2c_pin J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "123_Lily58_Pro-cache_Lily58-cache_i2c_pin" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -50 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_D_Small
 #
 DEF Device_D_Small D 0 10 N N 1 F N
@@ -179,60 +72,170 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# avalanche-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue
+# avalanche-hotswap_Device_Jumper
 #
-DEF avalanche-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue J 0 40 Y Y 1 F N
-F0 "J" 0 150 50 H V C CNN
-F1 "avalanche-hotswap-rescue_MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue" 0 -150 50 H V C CNN
-F2 "" 275 175 50 H I C CNN
-F3 "" 275 175 50 H I C CNN
+DEF avalanche-hotswap_Device_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "avalanche-hotswap_Device_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-S -75 -75 -125 50 0 1 0 N
-S 125 100 -150 -100 0 1 12 N
-P 3 0 1 0 -100 50 -100 75 125 75 N
-P 4 0 1 0 -50 -75 -25 -50 0 -75 125 -75 N
-P 4 0 1 0 0 -25 25 0 50 -25 125 -25 N
-P 4 0 1 0 50 25 75 50 100 25 125 25 N
-X ~ A 200 75 79 L 28 20 1 1 I
-X ~ B 200 -75 79 L 28 20 1 1 I
-X ~ C 200 -25 79 L 28 20 1 1 I
-X ~ D 200 25 79 L 28 20 1 1 I
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# avalanche-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue
+# avalanche-hotswap_Device_Jumper_NO_Small
 #
-DEF avalanche-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 950 60 H V C CNN
-F1 "avalanche-hotswap-rescue_ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue" 0 -550 60 H V C CNN
-F2 "" 100 -1050 60 H V C CNN
-F3 "" 100 -1050 60 H V C CNN
+DEF avalanche-hotswap_Device_Jumper_NO_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "avalanche-hotswap_Device_Jumper_NO_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-S -500 850 500 -450 0 1 0 N
-X TX0/D3 1 -700 750 200 R 50 50 1 1 B
-X 7/E6 10 -700 -150 200 R 50 50 1 1 B
-X 8/B4 11 -700 -250 200 R 50 50 1 1 B
-X 9/B5 12 -700 -350 200 R 50 50 1 1 B
-X B6/10 13 700 -350 200 L 50 50 1 1 B
-X B2/16 14 700 -250 200 L 50 50 1 1 B
-X B3/14 15 700 -150 200 L 50 50 1 1 B
-X B1/15 16 700 -50 200 L 50 50 1 1 B
-X F7/A0 17 700 50 200 L 50 50 1 1 B
-X F6/A1 18 700 150 200 L 50 50 1 1 B
-X F5/A2 19 700 250 200 L 50 50 1 1 B
-X RX1/D2 2 -700 650 200 R 50 50 1 1 B
-X F4/A3 20 700 350 200 L 50 50 1 1 B
-X VCC 21 700 450 200 L 50 50 1 1 W
-X RST 22 700 550 200 L 50 50 1 1 I
-X GND 23 700 650 200 L 50 50 1 1 W
-X RAW 24 700 750 200 L 50 50 1 1 w
-X GND 3 -700 550 200 R 50 50 1 1 W
-X GND 4 -700 450 200 R 50 50 1 1 W
-X 2/D1/SDA 5 -700 350 200 R 50 50 1 1 B
-X 3/D0/SCL 6 -700 250 200 R 50 50 1 1 B
-X 4/D4 7 -700 150 200 R 50 50 1 1 B
-X 5/C6 8 -700 50 200 R 50 50 1 1 B
-X 6/D7 9 -700 -50 200 R 50 50 1 1 B
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# avalanche-hotswap_LED
+#
+DEF avalanche-hotswap_LED J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "avalanche-hotswap_LED" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 150 50 -150 1 1 10 f
+S 0 -95 50 -105 1 1 6 N
+S 0 5 50 -5 1 1 6 N
+S 0 105 50 95 1 1 6 N
+P 2 1 1 10 -50 -50 50 -50 N
+P 2 1 1 10 -50 50 50 50 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# avalanche-hotswap_MJ-4PP-9
+#
+DEF avalanche-hotswap_MJ-4PP-9 J 0 40 Y Y 1 F N
+F0 "J" -350 -300 60 H V C CNN
+F1 "avalanche-hotswap_MJ-4PP-9" -150 250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -300 100 -350 -150 0 1 0 N
+S 300 -250 -400 200 0 1 0 N
+P 2 0 1 0 100 0 300 0 N
+P 3 0 1 0 -100 -200 300 -200 300 -200 N
+P 3 0 1 0 0 -100 -50 -50 -100 -100 N
+P 3 0 1 0 0 0 50 50 100 0 N
+P 3 0 1 0 300 150 -300 150 -300 100 N
+P 4 0 1 0 -100 -200 -150 -150 -200 -200 -200 -200 N
+P 4 0 1 0 0 -100 300 -100 300 -100 300 -100 N
+X ~ 1 450 0 150 L 50 50 1 1 P
+X ~ 2 450 -100 150 L 50 50 1 1 P
+X ~ 3 450 -200 150 L 50 50 1 1 P
+X ~ 4 450 150 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# avalanche-hotswap_OLED
+#
+DEF avalanche-hotswap_OLED J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "avalanche-hotswap_OLED" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X04
+ Pin_Header_Angled_1X04
+ Socket_Strip_Straight_1X04
+ Socket_Strip_Angled_1X04
+$ENDFPLIST
+DRAW
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 200 50 -200 0 1 0 N
+X P1 1 -200 150 150 R 50 50 1 1 P
+X P2 2 -200 50 150 R 50 50 1 1 P
+X P3 3 -200 -50 150 R 50 50 1 1 P
+X P4 4 -200 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# avalanche-hotswap_ProMicro_2
+#
+DEF avalanche-hotswap_ProMicro_2 U 0 40 Y Y 1 F N
+F0 "U" 0 700 50 H V C CNN
+F1 "avalanche-hotswap_ProMicro_2" 0 -700 50 H V C CNN
+F2 "" -50 100 50 H I C CNN
+F3 "" -50 100 50 H I C CNN
+DRAW
+S -450 650 450 -650 0 1 0 N
+X TX(PD3) 1 -650 550 200 R 50 50 1 1 I
+X D7(PE6) 10 -650 -350 200 R 50 50 1 1 I
+X D8(PB4) 11 -650 -450 200 R 50 50 1 1 I
+X D9(PB5) 12 -650 -550 200 R 50 50 1 1 I
+X D10(PB6) 13 650 -550 200 L 50 50 1 1 I
+X D16(PB2) 14 650 -450 200 L 50 50 1 1 I
+X D14(PB3) 15 650 -350 200 L 50 50 1 1 I
+X D15(PB1) 16 650 -250 200 L 50 50 1 1 I
+X A0(PF7) 17 650 -150 200 L 50 50 1 1 I
+X A1(PF6) 18 650 -50 200 L 50 50 1 1 I
+X A2(PF5) 19 650 50 200 L 50 50 1 1 I
+X RX(PD2) 2 -650 450 200 R 50 50 1 1 I
+X A3(PF4) 20 650 150 200 L 50 50 1 1 I
+X VCC 21 650 250 200 L 50 50 1 1 I
+X RST 22 650 350 200 L 50 50 1 1 I
+X GND 23 650 450 200 L 50 50 1 1 I
+X RAW 24 650 550 200 L 50 50 1 1 I
+X GND 3 -650 350 200 R 50 50 1 1 I
+X GND 4 -650 250 200 R 50 50 1 1 I
+X SDA(PD1) 5 -650 150 200 R 50 50 1 1 I
+X SCL(PD0) 6 -650 50 200 R 50 50 1 1 I
+X D4(PD4) 7 -650 -50 200 R 50 50 1 1 I
+X D5(PC6) 8 -650 -150 200 R 50 50 1 1 I
+X D6(PD7) 9 -650 -250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# avalanche-hotswap_i2c_pin
+#
+DEF avalanche-hotswap_i2c_pin J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "avalanche-hotswap_i2c_pin" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
