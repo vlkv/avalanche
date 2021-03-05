@@ -13,26 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1240 945  2    50   ~ 0
-col0
-Text Label 1240 1045 2    50   ~ 0
-col1
-Text Label 1240 1545 2    50   ~ 0
-col2
-Text Label 1240 1645 2    50   ~ 0
-col3
-Text Label 1240 1745 2    50   ~ 0
-col4
-Text Label 1240 1845 2    50   ~ 0
-col5
-Text Label 1240 1945 2    50   ~ 0
-rowA
-Text Label 1240 2045 2    50   ~ 0
-rowB
-Text Label 2640 1445 0    50   ~ 0
-rowD
-Text Label 2640 1545 0    50   ~ 0
-rowE
 $Comp
 L power:GND #PWR06
 U 1 1 5DAACA3F
@@ -42,7 +22,7 @@ F 1 "GND" H 2910 895 50  0000 R CNN
 F 2 "" H 2830 1045 50  0001 C CNN
 F 3 "" H 2830 1045 50  0001 C CNN
 	1    2830 1045
-	0    -1   -1   0   
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR07
@@ -58,45 +38,34 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5DAAF1CB
-P 10585 800
-F 0 "#FLG01" H 10585 875 50  0001 C CNN
-F 1 "PWR_FLAG" H 10585 940 50  0000 C CNN
-F 2 "" H 10585 800 50  0001 C CNN
-F 3 "~" H 10585 800 50  0001 C CNN
-	1    10585 800 
+P 5865 4135
+F 0 "#FLG01" H 5865 4210 50  0001 C CNN
+F 1 "PWR_FLAG" H 5865 4275 50  0000 C CNN
+F 2 "" H 5865 4135 50  0001 C CNN
+F 3 "~" H 5865 4135 50  0001 C CNN
+	1    5865 4135
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5DAAF4BD
-P 10875 795
-F 0 "#FLG02" H 10875 870 50  0001 C CNN
-F 1 "PWR_FLAG" H 10875 935 50  0000 C CNN
-F 2 "" H 10875 795 50  0001 C CNN
-F 3 "~" H 10875 795 50  0001 C CNN
-	1    10875 795 
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5DAAF82D
-P 10875 795
-F 0 "#PWR010" H 10875 545 50  0001 C CNN
-F 1 "GND" H 10875 665 50  0000 C CNN
-F 2 "" H 10875 795 50  0001 C CNN
-F 3 "" H 10875 795 50  0001 C CNN
-	1    10875 795 
+P 6155 4130
+F 0 "#PWR010" H 6155 3880 50  0001 C CNN
+F 1 "GND" H 6155 4000 50  0000 C CNN
+F 2 "" H 6155 4130 50  0001 C CNN
+F 3 "" H 6155 4130 50  0001 C CNN
+	1    6155 4130
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR09
 U 1 1 5DAAFBE6
-P 10585 800
-F 0 "#PWR09" H 10585 650 50  0001 C CNN
-F 1 "VCC" H 10585 940 50  0000 C CNN
-F 2 "" H 10585 800 50  0001 C CNN
-F 3 "" H 10585 800 50  0001 C CNN
-	1    10585 800 
+P 5865 4135
+F 0 "#PWR09" H 5865 3985 50  0001 C CNN
+F 1 "VCC" H 5865 4275 50  0000 C CNN
+F 2 "" H 5865 4135 50  0001 C CNN
+F 3 "" H 5865 4135 50  0001 C CNN
+	1    5865 4135
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -760,28 +729,6 @@ Wire Wire Line
 Connection ~ 6945 2090
 Wire Wire Line
 	6945 2090 6945 1690
-Text Label 3945 840  1    50   ~ 0
-col0
-Text Label 4545 840  1    50   ~ 0
-col1
-Text Label 5145 840  1    50   ~ 0
-col2
-Text Label 5745 840  1    50   ~ 0
-col3
-Text Label 6345 840  1    50   ~ 0
-col4
-Text Label 6945 840  1    50   ~ 0
-col5
-Text Label 3505 1090 2    50   ~ 0
-rowA
-Text Label 3505 1490 2    50   ~ 0
-rowB
-Text Label 3505 1890 2    50   ~ 0
-rowC
-Text Label 3505 2290 2    50   ~ 0
-rowD
-Text Label 3505 2690 2    50   ~ 0
-rowE
 Wire Wire Line
 	3505 2690 3545 2690
 Connection ~ 3545 2690
@@ -819,89 +766,89 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW32
 U 1 1 5DBF73FF
-P 2720 3125
-F 0 "SW32" H 2720 3410 50  0000 C CNN
-F 1 "SW_Push" H 2720 3319 50  0000 C CNN
-F 2 "used_footprints:Switch_Reset_THT" H 2720 3325 50  0001 C CNN
-F 3 "~" H 2720 3325 50  0001 C CNN
-	1    2720 3125
+P 4440 4225
+F 0 "SW32" H 4440 4510 50  0000 C CNN
+F 1 "SW_Push" H 4440 4419 50  0000 C CNN
+F 2 "used_footprints:Switch_Reset_THT" H 4440 4425 50  0001 C CNN
+F 3 "~" H 4440 4425 50  0001 C CNN
+	1    4440 4225
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5DBF973E
-P 2920 3125
-F 0 "#PWR08" H 2920 2875 50  0001 C CNN
-F 1 "GND" V 2920 3015 50  0000 R CNN
-F 2 "" H 2920 3125 50  0001 C CNN
-F 3 "" H 2920 3125 50  0001 C CNN
-	1    2920 3125
+P 4640 4225
+F 0 "#PWR08" H 4640 3975 50  0001 C CNN
+F 1 "GND" V 4640 4115 50  0000 R CNN
+F 2 "" H 4640 4225 50  0001 C CNN
+F 3 "" H 4640 4225 50  0001 C CNN
+	1    4640 4225
 	0    -1   -1   0   
 $EndComp
 $Comp
 L avalanche-hotswap-rescue:MJ-4PP-9-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue J1
 U 1 1 5DBFACF7
-P 955 2900
-F 0 "J1" H 955 3120 50  0000 C CNN
-F 1 "TRRS" H 955 3040 50  0000 C CNN
-F 2 "used_footprints:TRSS_DUAL_THT" H 1230 3075 50  0001 C CNN
-F 3 "~" H 1230 3075 50  0001 C CNN
-	1    955  2900
+P 1260 3010
+F 0 "J1" H 1260 3230 50  0000 C CNN
+F 1 "TRRS" H 1260 3150 50  0000 C CNN
+F 2 "used_footprints:TRSS_DUAL_THT" H 1535 3185 50  0001 C CNN
+F 3 "~" H 1535 3185 50  0001 C CNN
+	1    1260 3010
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM1
 U 1 1 5DC03D38
-P 7365 860
-F 0 "HM1" H 7465 906 50  0000 L CNN
-F 1 "CaseHole" H 7465 815 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7365 860 50  0001 C CNN
-F 3 "~" H 7365 860 50  0001 C CNN
-	1    7365 860 
+P 8355 820
+F 0 "HM1" H 8455 866 50  0000 L CNN
+F 1 "CaseHole" H 8455 775 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8355 820 50  0001 C CNN
+F 3 "~" H 8355 820 50  0001 C CNN
+	1    8355 820 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM2
 U 1 1 5DC0512E
-P 7365 1050
-F 0 "HM2" H 7465 1096 50  0000 L CNN
-F 1 "CaseHole" H 7465 1005 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7365 1050 50  0001 C CNN
-F 3 "~" H 7365 1050 50  0001 C CNN
-	1    7365 1050
+P 8355 1010
+F 0 "HM2" H 8455 1056 50  0000 L CNN
+F 1 "CaseHole" H 8455 965 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8355 1010 50  0001 C CNN
+F 3 "~" H 8355 1010 50  0001 C CNN
+	1    8355 1010
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM3
 U 1 1 5DC14B86
-P 7365 1250
-F 0 "HM3" H 7465 1296 50  0000 L CNN
-F 1 "CaseHole" H 7465 1205 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7365 1250 50  0001 C CNN
-F 3 "~" H 7365 1250 50  0001 C CNN
-	1    7365 1250
+P 8355 1210
+F 0 "HM3" H 8455 1256 50  0000 L CNN
+F 1 "CaseHole" H 8455 1165 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8355 1210 50  0001 C CNN
+F 3 "~" H 8355 1210 50  0001 C CNN
+	1    8355 1210
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM4
 U 1 1 5DC1BC70
-P 7365 1455
-F 0 "HM4" H 7465 1501 50  0000 L CNN
-F 1 "CaseHole" H 7465 1410 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7365 1455 50  0001 C CNN
-F 3 "~" H 7365 1455 50  0001 C CNN
-	1    7365 1455
+P 8355 1415
+F 0 "HM4" H 8455 1461 50  0000 L CNN
+F 1 "CaseHole" H 8455 1370 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8355 1415 50  0001 C CNN
+F 3 "~" H 8355 1415 50  0001 C CNN
+	1    8355 1415
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM5
 U 1 1 5DC1BC76
-P 7365 1645
-F 0 "HM5" H 7465 1691 50  0000 L CNN
-F 1 "CaseHole" H 7465 1600 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7365 1645 50  0001 C CNN
-F 3 "~" H 7365 1645 50  0001 C CNN
-	1    7365 1645
+P 8355 1605
+F 0 "HM5" H 8455 1651 50  0000 L CNN
+F 1 "CaseHole" H 8455 1560 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8355 1605 50  0001 C CNN
+F 3 "~" H 8355 1605 50  0001 C CNN
+	1    8355 1605
 	1    0    0    -1  
 $EndComp
 Text GLabel 725  1345 0    50   Input ~ 0
@@ -963,117 +910,29 @@ Wire Wire Line
 Wire Wire Line
 	810  1105 810  1145
 $Comp
-L Jumper:Jumper_2_Bridged JP1
-U 1 1 5E612479
-P 1525 2525
-F 0 "JP1" H 1520 2490 50  0000 C CNN
-F 1 "Jumper" H 1525 2605 50  0000 C CNN
-F 2 "used_footprints:Jumper_SMD" H 1525 2525 50  0001 C CNN
-F 3 "~" H 1525 2525 50  0001 C CNN
-	1    1525 2525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP2
-U 1 1 5E61A832
-P 1525 2725
-F 0 "JP2" H 1520 2690 50  0000 C CNN
-F 1 "Jumper" H 1525 2805 50  0000 C CNN
-F 2 "used_footprints:Jumper_SMD" H 1525 2725 50  0001 C CNN
-F 3 "~" H 1525 2725 50  0001 C CNN
-	1    1525 2725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP3
-U 1 1 5E622F25
-P 1525 2925
-F 0 "JP3" H 1520 2890 50  0000 C CNN
-F 1 "Jumper" H 1525 3005 50  0000 C CNN
-F 2 "used_footprints:Jumper_SMD" H 1525 2925 50  0001 C CNN
-F 3 "~" H 1525 2925 50  0001 C CNN
-	1    1525 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP4
-U 1 1 5E622F2B
-P 1525 3125
-F 0 "JP4" H 1520 3090 50  0000 C CNN
-F 1 "Jumper" H 1525 3205 50  0000 C CNN
-F 2 "used_footprints:Jumper_SMD" H 1525 3125 50  0001 C CNN
-F 3 "~" H 1525 3125 50  0001 C CNN
-	1    1525 3125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1325 2525 1325 2725
-Wire Wire Line
-	1325 2825 1155 2825
-Connection ~ 1325 2725
-Wire Wire Line
-	1325 2725 1325 2825
-Wire Wire Line
-	1325 3125 1325 2925
-Wire Wire Line
-	1325 2875 1155 2875
-Connection ~ 1325 2925
-Wire Wire Line
-	1325 2925 1325 2875
-Text GLabel 1775 2525 2    50   Input ~ 0
-SDA
-Wire Wire Line
-	1775 2525 1725 2525
-Text GLabel 1775 2725 2    50   Input ~ 0
-SCL
-Wire Wire Line
-	1775 2725 1725 2725
-Text GLabel 1775 2925 2    50   Input ~ 0
-SDA
-Wire Wire Line
-	1775 2925 1725 2925
-Text GLabel 1775 3125 2    50   Input ~ 0
-SCL
-Wire Wire Line
-	1775 3125 1725 3125
-$Comp
 L power:GND #PWR03
 U 1 1 5E653D30
-P 880 3070
-F 0 "#PWR03" H 880 2820 50  0001 C CNN
-F 1 "GND" V 880 2950 50  0000 R CNN
-F 2 "" H 880 3070 50  0001 C CNN
-F 3 "" H 880 3070 50  0001 C CNN
-	1    880  3070
+P 1170 2645
+F 0 "#PWR03" H 1170 2395 50  0001 C CNN
+F 1 "GND" V 1170 2525 50  0000 R CNN
+F 2 "" H 1170 2645 50  0001 C CNN
+F 3 "" H 1170 2645 50  0001 C CNN
+	1    1170 2645
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	880  3070 1155 3070
-Wire Wire Line
-	1155 3070 1155 2975
 $Comp
 L power:VCC #PWR04
 U 1 1 5E65ED2C
-P 880 3220
-F 0 "#PWR04" H 880 3070 50  0001 C CNN
-F 1 "VCC" V 875 3345 50  0000 L CNN
-F 2 "" H 880 3220 50  0001 C CNN
-F 3 "" H 880 3220 50  0001 C CNN
-	1    880  3220
+P 1165 2540
+F 0 "#PWR04" H 1165 2390 50  0001 C CNN
+F 1 "VCC" V 1160 2665 50  0000 L CNN
+F 2 "" H 1165 2540 50  0001 C CNN
+F 3 "" H 1165 2540 50  0001 C CNN
+	1    1165 2540
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1210 3220 1210 2925
-Wire Wire Line
-	1210 2925 1155 2925
-Wire Wire Line
-	880  3220 1210 3220
-Text Label 2465 3125 2    50   ~ 0
-RST
-Wire Wire Line
-	2465 3125 2520 3125
-Text Label 2705 1145 0    50   ~ 0
-RST
+	4185 4225 4240 4225
 $Comp
 L Switch:SW_Push SW10
 U 1 1 6034E284
@@ -1197,8 +1056,6 @@ Wire Wire Line
 	4545 890  4545 1290
 Connection ~ 4545 890 
 Connection ~ 4545 1290
-Text Label 2640 2045 0    50   ~ 0
-LED
 Wire Wire Line
 	810  1445 1240 1445
 Wire Wire Line
@@ -1224,9 +1081,6 @@ Wire Wire Line
 	2705 1145 2640 1145
 Wire Wire Line
 	2830 1245 2640 1245
-NoConn ~ 2640 1745
-NoConn ~ 2640 1845
-NoConn ~ 2640 1945
 $Comp
 L avalanche-hotswap-rescue:ProMicro-kbd-Pcb-rescue-jiran-classic-rescue-jiran-hotswap-rescue-jiran-hotswap-rescue-thing60-hotswap-rescue-emu-hotswap-rescue U1
 U 1 1 5DAA926E
@@ -1238,9 +1092,6 @@ F 3 "" H 2040 645 60  0000 C CNN
 	1    1940 1695
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2640 2045
-Text Label 2640 1345 0    50   ~ 0
-rowC
 $Comp
 L Switch:SW_Push SW31
 U 1 1 603D9F6E
@@ -1253,8 +1104,6 @@ F 3 "~" H 6745 3090 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6945 2490
-Text Label 3330 3090 0    50   ~ 0
-rowF
 Wire Wire Line
 	6945 2490 6945 2890
 $Comp
@@ -1268,10 +1117,6 @@ F 3 "~" V 6545 2990 50  0001 C CNN
 	1    6545 2990
 	0    -1   -1   0   
 $EndComp
-Text Label 2640 1645 0    50   ~ 0
-rowF
-Wire Wire Line
-	6545 3090 3330 3090
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5DAAE5C1
@@ -1286,78 +1131,433 @@ $EndComp
 $Comp
 L Mechanical:MountingHole HM6
 U 1 1 60492C63
-P 7370 1840
-F 0 "HM6" H 7470 1886 50  0000 L CNN
-F 1 "CaseHole" H 7470 1795 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 7370 1840 50  0001 C CNN
-F 3 "~" H 7370 1840 50  0001 C CNN
-	1    7370 1840
+P 8360 1800
+F 0 "HM6" H 8460 1846 50  0000 L CNN
+F 1 "CaseHole" H 8460 1755 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 8360 1800 50  0001 C CNN
+F 3 "~" H 8360 1800 50  0001 C CNN
+	1    8360 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM7
 U 1 1 60415820
-P 8215 1190
-F 0 "HM7" H 8315 1236 50  0000 L CNN
-F 1 "CaseHole" H 8315 1145 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 8215 1190 50  0001 C CNN
-F 3 "~" H 8215 1190 50  0001 C CNN
-	1    8215 1190
+P 9015 835
+F 0 "HM7" H 9115 881 50  0000 L CNN
+F 1 "CaseHole" H 9115 790 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 9015 835 50  0001 C CNN
+F 3 "~" H 9015 835 50  0001 C CNN
+	1    9015 835 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM8
 U 1 1 60415826
-P 8215 1380
-F 0 "HM8" H 8315 1426 50  0000 L CNN
-F 1 "CaseHole" H 8315 1335 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 8215 1380 50  0001 C CNN
-F 3 "~" H 8215 1380 50  0001 C CNN
-	1    8215 1380
+P 9015 1025
+F 0 "HM8" H 9115 1071 50  0000 L CNN
+F 1 "CaseHole" H 9115 980 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 9015 1025 50  0001 C CNN
+F 3 "~" H 9015 1025 50  0001 C CNN
+	1    9015 1025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM9
 U 1 1 6041582C
-P 8215 1580
-F 0 "HM9" H 8315 1626 50  0000 L CNN
-F 1 "CaseHole" H 8315 1535 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 8215 1580 50  0001 C CNN
-F 3 "~" H 8215 1580 50  0001 C CNN
-	1    8215 1580
+P 9015 1225
+F 0 "HM9" H 9115 1271 50  0000 L CNN
+F 1 "CaseHole" H 9115 1180 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 9015 1225 50  0001 C CNN
+F 3 "~" H 9015 1225 50  0001 C CNN
+	1    9015 1225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM10
 U 1 1 60415832
-P 8215 1785
-F 0 "HM10" H 8315 1831 50  0000 L CNN
-F 1 "CaseHole" H 8315 1740 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 8215 1785 50  0001 C CNN
-F 3 "~" H 8215 1785 50  0001 C CNN
-	1    8215 1785
+P 9015 1430
+F 0 "HM10" H 9115 1476 50  0000 L CNN
+F 1 "CaseHole" H 9115 1385 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 9015 1430 50  0001 C CNN
+F 3 "~" H 9015 1430 50  0001 C CNN
+	1    9015 1430
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM11
 U 1 1 60415838
-P 8215 1975
-F 0 "HM11" H 8315 2021 50  0000 L CNN
-F 1 "CaseHole" H 8315 1930 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 8215 1975 50  0001 C CNN
-F 3 "~" H 8215 1975 50  0001 C CNN
-	1    8215 1975
+P 9015 1620
+F 0 "HM11" H 9115 1666 50  0000 L CNN
+F 1 "CaseHole" H 9115 1575 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 9015 1620 50  0001 C CNN
+F 3 "~" H 9015 1620 50  0001 C CNN
+	1    9015 1620
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole HM12
 U 1 1 6041583E
-P 8220 2170
-F 0 "HM12" H 8320 2216 50  0000 L CNN
-F 1 "CaseHole" H 8320 2125 50  0000 L CNN
-F 2 "used_footprints:Hole_Mount_M4" H 8220 2170 50  0001 C CNN
-F 3 "~" H 8220 2170 50  0001 C CNN
-	1    8220 2170
+P 9020 1815
+F 0 "HM12" H 9120 1861 50  0000 L CNN
+F 1 "CaseHole" H 9120 1770 50  0000 L CNN
+F 2 "used_footprints:Hole_Mount_M4" H 9020 1815 50  0001 C CNN
+F 3 "~" H 9020 1815 50  0001 C CNN
+	1    9020 1815
 	1    0    0    -1  
 $EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP1
+U 1 1 6043613F
+P 1785 3965
+F 0 "JP1" H 1790 4030 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1785 4059 50  0001 C CNN
+F 2 "" H 1785 3965 50  0001 C CNN
+F 3 "" H 1785 3965 50  0001 C CNN
+	1    1785 3965
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP2
+U 1 1 6043D3AC
+P 1785 4100
+F 0 "JP2" H 1790 4165 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1785 4194 50  0001 C CNN
+F 2 "" H 1785 4100 50  0001 C CNN
+F 3 "" H 1785 4100 50  0001 C CNN
+	1    1785 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP3
+U 1 1 60446C6C
+P 1785 4240
+F 0 "JP3" H 1790 4305 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1785 4334 50  0001 C CNN
+F 2 "" H 1785 4240 50  0001 C CNN
+F 3 "" H 1785 4240 50  0001 C CNN
+	1    1785 4240
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP4
+U 1 1 60449472
+P 1780 4380
+F 0 "JP4" H 1785 4445 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1780 4474 50  0001 C CNN
+F 2 "" H 1780 4380 50  0001 C CNN
+F 3 "" H 1780 4380 50  0001 C CNN
+	1    1780 4380
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP5
+U 1 1 6044BBBE
+P 1795 4570
+F 0 "JP5" H 1800 4635 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1795 4664 50  0001 C CNN
+F 2 "" H 1795 4570 50  0001 C CNN
+F 3 "" H 1795 4570 50  0001 C CNN
+	1    1795 4570
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP6
+U 1 1 6044E110
+P 1795 4700
+F 0 "JP6" H 1800 4765 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1795 4794 50  0001 C CNN
+F 2 "" H 1795 4700 50  0001 C CNN
+F 3 "" H 1795 4700 50  0001 C CNN
+	1    1795 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP7
+U 1 1 60450AFB
+P 1795 4830
+F 0 "JP7" H 1800 4895 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1795 4924 50  0001 C CNN
+F 2 "" H 1795 4830 50  0001 C CNN
+F 3 "" H 1795 4830 50  0001 C CNN
+	1    1795 4830
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper_NO_Small JP8
+U 1 1 604531D1
+P 1795 4970
+F 0 "JP8" H 1800 5035 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 1795 5064 50  0001 C CNN
+F 2 "" H 1795 4970 50  0001 C CNN
+F 3 "" H 1795 4970 50  0001 C CNN
+	1    1795 4970
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Lily58-cache_OLED J3
+U 1 1 6046A91F
+P 1245 4115
+F 0 "J3" H 1245 3830 50  0000 C CNN
+F 1 "OLED" H 1245 4405 50  0000 C CNN
+F 2 "" H 1245 4115 50  0000 C CNN
+F 3 "" H 1245 4115 50  0000 C CNN
+	1    1245 4115
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1445 3965 1635 3965
+Wire Wire Line
+	1445 4065 1575 4065
+Wire Wire Line
+	1685 4065 1685 4100
+Wire Wire Line
+	1445 4165 1495 4165
+Wire Wire Line
+	1685 4165 1685 4240
+Wire Wire Line
+	1680 4265 1680 4380
+Wire Wire Line
+	1695 4570 1635 4570
+Wire Wire Line
+	1635 4570 1635 3965
+Connection ~ 1635 3965
+Wire Wire Line
+	1635 3965 1685 3965
+Wire Wire Line
+	1695 4700 1575 4700
+Wire Wire Line
+	1575 4700 1575 4065
+Connection ~ 1575 4065
+Wire Wire Line
+	1575 4065 1685 4065
+Wire Wire Line
+	1695 4830 1495 4830
+Wire Wire Line
+	1495 4830 1495 4165
+Connection ~ 1495 4165
+Wire Wire Line
+	1495 4165 1685 4165
+Wire Wire Line
+	1445 4265 1450 4265
+Text GLabel 1240 945  0    50   Input ~ 0
+LED
+Text GLabel 1240 1045 0    50   Input ~ 0
+DATA
+$Comp
+L power:GND #PWR0101
+U 1 1 604C19E5
+P 1885 3965
+F 0 "#PWR0101" H 1885 3715 50  0001 C CNN
+F 1 "GND" V 1885 3855 50  0000 R CNN
+F 2 "" H 1885 3965 50  0001 C CNN
+F 3 "" H 1885 3965 50  0001 C CNN
+	1    1885 3965
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 604CE748
+P 1895 4970
+F 0 "#PWR0102" H 1895 4720 50  0001 C CNN
+F 1 "GND" V 1895 4860 50  0000 R CNN
+F 2 "" H 1895 4970 50  0001 C CNN
+F 3 "" H 1895 4970 50  0001 C CNN
+	1    1895 4970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 604DC151
+P 1885 4100
+F 0 "#PWR0103" H 1885 3950 50  0001 C CNN
+F 1 "VCC" V 1880 4225 50  0000 L CNN
+F 2 "" H 1885 4100 50  0001 C CNN
+F 3 "" H 1885 4100 50  0001 C CNN
+	1    1885 4100
+	0    1    1    0   
+$EndComp
+Text GLabel 1885 4240 2    50   Input ~ 0
+SCL
+Text GLabel 1880 4380 2    50   Input ~ 0
+SDA
+Text GLabel 1895 4570 2    50   Input ~ 0
+SDA
+Text GLabel 1895 4700 2    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR0104
+U 1 1 604E5C28
+P 1895 4830
+F 0 "#PWR0104" H 1895 4680 50  0001 C CNN
+F 1 "VCC" V 1890 4955 50  0000 L CNN
+F 2 "" H 1895 4830 50  0001 C CNN
+F 3 "" H 1895 4830 50  0001 C CNN
+	1    1895 4830
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1695 4970 1450 4970
+Wire Wire Line
+	1450 4970 1450 4265
+Connection ~ 1450 4265
+Wire Wire Line
+	1450 4265 1680 4265
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DAAF4BD
+P 6155 4130
+F 0 "#FLG02" H 6155 4205 50  0001 C CNN
+F 1 "PWR_FLAG" H 6155 4270 50  0000 C CNN
+F 2 "" H 6155 4130 50  0001 C CNN
+F 3 "~" H 6155 4130 50  0001 C CNN
+	1    6155 4130
+	-1   0    0    1   
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Lily58-cache_i2c_pin P1
+U 1 1 6051604B
+P 1770 2770
+F 0 "P1" V 1770 2835 50  0000 L CNN
+F 1 "i2c_pin" V 1870 2655 50  0000 L CNN
+F 2 "" H 1770 2770 50  0001 C CNN
+F 3 "" H 1770 2770 50  0001 C CNN
+	1    1770 2770
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 123_Lily58_Pro-cache:Lily58-cache_i2c_pin P2
+U 1 1 605177CE
+P 1770 3420
+F 0 "P2" V 1775 3255 50  0000 L CNN
+F 1 "i2c_pin" V 1870 3285 50  0000 L CNN
+F 2 "" H 1770 3420 50  0001 C CNN
+F 3 "" H 1770 3420 50  0001 C CNN
+	1    1770 3420
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1170 2645 1460 2645
+Wire Wire Line
+	1460 2645 1460 2935
+Wire Wire Line
+	1165 2540 1540 2540
+Wire Wire Line
+	1540 2540 1540 2985
+Wire Wire Line
+	1460 2985 1540 2985
+Wire Wire Line
+	1770 3220 1770 3085
+Wire Wire Line
+	1770 3085 1460 3085
+Wire Wire Line
+	1770 2970 1770 3035
+Wire Wire Line
+	1770 3035 1460 3035
+$Comp
+L 123_Lily58_Pro-cache:Device_Jumper W1
+U 1 1 605ADD76
+P 2165 3085
+F 0 "W1" H 2165 2860 50  0000 C CNN
+F 1 "jumper" H 2165 2951 50  0000 C CNN
+F 2 "" H 2165 3085 50  0001 C CNN
+F 3 "" H 2165 3085 50  0001 C CNN
+	1    2165 3085
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1865 3085 1770 3085
+Connection ~ 1770 3085
+Text GLabel 2465 3085 2    50   Input ~ 0
+DATA
+$Comp
+L 123_Lily58_Pro-cache:Lily58-cache_LED J2
+U 1 1 605D77A0
+P 2840 4100
+F 0 "J2" H 2840 4310 50  0000 C CNN
+F 1 "LED" H 2840 3895 50  0000 C CNN
+F 2 "" H 2840 4100 50  0001 C CNN
+F 3 "" H 2840 4100 50  0001 C CNN
+	1    2840 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 605DF8D6
+P 3040 4000
+F 0 "#PWR0105" H 3040 3850 50  0001 C CNN
+F 1 "VCC" H 3080 4095 50  0000 L CNN
+F 2 "" H 3040 4000 50  0001 C CNN
+F 3 "" H 3040 4000 50  0001 C CNN
+	1    3040 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3040 4100 2    50   Input ~ 0
+LED
+$Comp
+L power:GND #PWR0106
+U 1 1 605E60EC
+P 3040 4200
+F 0 "#PWR0106" H 3040 3950 50  0001 C CNN
+F 1 "GND" H 3205 4075 50  0000 R CNN
+F 2 "" H 3040 4200 50  0001 C CNN
+F 3 "" H 3040 4200 50  0001 C CNN
+	1    3040 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2705 1145 2    50   Input ~ 0
+RST
+Text GLabel 4185 4225 0    50   Input ~ 0
+RST
+Text GLabel 1240 1545 0    50   Input ~ 0
+row0
+Text GLabel 1240 1645 0    50   Input ~ 0
+row1
+Text GLabel 1240 1745 0    50   Input ~ 0
+row2
+Text GLabel 1240 1845 0    50   Input ~ 0
+row3
+Text GLabel 1240 1945 0    50   Input ~ 0
+row4
+Text GLabel 1240 2045 0    50   Input ~ 0
+row5
+Text GLabel 2640 1545 2    50   Input ~ 0
+col0
+Text GLabel 2640 1645 2    50   Input ~ 0
+col1
+Text GLabel 2640 1745 2    50   Input ~ 0
+col2
+Text GLabel 2640 1845 2    50   Input ~ 0
+col3
+Text GLabel 2640 1945 2    50   Input ~ 0
+col4
+Text GLabel 2640 2045 2    50   Input ~ 0
+col5
+NoConn ~ 2640 1345
+NoConn ~ 2640 1445
+Text GLabel 3505 1090 0    50   Input ~ 0
+row0
+Text GLabel 3505 1490 0    50   Input ~ 0
+row1
+Text GLabel 3505 1890 0    50   Input ~ 0
+row2
+Text GLabel 3505 2290 0    50   Input ~ 0
+row3
+Text GLabel 3505 2690 0    50   Input ~ 0
+row4
+Text GLabel 3505 3090 0    50   Input ~ 0
+row5
+Text GLabel 3945 840  1    50   Input ~ 0
+col0
+Text GLabel 4545 840  1    50   Input ~ 0
+col1
+Text GLabel 5145 840  1    50   Input ~ 0
+col2
+Text GLabel 5745 840  1    50   Input ~ 0
+col3
+Text GLabel 6345 840  1    50   Input ~ 0
+col4
+Text GLabel 6945 840  1    50   Input ~ 0
+col5
+Wire Wire Line
+	6545 3090 3505 3090
 $EndSCHEMATC

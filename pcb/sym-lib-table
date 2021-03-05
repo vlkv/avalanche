@@ -1,8 +1,4 @@
 (sym_lib_table
-  (lib (name Pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/Pcb-rescue.lib)(options "")(descr ""))
-  (lib (name jiran-classic-rescue)(type Legacy)(uri ${KIPRJMOD}/jiran-classic-rescue.lib)(options "")(descr ""))
-  (lib (name jiran-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/jiran-hotswap-rescue.lib)(options "")(descr ""))
-  (lib (name thing60-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/thing60-hotswap-rescue.lib)(options "")(descr ""))
-  (lib (name emu-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/emu-hotswap-rescue.lib)(options "")(descr ""))
   (lib (name avalanche-hotswap-rescue)(type Legacy)(uri ${KIPRJMOD}/avalanche-hotswap-rescue.lib)(options "")(descr ""))
+  (lib (name 123_Lily58_Pro-cache)(type Legacy)(uri ${KIPRJMOD}/123_Lily58_Pro-cache.lib)(options "")(descr ""))
 )
