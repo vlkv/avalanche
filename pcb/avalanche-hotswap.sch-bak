@@ -791,7 +791,7 @@ U 1 1 5DBFACF7
 P 1095 3025
 F 0 "J1" H 1075 3290 50  0000 C CNN
 F 1 "TRRS" H 1030 2710 50  0000 C CNN
-F 2 "used_footprints:TRSS_DUAL_THT" H 1370 3200 50  0001 C CNN
+F 2 "used_footprints:MJ-4PP-9" H 1370 3200 50  0001 C CNN
 F 3 "~" H 1370 3200 50  0001 C CNN
 	1    1095 3025
 	1    0    0    -1  
@@ -863,7 +863,7 @@ U 1 1 5E5A5774
 P 855 1240
 F 0 "R1" H 900 1285 50  0000 L CNN
 F 1 "4.7K" H 900 1195 50  0000 L CNN
-F 2 "used_footprints:Resistor_Hybrid_1205" H 855 1240 50  0001 C CNN
+F 2 "used_footprints:RESISTOR_mini" H 855 1240 50  0001 C CNN
 F 3 "~" H 855 1240 50  0001 C CNN
 	1    855  1240
 	1    0    0    -1  
@@ -875,7 +875,7 @@ U 1 1 5E5A67AE
 P 855 1540
 F 0 "R2" H 900 1585 50  0000 L CNN
 F 1 "4.7K" H 900 1495 50  0000 L CNN
-F 2 "used_footprints:Resistor_Hybrid_1205" H 855 1540 50  0001 C CNN
+F 2 "used_footprints:RESISTOR_mini" H 855 1540 50  0001 C CNN
 F 3 "~" H 855 1540 50  0001 C CNN
 	1    855  1540
 	1    0    0    -1  
@@ -1082,7 +1082,7 @@ U 1 1 5DAA926E
 P 1935 1490
 F 0 "U1" H 1945 2210 60  0000 C CNN
 F 1 "ProMicro" H 1950 775 60  0000 C CNN
-F 2 "used_footprints:ProMicro_Dual" H 2035 440 60  0001 C CNN
+F 2 "used_footprints:ProMicro_rev2" H 2035 440 60  0001 C CNN
 F 3 "" H 2035 440 60  0000 C CNN
 	1    1935 1490
 	1    0    0    -1  
@@ -1201,89 +1201,89 @@ F 3 "~" H 9020 1815 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP1
+L avalanche-hotswap:Device_Jumper_NO_Small JP1
 U 1 1 6043613F
 P 1785 3965
 F 0 "JP1" H 1790 4030 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1785 4059 50  0001 C CNN
-F 2 "" H 1785 3965 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1785 3965 50  0001 C CNN
 F 3 "" H 1785 3965 50  0001 C CNN
 	1    1785 3965
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP2
+L avalanche-hotswap:Device_Jumper_NO_Small JP2
 U 1 1 6043D3AC
 P 1785 4100
 F 0 "JP2" H 1790 4165 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1785 4194 50  0001 C CNN
-F 2 "" H 1785 4100 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1785 4100 50  0001 C CNN
 F 3 "" H 1785 4100 50  0001 C CNN
 	1    1785 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP3
+L avalanche-hotswap:Device_Jumper_NO_Small JP3
 U 1 1 60446C6C
 P 1785 4240
 F 0 "JP3" H 1790 4305 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1785 4334 50  0001 C CNN
-F 2 "" H 1785 4240 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1785 4240 50  0001 C CNN
 F 3 "" H 1785 4240 50  0001 C CNN
 	1    1785 4240
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP4
+L avalanche-hotswap:Device_Jumper_NO_Small JP4
 U 1 1 60449472
 P 1780 4380
 F 0 "JP4" H 1785 4445 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1780 4474 50  0001 C CNN
-F 2 "" H 1780 4380 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1780 4380 50  0001 C CNN
 F 3 "" H 1780 4380 50  0001 C CNN
 	1    1780 4380
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP5
+L avalanche-hotswap:Device_Jumper_NO_Small JP5
 U 1 1 6044BBBE
 P 1795 4570
 F 0 "JP5" H 1800 4635 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1795 4664 50  0001 C CNN
-F 2 "" H 1795 4570 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1795 4570 50  0001 C CNN
 F 3 "" H 1795 4570 50  0001 C CNN
 	1    1795 4570
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP6
+L avalanche-hotswap:Device_Jumper_NO_Small JP6
 U 1 1 6044E110
 P 1795 4700
 F 0 "JP6" H 1800 4765 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1795 4794 50  0001 C CNN
-F 2 "" H 1795 4700 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1795 4700 50  0001 C CNN
 F 3 "" H 1795 4700 50  0001 C CNN
 	1    1795 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP7
+L avalanche-hotswap:Device_Jumper_NO_Small JP7
 U 1 1 60450AFB
 P 1795 4830
 F 0 "JP7" H 1800 4895 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1795 4924 50  0001 C CNN
-F 2 "" H 1795 4830 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1795 4830 50  0001 C CNN
 F 3 "" H 1795 4830 50  0001 C CNN
 	1    1795 4830
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:123_Lily58_Pro-cache_Device_Jumper_NO_Small JP8
+L avalanche-hotswap:Device_Jumper_NO_Small JP8
 U 1 1 604531D1
 P 1795 4970
 F 0 "JP8" H 1800 5035 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 1795 5064 50  0001 C CNN
-F 2 "" H 1795 4970 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 1795 4970 50  0001 C CNN
 F 3 "" H 1795 4970 50  0001 C CNN
 	1    1795 4970
 	1    0    0    -1  
@@ -1294,7 +1294,7 @@ U 1 1 6046A91F
 P 1245 4115
 F 0 "J3" H 1245 3830 50  0000 C CNN
 F 1 "OLED" H 1245 4405 50  0000 C CNN
-F 2 "" H 1245 4115 50  0000 C CNN
+F 2 "used_footprints:OLED_4Pin" H 1245 4115 50  0001 C CNN
 F 3 "" H 1245 4115 50  0000 C CNN
 	1    1245 4115
 	-1   0    0    1   
@@ -1414,7 +1414,7 @@ U 1 1 6051604B
 P 2035 2740
 F 0 "P1" V 2035 2805 50  0000 L CNN
 F 1 "i2c_pin" V 2135 2625 50  0000 L CNN
-F 2 "" H 2035 2740 50  0001 C CNN
+F 2 "used_footprints:1pin_conn" H 2035 2740 50  0001 C CNN
 F 3 "" H 2035 2740 50  0001 C CNN
 	1    2035 2740
 	0    -1   -1   0   
@@ -1425,7 +1425,7 @@ U 1 1 605177CE
 P 2035 3560
 F 0 "P2" V 2040 3395 50  0000 L CNN
 F 1 "i2c_pin" V 2135 3425 50  0000 L CNN
-F 2 "" H 2035 3560 50  0001 C CNN
+F 2 "used_footprints:1pin_conn" H 2035 3560 50  0001 C CNN
 F 3 "" H 2035 3560 50  0001 C CNN
 	1    2035 3560
 	0    1    1    0   
@@ -1438,7 +1438,7 @@ U 1 1 605ADD76
 P 2430 3225
 F 0 "W1" H 2430 3000 50  0000 C CNN
 F 1 "jumper" H 2430 3091 50  0000 C CNN
-F 2 "" H 2430 3225 50  0001 C CNN
+F 2 "used_footprints:jumper_data" H 2430 3225 50  0001 C CNN
 F 3 "" H 2430 3225 50  0001 C CNN
 	1    2430 3225
 	-1   0    0    1   
@@ -1454,7 +1454,7 @@ U 1 1 605D77A0
 P 2840 4100
 F 0 "J2" H 2840 4310 50  0000 C CNN
 F 1 "LED" H 2840 3895 50  0000 C CNN
-F 2 "" H 2840 4100 50  0001 C CNN
+F 2 "used_footprints:LED" H 2840 4100 50  0001 C CNN
 F 3 "" H 2840 4100 50  0001 C CNN
 	1    2840 4100
 	1    0    0    -1  
@@ -1554,4 +1554,237 @@ Wire Wire Line
 	2035 2940 2035 3125
 Wire Wire Line
 	2035 3125 1545 3125
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 605332C5
+P 8385 2295
+F 0 "H13" H 8485 2341 50  0000 L CNN
+F 1 "MountingHole" H 8485 2250 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8385 2295 50  0001 C CNN
+F 3 "~" H 8385 2295 50  0001 C CNN
+	1    8385 2295
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 6053584A
+P 8395 2520
+F 0 "H15" H 8495 2566 50  0000 L CNN
+F 1 "MountingHole" H 8495 2475 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8395 2520 50  0001 C CNN
+F 3 "~" H 8395 2520 50  0001 C CNN
+	1    8395 2520
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L1
+U 1 1 60550286
+P 3490 5435
+F 0 "L1" H 3490 5697 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 3490 5632 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 3490 5435 60  0001 C CNN
+F 3 "" H 3490 5435 60  0001 C CNN
+	1    3490 5435
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L2
+U 1 1 6056046A
+P 4105 5430
+F 0 "L2" H 4105 5692 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 4105 5627 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 4105 5430 60  0001 C CNN
+F 3 "" H 4105 5430 60  0001 C CNN
+	1    4105 5430
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L3
+U 1 1 605637A3
+P 4800 5430
+F 0 "L3" H 4800 5692 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 4800 5627 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 4800 5430 60  0001 C CNN
+F 3 "" H 4800 5430 60  0001 C CNN
+	1    4800 5430
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L4
+U 1 1 60567077
+P 3480 6025
+F 0 "L4" H 3480 5763 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 3480 5828 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 3480 6025 60  0001 C CNN
+F 3 "" H 3480 6025 60  0001 C CNN
+	1    3480 6025
+	-1   0    0    1   
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L5
+U 1 1 6056A5E2
+P 4155 6025
+F 0 "L5" H 4155 5763 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 4155 5828 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 4155 6025 60  0001 C CNN
+F 3 "" H 4155 6025 60  0001 C CNN
+	1    4155 6025
+	-1   0    0    1   
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L6
+U 1 1 6056DC12
+P 4810 6025
+F 0 "L6" H 4810 5763 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 4810 5828 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 4810 6025 60  0001 C CNN
+F 3 "" H 4810 6025 60  0001 C CNN
+	1    4810 6025
+	-1   0    0    1   
+$EndComp
+Text GLabel 5000 5530 2    50   Input ~ 0
+LED
+$Comp
+L power:VCC #PWR?
+U 1 1 6057DCAA
+P 5340 5060
+F 0 "#PWR?" H 5340 4910 50  0001 C CNN
+F 1 "VCC" V 5335 5185 50  0000 L CNN
+F 2 "" H 5340 5060 50  0001 C CNN
+F 3 "" H 5340 5060 50  0001 C CNN
+	1    5340 5060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5340 5060 5055 5060
+Wire Wire Line
+	3690 5060 3690 5335
+Wire Wire Line
+	5000 5330 5055 5330
+Wire Wire Line
+	5055 5330 5055 5060
+Connection ~ 5055 5060
+Wire Wire Line
+	5055 5060 4370 5060
+Wire Wire Line
+	4305 5330 4370 5330
+Wire Wire Line
+	4370 5330 4370 5060
+Connection ~ 4370 5060
+Wire Wire Line
+	4370 5060 3690 5060
+Wire Wire Line
+	4600 5330 4455 5330
+Wire Wire Line
+	4455 5330 4455 5530
+Wire Wire Line
+	4455 5530 4305 5530
+Wire Wire Line
+	3905 5330 3800 5330
+Wire Wire Line
+	3800 5330 3800 5535
+Wire Wire Line
+	3800 5535 3690 5535
+Wire Wire Line
+	3290 5335 3170 5335
+Wire Wire Line
+	3170 5335 3170 5925
+Wire Wire Line
+	3170 5925 3280 5925
+Wire Wire Line
+	3955 5925 3805 5925
+Wire Wire Line
+	3805 5925 3805 6125
+Wire Wire Line
+	3805 6125 3680 6125
+Wire Wire Line
+	4610 5925 4495 5925
+Wire Wire Line
+	4495 5925 4495 6125
+Wire Wire Line
+	4495 6125 4355 6125
+$Comp
+L power:GND #PWR?
+U 1 1 605AF8A2
+P 2800 5720
+F 0 "#PWR?" H 2800 5470 50  0001 C CNN
+F 1 "GND" V 2800 5610 50  0000 R CNN
+F 2 "" H 2800 5720 50  0001 C CNN
+F 3 "" H 2800 5720 50  0001 C CNN
+	1    2800 5720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5720 2800 5670
+Wire Wire Line
+	2800 5670 3260 5670
+Wire Wire Line
+	4600 5670 4600 5530
+Wire Wire Line
+	3290 5535 3260 5535
+Wire Wire Line
+	3260 5535 3260 5670
+Connection ~ 3260 5670
+Wire Wire Line
+	3260 5670 3700 5670
+Wire Wire Line
+	3905 5530 3875 5530
+Wire Wire Line
+	3875 5530 3875 5670
+Connection ~ 3875 5670
+Wire Wire Line
+	3875 5670 4400 5670
+Wire Wire Line
+	4600 5670 5150 5670
+Wire Wire Line
+	5150 5670 5150 5925
+Wire Wire Line
+	5150 5925 5010 5925
+Connection ~ 4600 5670
+Wire Wire Line
+	3280 6125 3175 6125
+Wire Wire Line
+	3175 6125 3175 6300
+Wire Wire Line
+	3175 6300 3890 6300
+Wire Wire Line
+	4610 6125 4570 6125
+Wire Wire Line
+	4570 6125 4570 6300
+Connection ~ 4570 6300
+Wire Wire Line
+	4570 6300 5340 6300
+Wire Wire Line
+	3955 6125 3890 6125
+Wire Wire Line
+	3890 6125 3890 6300
+Connection ~ 3890 6300
+Wire Wire Line
+	3890 6300 4570 6300
+NoConn ~ 5010 6125
+$Comp
+L power:VCC #PWR?
+U 1 1 6061C798
+P 5340 6300
+F 0 "#PWR?" H 5340 6150 50  0001 C CNN
+F 1 "VCC" V 5335 6425 50  0000 L CNN
+F 2 "" H 5340 6300 50  0001 C CNN
+F 3 "" H 5340 6300 50  0001 C CNN
+	1    5340 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3680 5925 3700 5925
+Wire Wire Line
+	3700 5925 3700 5670
+Connection ~ 3700 5670
+Wire Wire Line
+	3700 5670 3875 5670
+Wire Wire Line
+	4355 5925 4400 5925
+Wire Wire Line
+	4400 5925 4400 5670
+Connection ~ 4400 5670
+Wire Wire Line
+	4400 5670 4600 5670
 $EndSCHEMATC

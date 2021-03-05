@@ -217,6 +217,22 @@ X D6(PD7) 9 -650 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# avalanche-hotswap_SK6812MINI_LED
+#
+DEF avalanche-hotswap_SK6812MINI_LED L 0 40 Y Y 1 F N
+F0 "L" 0 0 51 H V C CNN
+F1 "avalanche-hotswap_SK6812MINI_LED" 0 -50 16 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -150 150 150 -150 0 1 0 N
+X DOUT 1 -200 100 47 R 28 28 1 1 O
+X VSS 2 -200 -100 47 R 28 28 1 1 W
+X DIN 3 200 -100 47 L 28 28 1 1 I
+X VDD 4 200 100 47 L 28 28 1 1 W
+ENDDRAW
+ENDDEF
+#
 # avalanche-hotswap_i2c_pin
 #
 DEF avalanche-hotswap_i2c_pin J 0 40 Y N 1 F N

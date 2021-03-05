@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 119)
+    (drawings 112)
     (tracks 0)
     (zones 0)
     (modules 12)
@@ -244,13 +244,8 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 254.5 101.65) (end 247.4 115.6) (layer Edge.Cuts) (width 0.05) (tstamp 603FC521))
-  (gr_line (start 246.1 117.8) (end 247.4 115.6) (layer Edge.Cuts) (width 0.05) (tstamp 603FC520))
-  (gr_line (start 255.2 99.65) (end 254.5 101.65) (layer Edge.Cuts) (width 0.05) (tstamp 603FC51F))
-  (gr_line (start 246.1 117.8) (end 233.991655 134.471139) (layer Edge.Cuts) (width 0.05) (tstamp 603FC51E))
-  (gr_line (start 256.75 89.9) (end 255.2 99.65) (layer Edge.Cuts) (width 0.05) (tstamp 603FC51D))
-  (gr_line (start 256.75 89.9) (end 256.75 89.45) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D6D))
-  (gr_line (start 251.215825 54.501067) (end 256.75 89.45) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D6C))
+  (gr_line (start 242.7 122.45) (end 234.283043 134.070973) (layer Edge.Cuts) (width 0.05) (tstamp 603FDE3A))
+  (gr_line (start 234.283043 134.070973) (end 223.996802 148.22877) (layer Edge.Cuts) (width 0.05) (tstamp 603FDE37))
   (gr_line (start 96.6 117.55) (end 139.35 117.55) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D6B))
   (gr_arc (start 95.500338 98.622885) (end 93.15 100.8) (angle -48.97400321) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D6A))
   (gr_line (start 134.05 52.950001) (end 141.35 52.950001) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D69))
@@ -329,7 +324,6 @@
   (gr_arc (start 179.45 53.439999) (end 179.45 53.939997) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D20))
   (gr_line (start 207.9 137.8) (end 222.6 148.45) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D1F))
   (gr_arc (start 223.187786 147.640984) (end 222.6 148.45) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D1E))
-  (gr_line (start 223.996802 148.22877) (end 233.991655 134.471139) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D1D))
   (gr_line (start 189.55 131.85) (end 207.9 137.8) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D1C))
   (gr_arc (start 143.003464 134.39995) (end 142.015776 134.556384) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D1B))
   (gr_line (start 142.015776 134.556384) (end 139.35 117.55) (layer Edge.Cuts) (width 0.05) (tstamp 603F5D1A))
@@ -361,7 +355,6 @@
   (gr_line (start 248.927579 52.838559) (end 227.4 56.25) (layer Edge.Cuts) (width 0.05) (tstamp 603F5CFB))
   (gr_line (start 191.7 55.25) (end 199 55.25) (layer Edge.Cuts) (width 0.05) (tstamp 603F5CFA))
   (gr_arc (start 199 55.749998) (end 199 56.249996) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 603F5CF9))
-  (gr_arc (start 249.240448 54.813936) (end 251.215825 54.501067) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 603F5CF8))
   (gr_arc (start 203 55.749999) (end 203 55.25) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 603F5CF7))
 
 )

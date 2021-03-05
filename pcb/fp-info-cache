@@ -1,4 +1,11 @@
-48418733744640
+72641971173640
+used_footprints
+1pin_conn
+Resitance 3 pas
+R
+0
+1
+1
 used_footprints
 ArduinoProMicro
 
@@ -84,12 +91,26 @@ JST_THT_2.0
 2
 2
 used_footprints
+Jumper
+
+
+0
+2
+2
+used_footprints
 Jumper_SMD
 
 
 0
 2
 2
+used_footprints
+LED
+
+
+0
+3
+3
 used_footprints
 LED_THT
 
@@ -98,6 +119,20 @@ LED_THT
 2
 2
 used_footprints
+M2_HOLE_PCB
+
+
+0
+1
+0
+used_footprints
+MJ-4PP-9
+
+
+0
+8
+4
+used_footprints
 Mosfet_SMD_Dual_SOT-23
 
 
@@ -105,7 +140,21 @@ Mosfet_SMD_Dual_SOT-23
 6
 3
 used_footprints
+OLED_4Pin
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+used_footprints
 ProMicro_Dual
+
+
+0
+48
+24
+used_footprints
+ProMicro_rev2
 
 
 0
@@ -118,6 +167,13 @@ Pro_Micro
 0
 24
 24
+used_footprints
+RESISTOR_mini
+Resitance 3 pas
+R
+0
+2
+2
 used_footprints
 Resistor_Hybrid_1205
 
@@ -203,9 +259,58 @@ TRSS_DUAL_THT
 6
 4
 used_footprints
+TopPlateCutout
+
+
+0
+4
+0
+used_footprints
+avalanche_1pin_conn
+Resitance 3 pas
+R
+0
+1
+1
+used_footprints
+avalanche_Jumper
+
+
+0
+2
+2
+used_footprints
+avalanche_LED
+
+
+0
+3
+3
+used_footprints
+avalanche_OLED_4Pin
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+used_footprints
+avalanche_jumper_data
+
+
+0
+3
+2
+used_footprints
 emu-logo
 
 
 0
 0
 0
+used_footprints
+jumper_data
+
+
+0
+3
+2
