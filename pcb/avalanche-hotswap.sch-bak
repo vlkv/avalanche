@@ -1862,4 +1862,15 @@ Text Label 3290 5335 2    50   ~ 0
 L_pin1_to_3
 Text Label 6460 6125 0    50   ~ 0
 L_pin1_to_3
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 6044455C
+P 8415 2760
+F 0 "H16" H 8515 2806 50  0000 L CNN
+F 1 "MountingHole" H 8515 2715 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8415 2760 50  0001 C CNN
+F 3 "~" H 8415 2760 50  0001 C CNN
+	1    8415 2760
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
