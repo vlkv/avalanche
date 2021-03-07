@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 129)
-    (tracks 1006)
+    (tracks 999)
     (zones 0)
     (modules 103)
     (nets 68)
@@ -287,7 +287,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 60453296)
     (at 200.25 103.4 180)
     (path /5DAC4A7E)
-    (fp_text reference SW29 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW26 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -839,7 +839,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF8D8)
     (at 124.05 89.1 180)
     (path /5DAC0C81)
-    (fp_text reference SW8 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW15 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -929,7 +929,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF842)
     (at 105 89.1 180)
     (path /5DAC0C7B)
-    (fp_text reference SW3 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW14 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -1019,7 +1019,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF8F6)
     (at 124.05 108.15 180)
     (path /5DAC4A66)
-    (fp_text reference SW9 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW22 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -1109,7 +1109,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF89C)
     (at 124.05 51 180)
     (path /5DAB46E1)
-    (fp_text reference SW6 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW2 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -1199,7 +1199,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1.25u (layer F.Cu) (tedit 6038AC1C) (tstamp 603AF9AA)
     (at 177.62 122.45)
     (path /603524E9)
-    (fp_text reference SW15 (at -7.085 -8.2 180) (layer F.SilkS) hide
+    (fp_text reference SW29 (at -7.085 -8.2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 4.815 -8.3 180) (layer F.Fab) hide
@@ -1289,7 +1289,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFB8A)
     (at 221.992335 91.200202 162)
     (path /603D9F6E)
-    (fp_text reference SW31 (at -0.04 -3.53 342) (layer F.Fab)
+    (fp_text reference SW20 (at -0.04 -3.53 342) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 342) (layer F.Fab) hide
@@ -1379,7 +1379,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFB6C)
     (at 220.937686 112.520619 153)
     (path /5DAC93F2)
-    (fp_text reference SW30 (at -0.04 -3.53 333) (layer F.Fab)
+    (fp_text reference SW27 (at -0.04 -3.53 333) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 333) (layer F.Fab) hide
@@ -1469,7 +1469,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1.25u (layer F.Cu) (tedit 6038AC1C) (tstamp 603AF914)
     (at 152.324703 124.433498 9)
     (path /6034E284)
-    (fp_text reference SW10 (at -7.085 -8.2 189) (layer F.SilkS) hide
+    (fp_text reference SW28 (at -7.085 -8.2 189) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 4.815 -8.3 189) (layer F.Fab) hide
@@ -1559,7 +1559,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFAD6)
     (at 221.255602 135.880341 324)
     (path /5DAC93EC)
-    (fp_text reference SW25 (at -0.04 -3.53 324) (layer F.Fab)
+    (fp_text reference SW31 (at -0.04 -3.53 324) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 324) (layer F.Fab) hide
@@ -1884,7 +1884,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFA40)
     (at 201.679066 125.901664 342)
     (path /5DAC93E6)
-    (fp_text reference SW20 (at -0.04 -3.53 342) (layer F.Fab)
+    (fp_text reference SW30 (at -0.04 -3.53 342) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 342) (layer F.Fab) hide
@@ -1986,7 +1986,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFB30)
     (at 200.25 84.35 180)
     (path /5DAC0C99)
-    (fp_text reference SW28 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW19 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2076,7 +2076,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFB12)
     (at 200.25 65.3 180)
     (path /5DABCF91)
-    (fp_text reference SW27 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW12 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2166,7 +2166,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFAF4)
     (at 200.25 46.25 180)
     (path /5DAB8379)
-    (fp_text reference SW26 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW6 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2256,7 +2256,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFAB8)
     (at 181.2 101.1 180)
     (path /5DAC4A78)
-    (fp_text reference SW24 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW25 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2346,7 +2346,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFA9A)
     (at 181.2 82.05 180)
     (path /5DAC0C93)
-    (fp_text reference SW23 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW18 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2436,7 +2436,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFA7C)
     (at 181.2 63 180)
     (path /5DABCF8B)
-    (fp_text reference SW22 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW11 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2526,7 +2526,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFA5E)
     (at 181.2 43.95 180)
     (path /5DAB8373)
-    (fp_text reference SW21 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW5 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2616,7 +2616,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFA22)
     (at 162.15 97.1 180)
     (path /5DAC4A72)
-    (fp_text reference SW19 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW24 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2706,7 +2706,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AFA04)
     (at 162.15 78.05 180)
     (path /5DAC0C8D)
-    (fp_text reference SW18 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW17 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2796,7 +2796,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF9E6)
     (at 162.15 59 180)
     (path /5DABCF85)
-    (fp_text reference SW17 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW10 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2886,7 +2886,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF9C8)
     (at 162.15 39.95 180)
     (path /5DAB836D)
-    (fp_text reference SW16 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW4 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -2976,7 +2976,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF98C)
     (at 143.1 101.1 180)
     (path /5DAC4A6C)
-    (fp_text reference SW14 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW23 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3066,7 +3066,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF96E)
     (at 143.1 82.05 180)
     (path /5DAC0C87)
-    (fp_text reference SW13 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW16 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3156,7 +3156,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF950)
     (at 143.1 63 180)
     (path /5DABCF7F)
-    (fp_text reference SW12 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW9 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3246,7 +3246,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF932)
     (at 143.1 43.95 180)
     (path /5DAB4EC8)
-    (fp_text reference SW11 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW3 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3336,7 +3336,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF8BA)
     (at 124.05 70.05 180)
     (path /5DABCF79)
-    (fp_text reference SW7 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW8 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3426,7 +3426,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF87E)
     (at 85.95 91.4 180)
     (path /5DAC93D4)
-    (fp_text reference SW5 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW13 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3516,7 +3516,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF860)
     (at 105 108.15 180)
     (path /5DAC4A60)
-    (fp_text reference SW4 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW21 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -3606,7 +3606,7 @@
   (module used_footprints:CherryMX_MidHeight_Hotswap_1u (layer F.Cu) (tedit 6038A509) (tstamp 603AF824)
     (at 105 70.05 180)
     (path /5DABCF73)
-    (fp_text reference SW2 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW7 (at -0.04 -3.53 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -5607,7 +5607,7 @@
   )
 
   (module used_footprints:SK6812MINI_underglow_rev (layer F.Cu) (tedit 5B87FE6A) (tstamp 6044F229)
-    (at 124.05 93.85 180)
+    (at 124.05 94.35 180)
     (path /6043664D)
     (fp_text reference L4 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5779,8 +5779,6 @@
   (gr_line (start 134.05 52.950001) (end 141.35 52.950001) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 96.6 117.55) (end 139.35 117.55) (layer Edge.Cuts) (width 0.05))
 
-  (segment (start 91.95 84.85) (end 91.95 84.954999) (width 0.25) (layer B.Cu) (net 0))
-  (segment (start 91.95 84.954999) (end 91.90001 84.954999) (width 0.25) (layer B.Cu) (net 0))
   (segment (start 98 48.42) (end 98 53.1) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 98 53.1) (end 98 53.31) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 112 48.42) (end 112 53.1) (width 0.25) (layer F.Cu) (net 1))
@@ -6143,9 +6141,6 @@
   (segment (start 184.305 51.095) (end 185.01 51.8) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 185.01 51.8) (end 182.975 51.8) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 125.825 58.85) (end 127.86 58.85) (width 0.25) (layer B.Cu) (net 37))
-  (segment (start 125.51 56.5) (end 127.86 58.85) (width 0.25) (layer F.Cu) (net 37))
-  (segment (start 115.8 56.5) (end 125.51 56.5) (width 0.25) (layer F.Cu) (net 37))
-  (segment (start 116.15 56.5) (end 115.8 56.5) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 185.01 51.61) (end 182.85 49.45) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 185.01 51.8) (end 185.01 51.61) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 176.5 49.45) (end 179.15 49.45) (width 0.25) (layer F.Cu) (net 37))
@@ -6161,8 +6156,6 @@
   (segment (start 153.35 45.45) (end 150.15 48.65) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 146.91 51.8) (end 147 51.8) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 150.15 48.65) (end 148.67 50.13) (width 0.25) (layer F.Cu) (net 37))
-  (segment (start 111.16 56.5) (end 108.81 58.85) (width 0.25) (layer F.Cu) (net 37))
-  (segment (start 115.8 56.5) (end 111.16 56.5) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 134.72 50.13) (end 130.875 53.975) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 127.86 58.59) (end 130.875 55.575) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 127.86 58.85) (end 127.86 58.59) (width 0.25) (layer F.Cu) (net 37))
@@ -6458,6 +6451,13 @@
   (segment (start 115.7 111.25) (end 115.7 105.68) (width 0.25) (layer F.Cu) (net 51))
   (segment (start 132.9 112.85) (end 117.3 112.85) (width 0.25) (layer F.Cu) (net 51))
   (segment (start 117.3 112.85) (end 115.7 111.25) (width 0.25) (layer F.Cu) (net 51))
+  (segment (start 131.25 91.5) (end 131.25 91.95) (width 0.25) (layer B.Cu) (net 51) (tstamp 6044F895))
+  (segment (start 118.35 83.98) (end 118.35 83.2) (width 0.25) (layer F.Cu) (net 51))
+  (segment (start 118.35 83.2) (end 119.5 82.05) (width 0.25) (layer F.Cu) (net 51))
+  (segment (start 119.5 82.05) (end 130.4 82.05) (width 0.25) (layer F.Cu) (net 51))
+  (segment (start 131.25 82.05) (end 131.25 82.48) (width 0.25) (layer B.Cu) (net 51) (tstamp 6044F897))
+  (via (at 131.25 82.05) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 51))
+  (segment (start 130.4 82.05) (end 131.25 82.05) (width 0.25) (layer F.Cu) (net 51))
   (segment (start 148.8 38.83) (end 149.38 38.83) (width 0.25) (layer B.Cu) (net 52) (status 30))
   (segment (start 149.38 38.83) (end 150.35 39.8) (width 0.25) (layer B.Cu) (net 52) (status 10))
   (segment (start 150.35 39.8) (end 150.35 49.55) (width 0.25) (layer B.Cu) (net 52))
@@ -6514,6 +6514,9 @@
   (segment (start 143.05 53.3) (end 144.425 54.675) (width 0.25) (layer B.Cu) (net 52))
   (segment (start 143.05 51.45) (end 143.05 53.3) (width 0.25) (layer B.Cu) (net 52))
   (segment (start 144.425 54.675) (end 144.9 55.15) (width 0.25) (layer B.Cu) (net 52))
+  (segment (start 169 116.45) (end 169 124.864) (width 0.25) (layer B.Cu) (net 52) (tstamp 60455B47))
+  (via (at 169 116.45) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 52))
+  (segment (start 165.85 116.45) (end 169 116.45) (width 0.25) (layer F.Cu) (net 52))
   (segment (start 163.8 51.35) (end 167.15 51.35) (width 0.25) (layer B.Cu) (net 53))
   (segment (start 167.85 52.05) (end 167.85 53.88) (width 0.25) (layer B.Cu) (net 53) (status 20))
   (segment (start 167.15 51.35) (end 167.85 52.05) (width 0.25) (layer B.Cu) (net 53))
@@ -6562,6 +6565,18 @@
   (segment (start 169.5 44.45) (end 168.1 45.85) (width 0.25) (layer B.Cu) (net 53))
   (segment (start 168.1 45.85) (end 163.3 45.85) (width 0.25) (layer B.Cu) (net 53))
   (segment (start 163.3 45.85) (end 162.15 47) (width 0.25) (layer B.Cu) (net 53))
+  (segment (start 156.45 72.93) (end 156.45 72.25) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 156.45 72.25) (end 157.85 70.85) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 157.85 70.85) (end 168.65 70.85) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 169.4 70.85) (end 169.4 71.38) (width 0.25) (layer B.Cu) (net 53) (tstamp 6045248A))
+  (via (at 169.4 70.85) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 53))
+  (segment (start 168.65 70.85) (end 169.4 70.85) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 156.45 91.98) (end 156.45 91) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 156.45 91) (end 157.6 89.85) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 157.6 89.85) (end 169.2 89.85) (width 0.25) (layer F.Cu) (net 53))
+  (segment (start 169.8 89.85) (end 169.8 90.03) (width 0.25) (layer B.Cu) (net 53) (tstamp 60452616))
+  (via (at 169.8 89.85) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 53))
+  (segment (start 169.2 89.85) (end 169.8 89.85) (width 0.25) (layer F.Cu) (net 53))
   (segment (start 186.55 55.4) (end 186.9 55.75) (width 0.25) (layer B.Cu) (net 54))
   (segment (start 183.15 55.4) (end 186.55 55.4) (width 0.25) (layer B.Cu) (net 54))
   (segment (start 186.9 55.75) (end 186.9 57.88) (width 0.25) (layer B.Cu) (net 54) (status 20))
@@ -6664,28 +6679,6 @@
   (segment (start 206.63 41.13) (end 207.5 42) (width 0.25) (layer B.Cu) (net 55))
   (segment (start 205.25 52.65) (end 201 52.65) (width 0.25) (layer B.Cu) (net 55))
   (segment (start 201 52.65) (end 200.45 53.2) (width 0.25) (layer B.Cu) (net 55))
-  (segment (start 131.25 91.5) (end 131.25 91.95) (width 0.25) (layer B.Cu) (net 51) (tstamp 6044F895))
-  (segment (start 118.35 83.98) (end 118.35 83.2) (width 0.25) (layer F.Cu) (net 51))
-  (segment (start 118.35 83.2) (end 119.5 82.05) (width 0.25) (layer F.Cu) (net 51))
-  (segment (start 119.5 82.05) (end 130.4 82.05) (width 0.25) (layer F.Cu) (net 51))
-  (segment (start 131.25 82.05) (end 131.25 82.48) (width 0.25) (layer B.Cu) (net 51) (tstamp 6044F897))
-  (via (at 131.25 82.05) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 51))
-  (segment (start 130.4 82.05) (end 131.25 82.05) (width 0.25) (layer F.Cu) (net 51))
-  (segment (start 169 116.45) (end 169 124.864) (width 0.25) (layer B.Cu) (net 52) (tstamp 60455B47))
-  (via (at 169 116.45) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 52))
-  (segment (start 165.85 116.45) (end 169 116.45) (width 0.25) (layer F.Cu) (net 52))
-  (segment (start 156.45 72.93) (end 156.45 72.25) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 156.45 72.25) (end 157.85 70.85) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 157.85 70.85) (end 168.65 70.85) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 169.4 70.85) (end 169.4 71.38) (width 0.25) (layer B.Cu) (net 53) (tstamp 6045248A))
-  (via (at 169.4 70.85) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 53))
-  (segment (start 168.65 70.85) (end 169.4 70.85) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 156.45 91.98) (end 156.45 91) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 156.45 91) (end 157.6 89.85) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 157.6 89.85) (end 169.2 89.85) (width 0.25) (layer F.Cu) (net 53))
-  (segment (start 169.8 89.85) (end 169.8 90.03) (width 0.25) (layer B.Cu) (net 53) (tstamp 60452616))
-  (via (at 169.8 89.85) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 53))
-  (segment (start 169.2 89.85) (end 169.8 89.85) (width 0.25) (layer F.Cu) (net 53))
   (segment (start 207.6 96.2) (end 207.6 96.45) (width 0.25) (layer B.Cu) (net 55) (tstamp 60452DE0))
   (segment (start 207.6 96.45) (end 207.6 96.63) (width 0.25) (layer B.Cu) (net 55) (tstamp 60452F6F))
   (via (at 207.6 96.45) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 55))
