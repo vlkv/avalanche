@@ -283,7 +283,7 @@ U 1 1 5DAC93EC
 P 6145 2490
 F 0 "SW28" H 6145 2645 50  0000 C CNN
 F 1 "SW_Push" H 6145 2684 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 6145 2690 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1.25u" H 6145 2690 50  0001 C CNN
 F 3 "~" H 6145 2690 50  0001 C CNN
 	1    6145 2490
 	1    0    0    -1  
@@ -294,7 +294,7 @@ U 1 1 5DAC93F2
 P 6745 2490
 F 0 "SW29" H 6745 2645 50  0000 C CNN
 F 1 "SW_Push" H 6745 2684 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 6745 2690 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1.25u" H 6745 2690 50  0001 C CNN
 F 3 "~" H 6745 2690 50  0001 C CNN
 	1    6745 2490
 	1    0    0    -1  
@@ -1448,18 +1448,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0108
 U 1 1 605AF8A2
-P 2800 5720
-F 0 "#PWR0108" H 2800 5470 50  0001 C CNN
-F 1 "GND" V 2800 5610 50  0000 R CNN
-F 2 "" H 2800 5720 50  0001 C CNN
-F 3 "" H 2800 5720 50  0001 C CNN
-	1    2800 5720
+P 2190 5670
+F 0 "#PWR0108" H 2190 5420 50  0001 C CNN
+F 1 "GND" V 2190 5560 50  0000 R CNN
+F 2 "" H 2190 5670 50  0001 C CNN
+F 3 "" H 2190 5670 50  0001 C CNN
+	1    2190 5670
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 5720 2800 5670
-Wire Wire Line
-	2800 5670 3260 5670
 Wire Wire Line
 	4600 5670 4600 5530
 Wire Wire Line
@@ -1553,18 +1549,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0110
 U 1 1 60493A43
-P 2715 6350
-F 0 "#PWR0110" H 2715 6100 50  0001 C CNN
-F 1 "GND" V 2715 6240 50  0000 R CNN
-F 2 "" H 2715 6350 50  0001 C CNN
-F 3 "" H 2715 6350 50  0001 C CNN
-	1    2715 6350
+P 2180 6300
+F 0 "#PWR0110" H 2180 6050 50  0001 C CNN
+F 1 "GND" V 2180 6190 50  0000 R CNN
+F 2 "" H 2180 6300 50  0001 C CNN
+F 3 "" H 2180 6300 50  0001 C CNN
+	1    2180 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2715 6350 2715 6300
-Wire Wire Line
-	2715 6300 3170 6300
 Wire Wire Line
 	3260 5670 3875 5670
 Wire Wire Line
@@ -1602,7 +1594,6 @@ Wire Wire Line
 Connection ~ 3170 6300
 Wire Wire Line
 	3170 6300 3890 6300
-NoConn ~ 3280 5925
 Text Label 3290 5335 2    50   ~ 0
 L_pin1_to_3
 Text Label 6460 6125 0    50   ~ 0
@@ -1872,4 +1863,40 @@ Text GLabel 2585 2040 2    50   Input ~ 0
 col7
 Wire Wire Line
 	3505 2690 5945 2690
+Wire Wire Line
+	2190 5670 3260 5670
+Wire Wire Line
+	2180 6300 2495 6300
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L9
+U 1 1 604BE742
+P 2805 6025
+F 0 "L9" H 2805 5763 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 2805 5828 16  0000 C CNN
+F 2 "used_footprints:SK6812MINI_underglow_rev" H 2805 6025 60  0001 C CNN
+F 3 "" H 2805 6025 60  0001 C CNN
+	1    2805 6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3280 5925 3130 5925
+Wire Wire Line
+	3130 5925 3130 6125
+Wire Wire Line
+	3130 6125 3005 6125
+Wire Wire Line
+	3005 5925 3025 5925
+Wire Wire Line
+	3025 5780 3025 5925
+Wire Wire Line
+	2605 6125 2495 6125
+NoConn ~ 2605 5925
+Wire Wire Line
+	3700 5780 3025 5780
+Connection ~ 3700 5780
+Wire Wire Line
+	2495 6125 2495 6300
+Connection ~ 2495 6300
+Wire Wire Line
+	2495 6300 3170 6300
 $EndSCHEMATC
