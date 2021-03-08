@@ -793,12 +793,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR03
 U 1 1 5E653D30
-P 1545 2875
-F 0 "#PWR03" H 1545 2625 50  0001 C CNN
-F 1 "GND" V 1545 2755 50  0000 R CNN
-F 2 "" H 1545 2875 50  0001 C CNN
-F 3 "" H 1545 2875 50  0001 C CNN
-	1    1545 2875
+P 1545 3125
+F 0 "#PWR03" H 1545 2875 50  0001 C CNN
+F 1 "GND" V 1545 3005 50  0000 R CNN
+F 2 "" H 1545 3125 50  0001 C CNN
+F 3 "" H 1545 3125 50  0001 C CNN
+	1    1545 3125
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1169,12 +1169,12 @@ $EndComp
 $Comp
 L avalanche-hotswap:i2c_pin P1
 U 1 1 6051604B
-P 2035 2740
-F 0 "P1" V 2035 2805 50  0000 L CNN
-F 1 "i2c_pin" V 2135 2625 50  0000 L CNN
-F 2 "used_footprints:1pin_conn" H 2035 2740 50  0001 C CNN
-F 3 "" H 2035 2740 50  0001 C CNN
-	1    2035 2740
+P 2035 2675
+F 0 "P1" V 2035 2740 50  0000 L CNN
+F 1 "i2c_pin" V 2135 2560 50  0000 L CNN
+F 2 "used_footprints:1pin_conn" H 2035 2675 50  0001 C CNN
+F 3 "" H 2035 2675 50  0001 C CNN
+	1    2035 2675
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1298,10 +1298,6 @@ Wire Wire Line
 Connection ~ 1240 1190
 Wire Wire Line
 	1545 3225 2035 3225
-Wire Wire Line
-	2035 2940 2035 3125
-Wire Wire Line
-	2035 3125 1545 3125
 $Comp
 L Mechanical:MountingHole H13
 U 1 1 605332C5
@@ -1899,4 +1895,6 @@ Wire Wire Line
 Connection ~ 2495 6300
 Wire Wire Line
 	2495 6300 3170 6300
+Wire Wire Line
+	1545 2875 2035 2875
 $EndSCHEMATC
