@@ -1,7 +1,7 @@
 # Avalanche keyboard
 
 Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you break off the 'digits' row) column staggered keys, 
-5 thumb keys, 1 key for pinky (break off-able too) and 1 additional key for index finger (62 keys total). Firmware for Avalanche is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
+5 thumb keys, 1 key for pinky (break off-able too) and 1 additional key for index finger (62 keys total). QMK firmware for Avalanche is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
 
 Emu design was inspired by
 * [Corne](https://github.com/foostan/crkbd) - for arc-shaped thumb cluster.
