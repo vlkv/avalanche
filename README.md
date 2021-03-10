@@ -15,7 +15,7 @@ Many thanks to build instructions that helped me a lot:
 * [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
 
 and
-* [MechCult](https://mechcult.ru) Telegram community
+* [MechCult](https://t.me/ru_mechcult) Telegram community
 
 
 ![Avalanche PCBs 3D view](/images/avalanche_PCBs_3d_model.png)
