@@ -11,7 +11,7 @@ Emu design was inspired by
 
 Many thanks to ErgoTravel for their super detailed [Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md) that helped me a lot.
 
-![Avalanche PCBs 3D view](avalanche_PCBs_3d_model.png)
+![Avalanche PCBs 3D view](/images/avalanche_PCBs_3d_model.png)
 
 ![Avalanche PCBs model](/images/avalanche_mockup_03.png)
 
