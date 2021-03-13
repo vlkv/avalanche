@@ -11,11 +11,13 @@ Avalanche design was inspired by
 
 ## Parts list
 
-| # | Name                         | Quantity | Example URL                                       |
-|---|------------------------------|----------|---------------------------------------------------|
-| 1 | ProMicro (ATmega32U4)        | 2        | https://aliexpress.ru/item/2010847161.html        |
-| - | -----------------------------|----------|---------------------------------------------------|
-| 2 | Kailh hotswap sockets        | 62       | https://aliexpress.ru/item/32903471019.html       |
+| # | Name                         | Quantity | Example URL                                           |
+|---|------------------------------|----------|-------------------------------------------------------|
+| 1 | ProMicro (ATmega32U4)        | 2        | https://aliexpress.ru/item/2010847161.html            |
+| 2 | Kailh hotswap sockets        | 62       | https://aliexpress.ru/item/32903471019.html           |
+| 3 | Diode 1N4148 (SMD or Through Hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
+| 4 | Resistor 4.7K (Through Hole)        | 2        | |
+| 5 | 
 
 Many thanks to build instructions that helped me a lot:
 * [Joric wiki](https://github.com/joric/jorne/wiki)
