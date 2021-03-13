@@ -20,7 +20,7 @@ Avalanche design was inspired by
 | 5  | Sockets for ProMicro 3.5mm          | 2        | https://aliexpress.ru/item/32899635835.html |
 | 6 | Kailh hotswap sockets         | 62       | https://aliexpress.ru/item/32903471019.html           |
 | 7  | Diode 1N4148 (SMD or through hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
-| 8  | Resistor 4.7K (through hole)        | 2        | |
+| 8  | Resistor 4.7K (through hole)        | 2        | https://www.chipdip.ru/product0/1849 |
 | 9  | TRRS sockets PJ320A                 | 2        | https://aliexpress.ru/item/32368285821.html | 
 | 10 | TRRS Cable (straight connectors)    | 1        |  |
 | 11 | Reset button (DIP switch)           | 2        | https://aliexpress.ru/item/4000209910403.html |
