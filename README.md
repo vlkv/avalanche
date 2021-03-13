@@ -26,7 +26,7 @@ Avalanche design was inspired by
 | 11 | Reset button (DIP switch)           | 2        | https://aliexpress.ru/item/4000209910403.html |
 | 12 | Bumpons for bottom plate            |          | | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
 | 13 | OLED screen                         | 2        | https://aliexpress.ru/item/32798439084.html |
-| 14 | LED for underglow (which ones?..)     |          | |
+| 14 | LED SK6812 3535 BL 3.5mm            | 18       | https://aliexpress.ru/item/32623583544.html |
 | 15 | M2 screws | |
 | 16 | M2 standoffs | |
 | 17 | Keyboard switch (Cherry-MX compatible) | 62 | | 
