@@ -11,13 +11,19 @@ Avalanche design was inspired by
 
 ## Parts list
 
-| # | Name                         | Quantity | Example URL                                           |
-|---|------------------------------|----------|-------------------------------------------------------|
-| 1 | ProMicro (ATmega32U4)        | 2        | https://aliexpress.ru/item/2010847161.html            |
-| 2 | Kailh hotswap sockets        | 62       | https://aliexpress.ru/item/32903471019.html           |
-| 3 | Diode 1N4148 (SMD or Through Hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
-| 4 | Resistor 4.7K (Through Hole)        | 2        | |
-| 5 | 
+| #  | Name                          | Quantity | Example URL                                           |
+|----|-------------------------------|----------|-------------------------------------------------------|
+| 1  | PCB                           | 2        | |
+| 2  | Top plate                     | 2        | |
+| 3  | Bottom plate                  | 2        | |
+| 4  | ProMicro (ATmega32U4 5V/16MHz)| 2        | https://aliexpress.ru/item/2010847161.html            |
+| 5  | Kailh hotswap sockets         | 62       | https://aliexpress.ru/item/32903471019.html           |
+| 6  | Diode 1N4148 (SMD or through hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
+| 7  | Resistor 4.7K (through hole)        | 2        | |
+| 8  | TRRS sockets PJ320A                 | 2        | https://aliexpress.ru/item/32368285821.html | 
+| 9  | TRRS Cable (straight connectors)    | 1        |  |
+| 10 | Sockets for ProMicro 3.5mm          | 2        | https://aliexpress.ru/item/32899635835.html |
+| 11 | Bumpons for bottom plate            |          | | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
 
 Many thanks to build instructions that helped me a lot:
 * [Joric wiki](https://github.com/joric/jorne/wiki)
