@@ -9,6 +9,14 @@ Avalanche design was inspired by
 * [Lily58](https://github.com/kata0510/Lily58) - for additional key for the index finger.
 * [Kyria](https://github.com/splitkb/kyria) - for additional key for the thumb.
 
+## Parts list
+
+| # | Name                         | Quantity | Example URL                                       |
+|---|------------------------------|----------|---------------------------------------------------|
+| 1 | ProMicro (ATmega32U4)        | 2        | https://aliexpress.ru/item/2010847161.html        |
+| - | -----------------------------|----------|---------------------------------------------------|
+| 2 | Kailh hotswap sockets        | 62       | https://aliexpress.ru/item/32903471019.html       |
+
 Many thanks to build instructions that helped me a lot:
 * [Joric wiki](https://github.com/joric/jorne/wiki)
 * [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
