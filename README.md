@@ -17,19 +17,20 @@ Avalanche design was inspired by
 | 2  | Top plate                     | 2        | |
 | 3  | Bottom plate                  | 2        | |
 | 4  | ProMicro (ATmega32U4 5V/16MHz)| 2        | https://aliexpress.ru/item/2010847161.html            |
-| 5  | Kailh hotswap sockets         | 62       | https://aliexpress.ru/item/32903471019.html           |
-| 6  | Diode 1N4148 (SMD or through hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
-| 7  | Resistor 4.7K (through hole)        | 2        | |
-| 8  | TRRS sockets PJ320A                 | 2        | https://aliexpress.ru/item/32368285821.html | 
-| 9  | TRRS Cable (straight connectors)    | 1        |  |
-| 10 | Sockets for ProMicro 3.5mm          | 2        | https://aliexpress.ru/item/32899635835.html |
-| 11 | Bumpons for bottom plate            |          | | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
-| 12 | OLED screen                         | 2        | https://aliexpress.ru/item/32798439084.html |
-| 13 | LED for underglow (which ones?..)     |          | |
-| 14 | M2 screws | |
-| 15 | M2 standoffs | |
-| 16 | Keyboard switch (Cherry-MX compatible) | 62 | | 
-| 17 | Keycaps set (Cherry-MX compatible) | | |
+| 5  | Sockets for ProMicro 3.5mm          | 2        | https://aliexpress.ru/item/32899635835.html |
+| 6 | Kailh hotswap sockets         | 62       | https://aliexpress.ru/item/32903471019.html           |
+| 7  | Diode 1N4148 (SMD or through hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
+| 8  | Resistor 4.7K (through hole)        | 2        | |
+| 9  | TRRS sockets PJ320A                 | 2        | https://aliexpress.ru/item/32368285821.html | 
+| 10 | TRRS Cable (straight connectors)    | 1        |  |
+| 11 | Reset button (DIP switch)           | 2        | https://aliexpress.ru/item/4000209910403.html |
+| 12 | Bumpons for bottom plate            |          | | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
+| 13 | OLED screen                         | 2        | https://aliexpress.ru/item/32798439084.html |
+| 14 | LED for underglow (which ones?..)     |          | |
+| 15 | M2 screws | |
+| 16 | M2 standoffs | |
+| 17 | Keyboard switch (Cherry-MX compatible) | 62 | | 
+| 18 | Keycaps set (Cherry-MX compatible) | | |
 
 ## Build instructions
 Avalanche does not have own bulid instructions yet. But there are a lot of relevant information in:
