@@ -31,15 +31,13 @@ Avalanche design was inspired by
 | 16 | Keyboard switch (Cherry-MX compatible) | 62 | | 
 | 17 | Keycaps set (Cherry-MX compatible) | | |
 
-
-Many thanks to build instructions that helped me a lot:
+## Build instructions
+Avalanche does not have own bulid instructions yet. But there are a lot of relevant information in:
 * [Joric wiki](https://github.com/joric/jorne/wiki)
 * [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
 * [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
 
-and
-* [MechCult](https://t.me/ru_mechcult) Telegram community
-
+## Images
 
 ![Avalanche PCBs 3D view](/images/avalanche62_PCBs_3d_model.png)
 ![Avalanche PCBs 3D view](/images/avalanche50_PCBs_3d_model.png)
