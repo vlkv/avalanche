@@ -24,6 +24,13 @@ Avalanche design was inspired by
 | 9  | TRRS Cable (straight connectors)    | 1        |  |
 | 10 | Sockets for ProMicro 3.5mm          | 2        | https://aliexpress.ru/item/32899635835.html |
 | 11 | Bumpons for bottom plate            |          | | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
+| 12 | OLED screen                         | 2        | https://aliexpress.ru/item/32798439084.html |
+| 13 | LED for underglow (which ones?..)     |          | |
+| 14 | M2 screws | |
+| 15 | M2 standoffs | |
+| 16 | Keyboard switch (Cherry-MX compatible) | 62 | | 
+| 17 | Keycaps set (Cherry-MX compatible) | | |
+
 
 Many thanks to build instructions that helped me a lot:
 * [Joric wiki](https://github.com/joric/jorne/wiki)
