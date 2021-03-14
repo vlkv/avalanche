@@ -17,7 +17,7 @@ Avalanche design was inspired by
 | 2  | Top plate                     | 2        | |
 | 3  | Bottom plate                  | 2        | |
 | 4  | ProMicro (ATmega32U4 5V/16MHz)| 2        | https://aliexpress.ru/item/2010847161.html            |
-| 5  | Sockets for ProMicro 3.5mm    | 2        | https://aliexpress.ru/item/32899635835.html or https://www.chipdip.ru/product0/8004277524 or https://www.chipdip.ru/product/110-87-424-41-001101           |
+| 5  | Sockets for ProMicro 3.5mm    | 2        | https://aliexpress.ru/item/32899635835.html or https://www.chipdip.ru/product0/8004277524 or https://aliexpress.ru/item/1005001624106605.html           |
 | 6  | Kailh hotswap sockets         | 62       | https://aliexpress.ru/item/32903471019.html           |
 | 7  | Diode 1N4148 (SMD or through hole)  | 62       | https://www.chipdip.ru/catalog/diodes-pulse?gq=1N4148 |
 | 8  | Resistor 4.7K (through hole)        | 2        | https://www.chipdip.ru/product0/1849 |
