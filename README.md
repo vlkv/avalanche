@@ -49,8 +49,9 @@ Avalanche does not have own bulid instructions yet. But there are a lot of relev
 ![Avalanche mockup](/images/avalanche_mockup_02.jpg)
 
 ## Serial vs I2C
-I found some info [here](https://github.com/foostan/crkbd/issues/17#issuecomment-523431198). It tells how to make Corne support I2C (which supports Serial by default). In short: 
+I found some info [here](https://github.com/foostan/crkbd/issues/17#issuecomment-523431198). It tells how to make Corne support I2C (which supports Serial by default). Avalanche has the same schematics here. So to be short: 
 * break DATA jumper(J1)
 * place 4.7k resistors in R1 and R2. This gives us the VCC-SCL and the VCC-SDA connections
 * finally to connect both halves of the keeb, jump the P1-R1(closest hole) and P2-R2(again closest hole)
 * Use TRRS cable (4 wires) and not TRS (3 wires)
+* Modify your QMK firmware to switch on the I2C
