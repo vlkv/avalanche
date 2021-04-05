@@ -17,11 +17,12 @@ Many thanks to build instructions that helped me a lot:
 and
 * [MechCult](https://t.me/ru_mechcult) Telegram community
 
-
+![Avalanche mockup](/images/avalanche_v1-0.jpg)
 ![Avalanche PCBs 3D view](/images/avalanche62_PCBs_3d_model.png)
 ![Avalanche PCBs 3D view](/images/avalanche50_PCBs_3d_model.png)
 ![Avalanche PCBs 3D view](/images/avalanche48_PCBs_3d_model.png)
 
 ![Avalanche PCBs model](/images/avalanche_mockup_03.png)
 
-![Avalanche mockup](/images/avalanche_mockup_02.jpg)
+
+
