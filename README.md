@@ -9,12 +9,6 @@ Avalanche design was inspired by
 * [Lily58](https://github.com/kata0510/Lily58) - for additional key for the index finger.
 * [Kyria](https://github.com/splitkb/kyria) - for additional key for the thumb.
 
-## Build instructions
-Avalanche does not have own bulid instructions yet. But there are a lot of relevant information in:
-* [Joric wiki](https://github.com/joric/jorne/wiki)
-* [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
-* [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
-
 ## Images
 
 ![Avalanche v1.0 First Build](/images/avalanche_v1-0.jpg)
@@ -46,7 +40,11 @@ Avalanche does not have own bulid instructions yet. But there are a lot of relev
 | 17 | Keyboard switch (Cherry-MX compatible) | 62 | |
 | 18 | Keycaps set (Cherry-MX compatible)     | 1 | |
 
-
+## Build instructions
+Avalanche does not have own bulid instructions yet. But there are a lot of relevant information in:
+* [Joric wiki](https://github.com/joric/jorne/wiki)
+* [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
+* [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
 
 ## Serial vs I2C
 I found some info [here](https://github.com/foostan/crkbd/issues/17#issuecomment-523431198). And here on [QMK site](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_split_keyboard). To be short:
