@@ -8,6 +8,7 @@ Avalanche design was inspired by
 * [Jorne](https://github.com/joric/jorne), [Jiran](https://github.com/Ladniy/jiran), [Jian](https://github.com/KGOH/Jian-Info) - for additional key for the pinky.
 * [Lily58](https://github.com/kata0510/Lily58) - for additional key for the index finger.
 * [Kyria](https://github.com/splitkb/kyria) - for additional key for the thumb.
+* [Reviung41](https://github.com/gtips/reviung) - for V shaped general layout.
 
 ## Images
 
