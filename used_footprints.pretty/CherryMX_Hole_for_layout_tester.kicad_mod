@@ -1,0 +1,18 @@
+(module CherryMX_Hole_for_layout_tester (layer F.Cu) (tedit 606D9746)
+  (fp_text reference REF** (at 0.3 1.3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CherryMX_Hole_for_layout_tester (at -0.15 -2.15) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -6.95 6.95) (end 6.95 6.95) (layer F.SilkS) (width 0.12))
+  (fp_line (start -6.95 6.95) (end -6.95 -6.95) (layer F.SilkS) (width 0.12))
+  (fp_line (start 6.95 6.95) (end 6.95 -6.95) (layer F.SilkS) (width 0.12))
+  (fp_line (start 6.95 -6.95) (end -6.95 -6.95) (layer F.SilkS) (width 0.12))
+  (fp_line (start -6.95 6.95) (end -6.95 -6.95) (layer B.SilkS) (width 0.12))
+  (fp_line (start 6.95 6.95) (end 6.95 -6.95) (layer B.SilkS) (width 0.12))
+  (fp_line (start 6.95 -6.95) (end -6.95 -6.95) (layer B.SilkS) (width 0.12))
+  (fp_line (start -6.95 6.95) (end 6.95 6.95) (layer B.SilkS) (width 0.12))
+  (fp_line (start 0 -0.25) (end 0 0.25) (layer Cmts.User) (width 0.12))
+  (fp_line (start -0.25 0) (end 0.25 0) (layer Cmts.User) (width 0.12))
+)
