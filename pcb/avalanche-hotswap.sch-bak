@@ -181,12 +181,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW13
 U 1 1 5DAC0C7B
-P 3745 1690
-F 0 "SW13" H 3745 1845 50  0000 C CNN
-F 1 "SW_Push" H 3745 1884 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 3745 1890 50  0001 C CNN
-F 3 "~" H 3745 1890 50  0001 C CNN
-	1    3745 1690
+P 4345 2490
+F 0 "SW13" H 4345 2645 50  0000 C CNN
+F 1 "SW_Push" H 4345 2684 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 4345 2690 50  0001 C CNN
+F 3 "~" H 4345 2690 50  0001 C CNN
+	1    4345 2490
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -412,12 +412,12 @@ $EndComp
 $Comp
 L Device:D_Small D13
 U 1 1 5DAD50DF
-P 3545 1790
-F 0 "D13" V 3545 1722 50  0000 R CNN
-F 1 "1N4148" V 3500 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 3545 1790 50  0001 C CNN
-F 3 "~" V 3545 1790 50  0001 C CNN
-	1    3545 1790
+P 4145 2590
+F 0 "D13" V 4145 2522 50  0000 R CNN
+F 1 "1N4148" V 4100 2522 50  0001 R CNN
+F 2 "used_footprints:D3_TH_SMD" V 4145 2590 50  0001 C CNN
+F 3 "~" V 4145 2590 50  0001 C CNN
+	1    4145 2590
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -520,17 +520,6 @@ F 3 "~" V 6545 2190 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D28
-U 1 1 5DAD7ECF
-P 5945 2590
-F 0 "D28" V 5945 2522 50  0000 R CNN
-F 1 "1N4148" V 5900 2522 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 5945 2590 50  0001 C CNN
-F 3 "~" V 5945 2590 50  0001 C CNN
-	1    5945 2590
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Small D29
 U 1 1 5DAD7ED5
 P 6545 2590
@@ -541,9 +530,6 @@ F 3 "~" V 6545 2590 50  0001 C CNN
 	1    6545 2590
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5945 2690
-Wire Wire Line
-	5945 2690 6545 2690
 Connection ~ 4745 2290
 Wire Wire Line
 	4745 2290 5345 2290
@@ -553,8 +539,6 @@ Wire Wire Line
 Connection ~ 5945 2290
 Wire Wire Line
 	5945 2290 6545 2290
-Wire Wire Line
-	3545 1890 4145 1890
 Connection ~ 4145 1890
 Wire Wire Line
 	4145 1890 4745 1890
@@ -625,9 +609,6 @@ Wire Wire Line
 Connection ~ 6945 2090
 Wire Wire Line
 	6945 2090 6945 1690
-Wire Wire Line
-	3505 1890 3545 1890
-Connection ~ 3545 1890
 Wire Wire Line
 	4545 840  4545 890 
 Wire Wire Line
@@ -793,12 +774,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR03
 U 1 1 5E653D30
-P 1545 2875
-F 0 "#PWR03" H 1545 2625 50  0001 C CNN
-F 1 "GND" V 1545 2755 50  0000 R CNN
-F 2 "" H 1545 2875 50  0001 C CNN
-F 3 "" H 1545 2875 50  0001 C CNN
-	1    1545 2875
+P 1545 3125
+F 0 "#PWR03" H 1545 2875 50  0001 C CNN
+F 1 "GND" V 1545 3005 50  0000 R CNN
+F 2 "" H 1545 3125 50  0001 C CNN
+F 3 "" H 1545 3125 50  0001 C CNN
+	1    1545 3125
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -870,17 +851,6 @@ Wire Wire Line
 	2585 1040 2775 1040
 Wire Wire Line
 	2775 1240 2585 1240
-$Comp
-L avalanche-hotswap:ProMicro_2 U1
-U 1 1 5DAA926E
-P 1935 1490
-F 0 "U1" H 1945 2210 60  0000 C CNN
-F 1 "ProMicro" H 1950 775 60  0000 C CNN
-F 2 "used_footprints:ProMicro_rev2" H 2035 440 60  0001 C CNN
-F 3 "" H 2035 440 60  0000 C CNN
-	1    1935 1490
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole HM6
 U 1 1 60492C63
@@ -1169,12 +1139,12 @@ $EndComp
 $Comp
 L avalanche-hotswap:i2c_pin P1
 U 1 1 6051604B
-P 2035 2740
-F 0 "P1" V 2035 2805 50  0000 L CNN
-F 1 "i2c_pin" V 2135 2625 50  0000 L CNN
-F 2 "used_footprints:1pin_conn" H 2035 2740 50  0001 C CNN
-F 3 "" H 2035 2740 50  0001 C CNN
-	1    2035 2740
+P 2035 2675
+F 0 "P1" V 2035 2740 50  0000 L CNN
+F 1 "i2c_pin" V 2135 2560 50  0000 L CNN
+F 2 "used_footprints:1pin_conn" H 2035 2675 50  0001 C CNN
+F 3 "" H 2035 2675 50  0001 C CNN
+	1    2035 2675
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1256,17 +1226,17 @@ row3
 Text GLabel 1285 1940 0    50   Input ~ 0
 row4
 Text GLabel 2585 1340 2    50   Input ~ 0
-col0
+encB
 Text GLabel 2585 1440 2    50   Input ~ 0
-col1
+col0
 Text GLabel 2585 1540 2    50   Input ~ 0
-col2
+col1
 Text GLabel 2585 1640 2    50   Input ~ 0
-col3
+col2
 Text GLabel 2585 1740 2    50   Input ~ 0
-col4
+col3
 Text GLabel 2585 1840 2    50   Input ~ 0
-col5
+col4
 Text GLabel 3505 1090 0    50   Input ~ 0
 row0
 Text GLabel 3505 1490 0    50   Input ~ 0
@@ -1278,15 +1248,15 @@ row3
 Text GLabel 3505 2690 0    50   Input ~ 0
 row4
 Text GLabel 4545 840  1    50   Input ~ 0
-col1
+col0
 Text GLabel 5145 840  1    50   Input ~ 0
-col2
+col1
 Text GLabel 5745 840  1    50   Input ~ 0
-col3
+col2
 Text GLabel 6345 840  1    50   Input ~ 0
-col4
+col3
 Text GLabel 6945 840  1    50   Input ~ 0
-col5
+col4
 Wire Wire Line
 	1285 1140 1240 1140
 Wire Wire Line
@@ -1298,10 +1268,6 @@ Wire Wire Line
 Connection ~ 1240 1190
 Wire Wire Line
 	1545 3225 2035 3225
-Wire Wire Line
-	2035 2940 2035 3125
-Wire Wire Line
-	2035 3125 1545 3125
 $Comp
 L Mechanical:MountingHole H13
 U 1 1 605332C5
@@ -1632,9 +1598,9 @@ F 3 "~" V 7155 990 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7555 835  1    50   Input ~ 0
-col6
+col5
 Text GLabel 8190 840  1    50   Input ~ 0
-col7
+col6
 Wire Wire Line
 	3505 1090 4145 1090
 Wire Wire Line
@@ -1768,10 +1734,6 @@ Connection ~ 6545 2290
 Wire Wire Line
 	7555 1690 7555 2090
 Connection ~ 7555 1690
-Text GLabel 3945 840  1    50   Input ~ 0
-col0
-Wire Wire Line
-	3945 1690 3945 840 
 Connection ~ 6545 2690
 Wire Wire Line
 	7555 2090 7555 2490
@@ -1815,7 +1777,7 @@ $Comp
 L Switch:SW_Push SW27
 U 1 1 6070B41C
 P 7990 2090
-F 0 "SW27" H 7990 2245 50  0000 C CNN
+F 0 "SW27" H 8070 2290 50  0000 C CNN
 F 1 "SW_Push" H 7990 2284 50  0001 C CNN
 F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 7990 2290 50  0001 C CNN
 F 3 "~" H 7990 2290 50  0001 C CNN
@@ -1856,13 +1818,12 @@ Connection ~ 7155 2690
 Wire Wire Line
 	8190 2090 8190 2490
 Connection ~ 8190 2090
-NoConn ~ 1285 2040
 Text GLabel 2585 1940 2    50   Input ~ 0
-col6
+col5
 Text GLabel 2585 2040 2    50   Input ~ 0
-col7
+col6
 Wire Wire Line
-	3505 2690 5945 2690
+	3505 2690 4145 2690
 Wire Wire Line
 	2190 5670 3260 5670
 Wire Wire Line
@@ -1899,4 +1860,187 @@ Wire Wire Line
 Connection ~ 2495 6300
 Wire Wire Line
 	2495 6300 3170 6300
+Wire Wire Line
+	1545 2875 2035 2875
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 6071F2CB
+P 8245 3745
+F 0 "ENC1" H 8245 4112 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8245 4021 50  0000 C CNN
+F 2 "used_footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified" H 8095 3905 50  0001 C CNN
+F 3 "~" H 8245 4005 50  0001 C CNN
+	1    8245 3745
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch ENC2
+U 1 1 607429F7
+P 8245 4390
+F 0 "ENC2" H 8245 4757 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8245 4666 50  0000 C CNN
+F 2 "used_footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified" H 8095 4550 50  0001 C CNN
+F 3 "~" H 8245 4650 50  0001 C CNN
+	1    8245 4390
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch ENC3
+U 1 1 6074B171
+P 8250 5045
+F 0 "ENC3" H 8250 5412 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8250 5321 50  0000 C CNN
+F 2 "used_footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified" H 8100 5205 50  0001 C CNN
+F 3 "~" H 8250 5305 50  0001 C CNN
+	1    8250 5045
+	1    0    0    -1  
+$EndComp
+Text GLabel 1285 2040 0    50   Input ~ 0
+encA
+$Comp
+L avalanche-hotswap:ProMicro_2 U1
+U 1 1 5DAA926E
+P 1935 1490
+F 0 "U1" H 1945 2210 60  0000 C CNN
+F 1 "ProMicro" H 1950 775 60  0000 C CNN
+F 2 "used_footprints:ProMicro_rev2" H 2035 440 60  0001 C CNN
+F 3 "" H 2035 440 60  0000 C CNN
+	1    1935 1490
+	1    0    0    -1  
+$EndComp
+Text GLabel 7755 3645 0    50   Input ~ 0
+encA
+Wire Wire Line
+	7945 3645 7850 3645
+Wire Wire Line
+	7945 4290 7850 4290
+Wire Wire Line
+	7850 4290 7850 3645
+Connection ~ 7850 3645
+Wire Wire Line
+	7850 3645 7755 3645
+Wire Wire Line
+	7950 4945 7850 4945
+Wire Wire Line
+	7850 4945 7850 4290
+Connection ~ 7850 4290
+Text GLabel 7160 3845 0    50   Input ~ 0
+encB
+Wire Wire Line
+	7280 4490 7280 3845
+Connection ~ 7280 3845
+Wire Wire Line
+	7280 3845 7160 3845
+Wire Wire Line
+	7280 5145 7280 4490
+Connection ~ 7280 4490
+$Comp
+L power:GND #PWR?
+U 1 1 6082F9BB
+P 7370 3745
+F 0 "#PWR?" H 7370 3495 50  0001 C CNN
+F 1 "GND" H 7450 3595 50  0000 R CNN
+F 2 "" H 7370 3745 50  0001 C CNN
+F 3 "" H 7370 3745 50  0001 C CNN
+	1    7370 3745
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7945 3745 7655 3745
+Wire Wire Line
+	7945 4390 7655 4390
+Wire Wire Line
+	7655 4390 7655 3745
+Connection ~ 7655 3745
+Wire Wire Line
+	7655 3745 7370 3745
+Wire Wire Line
+	7950 5045 7655 5045
+Wire Wire Line
+	7655 5045 7655 4390
+Connection ~ 7655 4390
+Wire Wire Line
+	7280 3845 7945 3845
+Wire Wire Line
+	7280 4490 7945 4490
+Wire Wire Line
+	7280 5145 7950 5145
+Connection ~ 4145 2690
+Wire Wire Line
+	3505 1890 4145 1890
+Wire Wire Line
+	4545 2090 4545 2490
+Connection ~ 4545 2090
+Text GLabel 5860 2490 0    50   Input ~ 0
+sw28r
+Text GLabel 6345 2780 3    50   Input ~ 0
+sw28c
+Wire Wire Line
+	6345 2490 6345 2780
+Connection ~ 6345 2490
+Text GLabel 8395 1445 2    50   Input ~ 0
+sw20r
+Text GLabel 8390 1690 2    50   Input ~ 0
+sw20c
+Wire Wire Line
+	8190 1690 8390 1690
+Text GLabel 8390 2090 2    50   Input ~ 0
+sw27c
+Wire Wire Line
+	8190 2090 8390 2090
+Text GLabel 8400 1935 2    50   Input ~ 0
+sw27r
+Text GLabel 8690 4945 2    50   Input ~ 0
+sw28r
+Text GLabel 8690 5145 2    50   Input ~ 0
+sw28c
+Text GLabel 8695 4490 2    50   Input ~ 0
+sw27c
+Text GLabel 8685 4290 2    50   Input ~ 0
+sw27r
+Text GLabel 8695 3645 2    50   Input ~ 0
+sw20r
+Text GLabel 8705 3845 2    50   Input ~ 0
+sw20c
+Wire Wire Line
+	8545 3645 8695 3645
+Wire Wire Line
+	8545 3845 8705 3845
+Wire Wire Line
+	8545 4290 8685 4290
+Wire Wire Line
+	8545 4490 8695 4490
+Wire Wire Line
+	8550 5145 8690 5145
+Wire Wire Line
+	8550 4945 8690 4945
+$Comp
+L Device:D_Small D28
+U 1 1 5DAD7ECF
+P 5945 2590
+F 0 "D28" V 5945 2522 50  0000 R CNN
+F 1 "1N4148" V 5900 2522 50  0001 R CNN
+F 2 "used_footprints:D3_TH_SMD" V 5945 2590 50  0001 C CNN
+F 3 "~" V 5945 2590 50  0001 C CNN
+	1    5945 2590
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4145 2690 5945 2690
+Wire Wire Line
+	5945 2690 6545 2690
+Connection ~ 5945 2690
+Wire Wire Line
+	5860 2490 5945 2490
+Connection ~ 5945 2490
+Wire Wire Line
+	7790 2090 7790 1935
+Wire Wire Line
+	7790 1935 8400 1935
+Connection ~ 7790 2090
+Wire Wire Line
+	7790 1690 7790 1445
+Wire Wire Line
+	7790 1445 8395 1445
+Connection ~ 7790 1690
 $EndSCHEMATC
