@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 140)
-    (tracks 1918)
+    (drawings 141)
+    (tracks 1920)
     (zones 0)
     (modules 107)
     (nets 69)
@@ -5259,7 +5259,7 @@
   )
 
   (module used_footprints:Switch_Reset_THT (layer F.Cu) (tedit 5E280C26) (tstamp 606F5F99)
-    (at 214.6 58.5 9)
+    (at 214.6 58.65 9)
     (path /5DBF73FF)
     (fp_text reference SW32 (at 0 0.01 9) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5873,6 +5873,7 @@
       (net 26 VCC))
   )
 
+  (gr_line (start 211.220449 57.383395) (end 226.9 54.9) (layer Cmts.User) (width 0.15) (tstamp 60708F5C))
   (gr_line (start 225.791603 42.520448) (end 228.275 58.2) (layer Cmts.User) (width 0.15) (tstamp 606F5F33))
   (gr_line (start 218.116603 43.720448) (end 220.6 59.4) (layer Cmts.User) (width 0.15))
   (gr_line (start 224.85 92.15) (end 171.923705 74.953204) (layer Cmts.User) (width 0.15))
@@ -7551,8 +7552,10 @@
   (segment (start 229.575 61.3) (end 229.575 58.125) (width 0.25) (layer B.Cu) (net 51))
   (segment (start 229.575 58.125) (end 228.725 57.275) (width 0.25) (layer B.Cu) (net 51))
   (segment (start 228.725 57.275) (end 221.45 57.275) (width 0.25) (layer B.Cu) (net 51))
-  (segment (start 220.733412 57.991588) (end 217.809987 57.991588) (width 0.25) (layer B.Cu) (net 51))
-  (segment (start 221.45 57.275) (end 220.733412 57.991588) (width 0.25) (layer B.Cu) (net 51))
+  (segment (start 220.583412 58.141588) (end 221.2625 57.4625) (width 0.25) (layer B.Cu) (net 51))
+  (segment (start 217.809987 58.141588) (end 220.583412 58.141588) (width 0.25) (layer B.Cu) (net 51))
+  (segment (start 221.45 57.275) (end 221.2625 57.4625) (width 0.25) (layer B.Cu) (net 51))
+  (segment (start 221.2625 57.4625) (end 220.733412 57.991588) (width 0.25) (layer B.Cu) (net 51))
   (segment (start 232.775395 62.200324) (end 245.210392 60.230814) (width 0.25) (layer F.Cu) (net 52) (status 10))
   (segment (start 246.578471 61.224781) (end 249.297646 60.794106) (width 0.25) (layer F.Cu) (net 52) (status 20))
   (segment (start 245.210392 60.230814) (end 246.578471 61.224781) (width 0.25) (layer F.Cu) (net 52))
