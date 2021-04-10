@@ -415,20 +415,9 @@ U 1 1 5DAD50DF
 P 4145 2590
 F 0 "D13" V 4145 2522 50  0000 R CNN
 F 1 "1N4148" V 4100 2522 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 4145 2590 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 4145 2590 50  0001 C CNN
 F 3 "~" V 4145 2590 50  0001 C CNN
 	1    4145 2590
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D14
-U 1 1 5DAD50E5
-P 4145 1790
-F 0 "D14" V 4145 1722 50  0000 R CNN
-F 1 "1N4148" V 4100 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 4145 1790 50  0001 C CNN
-F 3 "~" V 4145 1790 50  0001 C CNN
-	1    4145 1790
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -437,7 +426,7 @@ U 1 1 5DAD50EB
 P 4745 1790
 F 0 "D15" V 4745 1722 50  0000 R CNN
 F 1 "1N4148" V 4700 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 4745 1790 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 4745 1790 50  0001 C CNN
 F 3 "~" V 4745 1790 50  0001 C CNN
 	1    4745 1790
 	0    -1   -1   0   
@@ -448,7 +437,7 @@ U 1 1 5DAD50F1
 P 5345 1790
 F 0 "D16" V 5345 1722 50  0000 R CNN
 F 1 "1N4148" V 5300 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 5345 1790 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 5345 1790 50  0001 C CNN
 F 3 "~" V 5345 1790 50  0001 C CNN
 	1    5345 1790
 	0    -1   -1   0   
@@ -459,7 +448,7 @@ U 1 1 5DAD50F7
 P 5945 1790
 F 0 "D17" V 5945 1722 50  0000 R CNN
 F 1 "1N4148" V 5900 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 5945 1790 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 5945 1790 50  0001 C CNN
 F 3 "~" V 5945 1790 50  0001 C CNN
 	1    5945 1790
 	0    -1   -1   0   
@@ -470,7 +459,7 @@ U 1 1 5DAD50FD
 P 6545 1790
 F 0 "D18" V 6545 1722 50  0000 R CNN
 F 1 "1N4148" V 6500 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 6545 1790 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 6545 1790 50  0001 C CNN
 F 3 "~" V 6545 1790 50  0001 C CNN
 	1    6545 1790
 	0    -1   -1   0   
@@ -539,9 +528,6 @@ Wire Wire Line
 Connection ~ 5945 2290
 Wire Wire Line
 	5945 2290 6545 2290
-Connection ~ 4145 1890
-Wire Wire Line
-	4145 1890 4745 1890
 Connection ~ 4745 1890
 Wire Wire Line
 	4745 1890 5345 1890
@@ -1614,7 +1600,7 @@ U 1 1 605152FC
 P 7155 1790
 F 0 "D19" V 7155 1722 50  0000 R CNN
 F 1 "1N4148" V 7110 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 7155 1790 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 7155 1790 50  0001 C CNN
 F 3 "~" V 7155 1790 50  0001 C CNN
 	1    7155 1790
 	0    -1   -1   0   
@@ -1636,7 +1622,7 @@ U 1 1 605336CD
 P 7790 1790
 F 0 "D20" V 7790 1722 50  0000 R CNN
 F 1 "1N4148" V 7745 1722 50  0001 R CNN
-F 2 "used_footprints:D3_TH_SMD" V 7790 1790 50  0001 C CNN
+F 2 "used_footprints:diode_SMD" V 7790 1790 50  0001 C CNN
 F 3 "~" V 7790 1790 50  0001 C CNN
 	1    7790 1790
 	0    -1   -1   0   
@@ -1929,8 +1915,6 @@ Wire Wire Line
 	9150 4490 9820 4490
 Connection ~ 4145 2690
 Wire Wire Line
-	3505 1890 4145 1890
-Wire Wire Line
 	4545 2090 4545 2490
 Connection ~ 4545 2090
 Text GLabel 5860 2490 0    50   Input ~ 0
@@ -2025,4 +2009,20 @@ Wire Wire Line
 	7025 5780 6535 5780
 Connection ~ 7025 5780
 Connection ~ 6535 5780
+Wire Wire Line
+	3505 1890 4145 1890
+Wire Wire Line
+	4145 1890 4745 1890
+Connection ~ 4145 1890
+$Comp
+L Device:D_Small D14
+U 1 1 5DAD50E5
+P 4145 1790
+F 0 "D14" V 4145 1722 50  0000 R CNN
+F 1 "1N4148" V 4100 1722 50  0001 R CNN
+F 2 "used_footprints:diode_SMD" V 4145 1790 50  0001 C CNN
+F 3 "~" V 4145 1790 50  0001 C CNN
+	1    4145 1790
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
