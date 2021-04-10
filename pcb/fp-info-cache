@@ -1,4 +1,4 @@
-80730437250640
+83966566836640
 used_footprints
 1pin_conn
 Resitance 3 pas
@@ -294,6 +294,13 @@ TopPlateCutout
 4
 0
 used_footprints
+YS-SK6812MINI-E
+
+
+0
+8
+4
+used_footprints
 avalanche_1pin_conn
 Resitance 3 pas
 R
@@ -327,6 +334,13 @@ avalanche_jumper_data
 
 0
 3
+2
+used_footprints
+diode_SMD
+Resitance 3 pas
+R
+0
+4
 2
 used_footprints
 emu-logo
