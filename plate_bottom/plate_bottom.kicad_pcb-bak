@@ -268,7 +268,7 @@
     (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60466FC7) (tstamp 6046AAB5)
+  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60721FC2) (tstamp 6046AAB5)
     (at 95.45 95.6)
     (path /5DC1BC76)
     (fp_text reference HM5 (at 0 2.7) (layer F.SilkS) hide
@@ -277,7 +277,7 @@
     (fp_text value CaseHole (at 0 -2.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 0 0.55) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (gr_line (start 254.95 99.8) (end 254.95 95.65) (layer Dwgs.User) (width 0.15))
@@ -319,9 +319,9 @@
   (gr_line (start 94.600001 83.01) (end 94.600001 84) (layer Edge.Cuts) (width 0.05) (tstamp 6043D55B))
   (gr_line (start 76.55 99.84) (end 76.55 83.01) (layer Edge.Cuts) (width 0.05) (tstamp 6043D55A))
   (gr_arc (start 95.099999 86.99) (end 95.599997 86.99) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 6043D559))
-  (gr_line (start 94.600001 92.589999) (end 94.600001 86.99) (layer Edge.Cuts) (width 0.05) (tstamp 6043D558))
-  (gr_line (start 95.6 86.99) (end 95.599999 92.590001) (layer Edge.Cuts) (width 0.05) (tstamp 6043D557))
-  (gr_arc (start 95.1 92.59) (end 94.600001 92.589999) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 6043D556))
+  (gr_line (start 94.600001 93.449999) (end 94.600001 86.99) (layer Edge.Cuts) (width 0.05) (tstamp 6043D558))
+  (gr_line (start 95.6 86.99) (end 95.599999 93.450001) (layer Edge.Cuts) (width 0.05) (tstamp 6043D557))
+  (gr_arc (start 95.1 93.45) (end 94.600001 93.449999) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 6043D556))
   (gr_arc (start 95.1 84) (end 94.600001 84) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 6043D555))
   (gr_arc (start 93.6 99.84) (end 93.6 100.84) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 6043D554))
   (gr_arc (start 95.1 98.84) (end 95.6 98.85) (angle -182.2915257) (layer Edge.Cuts) (width 0.05) (tstamp 6043D54F))
