@@ -2929,4 +2929,68 @@ Connection ~ 2180 6600
 Wire Wire Line
 	1505 6600 830  6600
 Connection ~ 1505 6600
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP9
+U 1 1 607AF991
+P 2805 4355
+F 0 "JP9" H 2810 4420 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 2805 4449 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 2805 4355 50  0001 C CNN
+F 3 "" H 2805 4355 50  0001 C CNN
+	1    2805 4355
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3480 4685 3480 4355
+Wire Wire Line
+	3480 4355 2905 4355
+Connection ~ 3480 4685
+Wire Wire Line
+	2705 4355 2130 4355
+Wire Wire Line
+	2130 4355 2130 4685
+Connection ~ 2130 4685
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP10
+U 1 1 608B3264
+P 2445 5185
+F 0 "JP10" H 2450 5250 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 2445 5279 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 2445 5185 50  0001 C CNN
+F 3 "" H 2445 5185 50  0001 C CNN
+	1    2445 5185
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3115 5425 3115 5185
+Wire Wire Line
+	3115 5185 2545 5185
+Connection ~ 3115 5425
+Wire Wire Line
+	2345 5185 1640 5185
+Wire Wire Line
+	1640 5185 1640 5280
+Connection ~ 1640 5280
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP11
+U 1 1 6097132B
+P 3485 5965
+F 0 "JP11" H 3490 6030 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 3485 6059 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 3485 5965 50  0001 C CNN
+F 3 "" H 3485 5965 50  0001 C CNN
+	1    3485 5965
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4165 6225 4165 5965
+Wire Wire Line
+	4165 5965 3585 5965
+Connection ~ 4165 6225
+Wire Wire Line
+	3385 5965 2690 5965
+Wire Wire Line
+	2690 5965 2690 6080
+Text Notes 2800 7175 0    50   ~ 0
+TODO: Надо поменять местами L36 и L37
 $EndSCHEMATC
