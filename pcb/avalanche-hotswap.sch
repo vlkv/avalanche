@@ -2986,8 +2986,6 @@ Wire Wire Line
 Connection ~ 4165 6225
 Wire Wire Line
 	3385 5965 2815 5965
-Text Notes 2800 7175 0    50   ~ 0
-TODO: Надо поменять местами L36 и L37
 Wire Wire Line
 	1765 5425 1765 5185
 Connection ~ 1765 5425

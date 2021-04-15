@@ -2967,10 +2967,7 @@ Wire Wire Line
 	3115 5185 2545 5185
 Connection ~ 3115 5425
 Wire Wire Line
-	2345 5185 1640 5185
-Wire Wire Line
-	1640 5185 1640 5280
-Connection ~ 1640 5280
+	2345 5185 1765 5185
 $Comp
 L avalanche-hotswap:Device_Jumper_NO_Small JP11
 U 1 1 6097132B
@@ -2988,9 +2985,13 @@ Wire Wire Line
 	4165 5965 3585 5965
 Connection ~ 4165 6225
 Wire Wire Line
-	3385 5965 2690 5965
-Wire Wire Line
-	2690 5965 2690 6080
+	3385 5965 2815 5965
 Text Notes 2800 7175 0    50   ~ 0
 TODO: Надо поменять местами L36 и L37
+Wire Wire Line
+	1765 5425 1765 5185
+Connection ~ 1765 5425
+Wire Wire Line
+	2815 6225 2815 5965
+Connection ~ 2815 6225
 $EndSCHEMATC
