@@ -1147,18 +1147,16 @@ $EndComp
 Wire Wire Line
 	2050 3150 2050 3015
 $Comp
-L avalanche-hotswap:Device_Jumper W1
+L avalanche-hotswap:Device_Jumper_NO_Small W1
 U 1 1 605ADD76
 P 2445 3015
-F 0 "W1" H 2445 2790 50  0000 C CNN
-F 1 "jumper" H 2445 2881 50  0000 C CNN
+F 0 "W1" H 2435 2855 50  0000 C CNN
+F 1 "jumper" H 2440 2925 50  0000 C CNN
 F 2 "used_footprints:avalanche_Jumper" H 2445 3015 50  0001 C CNN
 F 3 "" H 2445 3015 50  0001 C CNN
 	1    2445 3015
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2145 3015 2050 3015
 Connection ~ 2050 3015
 Text GLabel 2745 3015 2    50   Input ~ 0
 DATA
@@ -2992,4 +2990,8 @@ Connection ~ 1765 5425
 Wire Wire Line
 	2815 6225 2815 5965
 Connection ~ 2815 6225
+Wire Wire Line
+	2545 3015 2745 3015
+Wire Wire Line
+	2050 3015 2345 3015
 $EndSCHEMATC
