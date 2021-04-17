@@ -2935,7 +2935,7 @@ U 1 1 607AF991
 P 2805 4355
 F 0 "JP9" H 2810 4420 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 2805 4449 50  0001 C CNN
-F 2 "used_footprints:avalanche_Jumper" H 2805 4355 50  0001 C CNN
+F 2 "used_footprints:Jumper_rev" H 2805 4355 50  0001 C CNN
 F 3 "" H 2805 4355 50  0001 C CNN
 	1    2805 4355
 	1    0    0    -1  
@@ -2956,7 +2956,7 @@ U 1 1 608B3264
 P 2445 5185
 F 0 "JP10" H 2450 5250 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 2445 5279 50  0001 C CNN
-F 2 "used_footprints:avalanche_Jumper" H 2445 5185 50  0001 C CNN
+F 2 "used_footprints:Jumper_rev" H 2445 5185 50  0001 C CNN
 F 3 "" H 2445 5185 50  0001 C CNN
 	1    2445 5185
 	1    0    0    -1  
@@ -2974,7 +2974,7 @@ U 1 1 6097132B
 P 3485 5965
 F 0 "JP11" H 3490 6030 50  0000 C CNN
 F 1 "Device_Jumper_NO_Small" H 3485 6059 50  0001 C CNN
-F 2 "used_footprints:avalanche_Jumper" H 3485 5965 50  0001 C CNN
+F 2 "used_footprints:Jumper_rev" H 3485 5965 50  0001 C CNN
 F 3 "" H 3485 5965 50  0001 C CNN
 	1    3485 5965
 	1    0    0    -1  

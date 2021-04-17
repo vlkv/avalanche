@@ -1,4 +1,4 @@
-19124529345109634
+19114848961157634
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83069,18 +83069,11 @@ JST_THT_2.0
 2
 2
 used_footprints
-Jumper
+Jumper_rev
 
 
 0
-2
-2
-used_footprints
-Jumper_SMD
-
-
-0
-2
+4
 2
 used_footprints
 LED
@@ -83139,47 +83132,12 @@ rotary encoder
 7
 6
 used_footprints
-SK6812MINI
-
-
-0
-8
-4
-used_footprints
-SK6812MINI_rev
-
-
-0
-8
-4
-used_footprints
-SK6812MINI_underglow_rev
-
-
-0
-8
-4
-used_footprints
-Silk_Cover
-
-
-0
-0
-0
-used_footprints
 Switch_Reset_THT
 
 
 0
 2
 2
-used_footprints
-TRSS_DUAL_THT
-
-
-0
-6
-4
 used_footprints
 YS-SK6812MINI-E
 
