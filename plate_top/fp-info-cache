@@ -1,4 +1,4 @@
-19156789566219634
+19145509811914634
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83034,26 +83034,12 @@ R
 1
 1
 used_footprints
-ArduinoProMicro
+CherryMX_Hole_for_layout_tester
 
 
 0
-24
-24
-used_footprints
-ArduinoProMicro_dual
-
-
 0
-120
-24
-used_footprints
-CherryMX_MidHeight_Hotswap_1.5u
-
-
 0
-4
-2
 used_footprints
 CherryMX_MidHeight_Hotswap_1.25u
 
@@ -83146,6 +83132,13 @@ LED_THT
 2
 2
 used_footprints
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+8
+4
+used_footprints
 M2_HOLE_PCB
 
 
@@ -83174,13 +83167,6 @@ CONN DEV
 4
 4
 used_footprints
-ProMicro_Dual
-
-
-0
-48
-24
-used_footprints
 ProMicro_rev2
 
 
@@ -83188,33 +83174,19 @@ ProMicro_rev2
 48
 24
 used_footprints
-Pro_Micro
-
-
-0
-24
-24
-used_footprints
-RESISTOR_mini
-Resitance 3 pas
-R
-0
-2
-2
-used_footprints
 Resistor_Hybrid_1205
 
 
 0
-10
+8
 2
 used_footprints
-Resistor_SMD_1206
-
-
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
 0
+7
 6
-2
 used_footprints
 SK6812MINI
 
@@ -83300,12 +83272,12 @@ TopPlateCutout
 4
 0
 used_footprints
-avalanche_1pin_conn
-Resitance 3 pas
-R
+YS-SK6812MINI-E
+
+
 0
-1
-1
+8
+4
 used_footprints
 avalanche_Jumper
 
@@ -83314,33 +83286,12 @@ avalanche_Jumper
 2
 2
 used_footprints
-avalanche_LED
-
-
-0
-3
-3
-used_footprints
-avalanche_OLED_4Pin
-Connecteur 6 pins
-CONN DEV
+diode_SMD
+Resitance 3 pas
+R
 0
 4
-4
-used_footprints
-avalanche_jumper_data
-
-
-0
-3
 2
-used_footprints
-emu-logo
-
-
-0
-0
-0
 used_footprints
 jumper_data
 

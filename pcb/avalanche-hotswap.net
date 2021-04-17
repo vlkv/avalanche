@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/vitvlkv/avalanche/pcb/avalanche-hotswap.sch)
-    (date "Чт 15 апр 2021 23:21:39")
+    (date "Сб 17 апр 2021 13:01:08")
     (tool "Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
