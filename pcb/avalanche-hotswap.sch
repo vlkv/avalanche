@@ -305,7 +305,7 @@ U 1 1 5DACCFB7
 P 4145 990
 F 0 "D1" V 4145 922 50  0000 R CNN
 F 1 "1N4148" V 4100 922 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4145 990 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4145 990 50  0001 C CNN
 F 3 "~" V 4145 990 50  0001 C CNN
 	1    4145 990 
 	0    -1   -1   0   
@@ -316,7 +316,7 @@ U 1 1 5DACDB06
 P 4745 990
 F 0 "D2" V 4745 922 50  0000 R CNN
 F 1 "1N4148" V 4700 922 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4745 990 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4745 990 50  0001 C CNN
 F 3 "~" V 4745 990 50  0001 C CNN
 	1    4745 990 
 	0    -1   -1   0   
@@ -327,7 +327,7 @@ U 1 1 5DACE326
 P 5345 990
 F 0 "D3" V 5345 922 50  0000 R CNN
 F 1 "1N4148" V 5300 922 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5345 990 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5345 990 50  0001 C CNN
 F 3 "~" V 5345 990 50  0001 C CNN
 	1    5345 990 
 	0    -1   -1   0   
@@ -338,7 +338,7 @@ U 1 1 5DACF0C2
 P 5945 990
 F 0 "D4" V 5945 922 50  0000 R CNN
 F 1 "1N4148" V 5900 922 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5945 990 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5945 990 50  0001 C CNN
 F 3 "~" V 5945 990 50  0001 C CNN
 	1    5945 990 
 	0    -1   -1   0   
@@ -349,7 +349,7 @@ U 1 1 5DACF9C3
 P 6545 990
 F 0 "D5" V 6545 922 50  0000 R CNN
 F 1 "1N4148" V 6500 922 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 6545 990 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 6545 990 50  0001 C CNN
 F 3 "~" V 6545 990 50  0001 C CNN
 	1    6545 990 
 	0    -1   -1   0   
@@ -360,7 +360,7 @@ U 1 1 5DAD32B0
 P 4145 1390
 F 0 "D7" V 4145 1322 50  0000 R CNN
 F 1 "1N4148" V 4100 1322 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4145 1390 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4145 1390 50  0001 C CNN
 F 3 "~" V 4145 1390 50  0001 C CNN
 	1    4145 1390
 	0    -1   -1   0   
@@ -371,7 +371,7 @@ U 1 1 5DAD32B6
 P 4745 1390
 F 0 "D8" V 4745 1322 50  0000 R CNN
 F 1 "1N4148" V 4700 1322 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4745 1390 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4745 1390 50  0001 C CNN
 F 3 "~" V 4745 1390 50  0001 C CNN
 	1    4745 1390
 	0    -1   -1   0   
@@ -382,7 +382,7 @@ U 1 1 5DAD32BC
 P 5345 1390
 F 0 "D9" V 5345 1322 50  0000 R CNN
 F 1 "1N4148" V 5300 1322 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5345 1390 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5345 1390 50  0001 C CNN
 F 3 "~" V 5345 1390 50  0001 C CNN
 	1    5345 1390
 	0    -1   -1   0   
@@ -393,7 +393,7 @@ U 1 1 5DAD32C2
 P 5945 1390
 F 0 "D10" V 5945 1322 50  0000 R CNN
 F 1 "1N4148" V 5900 1322 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5945 1390 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5945 1390 50  0001 C CNN
 F 3 "~" V 5945 1390 50  0001 C CNN
 	1    5945 1390
 	0    -1   -1   0   
@@ -404,7 +404,7 @@ U 1 1 5DAD32C8
 P 6545 1390
 F 0 "D11" V 6545 1322 50  0000 R CNN
 F 1 "1N4148" V 6500 1322 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 6545 1390 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 6545 1390 50  0001 C CNN
 F 3 "~" V 6545 1390 50  0001 C CNN
 	1    6545 1390
 	0    -1   -1   0   
@@ -415,7 +415,7 @@ U 1 1 5DAD50DF
 P 4145 2590
 F 0 "D13" V 4145 2522 50  0000 R CNN
 F 1 "1N4148" V 4100 2522 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4145 2590 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4145 2590 50  0001 C CNN
 F 3 "~" V 4145 2590 50  0001 C CNN
 	1    4145 2590
 	0    -1   -1   0   
@@ -426,7 +426,7 @@ U 1 1 5DAD50EB
 P 4745 1790
 F 0 "D15" V 4745 1722 50  0000 R CNN
 F 1 "1N4148" V 4700 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4745 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4745 1790 50  0001 C CNN
 F 3 "~" V 4745 1790 50  0001 C CNN
 	1    4745 1790
 	0    -1   -1   0   
@@ -437,7 +437,7 @@ U 1 1 5DAD50F1
 P 5345 1790
 F 0 "D16" V 5345 1722 50  0000 R CNN
 F 1 "1N4148" V 5300 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5345 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5345 1790 50  0001 C CNN
 F 3 "~" V 5345 1790 50  0001 C CNN
 	1    5345 1790
 	0    -1   -1   0   
@@ -448,7 +448,7 @@ U 1 1 5DAD50F7
 P 5945 1790
 F 0 "D17" V 5945 1722 50  0000 R CNN
 F 1 "1N4148" V 5900 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5945 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5945 1790 50  0001 C CNN
 F 3 "~" V 5945 1790 50  0001 C CNN
 	1    5945 1790
 	0    -1   -1   0   
@@ -459,7 +459,7 @@ U 1 1 5DAD50FD
 P 6545 1790
 F 0 "D18" V 6545 1722 50  0000 R CNN
 F 1 "1N4148" V 6500 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 6545 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 6545 1790 50  0001 C CNN
 F 3 "~" V 6545 1790 50  0001 C CNN
 	1    6545 1790
 	0    -1   -1   0   
@@ -470,7 +470,7 @@ U 1 1 5DAD62DA
 P 4745 2190
 F 0 "D22" V 4745 2122 50  0000 R CNN
 F 1 "1N4148" V 4700 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4745 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4745 2190 50  0001 C CNN
 F 3 "~" V 4745 2190 50  0001 C CNN
 	1    4745 2190
 	0    -1   -1   0   
@@ -481,7 +481,7 @@ U 1 1 5DAD62E0
 P 5345 2190
 F 0 "D23" V 5345 2122 50  0000 R CNN
 F 1 "1N4148" V 5300 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5345 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5345 2190 50  0001 C CNN
 F 3 "~" V 5345 2190 50  0001 C CNN
 	1    5345 2190
 	0    -1   -1   0   
@@ -492,7 +492,7 @@ U 1 1 5DAD62E6
 P 5945 2190
 F 0 "D24" V 5945 2122 50  0000 R CNN
 F 1 "1N4148" V 5900 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5945 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5945 2190 50  0001 C CNN
 F 3 "~" V 5945 2190 50  0001 C CNN
 	1    5945 2190
 	0    -1   -1   0   
@@ -503,7 +503,7 @@ U 1 1 5DAD62EC
 P 6545 2190
 F 0 "D25" V 6545 2122 50  0000 R CNN
 F 1 "1N4148" V 6500 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 6545 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 6545 2190 50  0001 C CNN
 F 3 "~" V 6545 2190 50  0001 C CNN
 	1    6545 2190
 	0    -1   -1   0   
@@ -514,7 +514,7 @@ U 1 1 5DAD7ED5
 P 6545 2590
 F 0 "D29" V 6545 2522 50  0000 R CNN
 F 1 "1N4148" V 6500 2522 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 6545 2590 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 6545 2590 50  0001 C CNN
 F 3 "~" V 6545 2590 50  0001 C CNN
 	1    6545 2590
 	0    -1   -1   0   
@@ -792,7 +792,7 @@ U 1 1 5DAD62D4
 P 4145 2190
 F 0 "D21" V 4145 2122 50  0000 R CNN
 F 1 "1N4148" V 4100 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4145 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4145 2190 50  0001 C CNN
 F 3 "~" V 4145 2190 50  0001 C CNN
 	1    4145 2190
 	0    -1   -1   0   
@@ -1525,7 +1525,7 @@ U 1 1 604A6088
 P 7155 990
 F 0 "D6" V 7155 922 50  0000 R CNN
 F 1 "1N4148" V 7110 922 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7155 990 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7155 990 50  0001 C CNN
 F 3 "~" V 7155 990 50  0001 C CNN
 	1    7155 990 
 	0    -1   -1   0   
@@ -1555,7 +1555,7 @@ U 1 1 604F1BA0
 P 7155 1390
 F 0 "D12" V 7155 1322 50  0000 R CNN
 F 1 "1N4148" V 7110 1322 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7155 1390 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7155 1390 50  0001 C CNN
 F 3 "~" V 7155 1390 50  0001 C CNN
 	1    7155 1390
 	0    -1   -1   0   
@@ -1577,7 +1577,7 @@ U 1 1 605152FC
 P 7155 1790
 F 0 "D19" V 7155 1722 50  0000 R CNN
 F 1 "1N4148" V 7110 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7155 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7155 1790 50  0001 C CNN
 F 3 "~" V 7155 1790 50  0001 C CNN
 	1    7155 1790
 	0    -1   -1   0   
@@ -1599,7 +1599,7 @@ U 1 1 605336CD
 P 7790 1790
 F 0 "D20" V 7790 1722 50  0000 R CNN
 F 1 "1N4148" V 7745 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7790 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7790 1790 50  0001 C CNN
 F 3 "~" V 7790 1790 50  0001 C CNN
 	1    7790 1790
 	0    -1   -1   0   
@@ -1656,7 +1656,7 @@ U 1 1 60606278
 P 7155 2190
 F 0 "D26" V 7155 2122 50  0000 R CNN
 F 1 "1N4148" V 7110 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7155 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7155 2190 50  0001 C CNN
 F 3 "~" V 7155 2190 50  0001 C CNN
 	1    7155 2190
 	0    -1   -1   0   
@@ -1677,7 +1677,7 @@ U 1 1 603D9F74
 P 7155 2590
 F 0 "D30" V 7155 2522 50  0000 R CNN
 F 1 "1N4148" V 7110 2522 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7155 2590 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7155 2590 50  0001 C CNN
 F 3 "~" V 7155 2590 50  0001 C CNN
 	1    7155 2590
 	0    -1   -1   0   
@@ -1701,7 +1701,7 @@ U 1 1 6070B416
 P 7790 2190
 F 0 "D27" V 7790 2122 50  0000 R CNN
 F 1 "1N4148" V 7745 2122 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7790 2190 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7790 2190 50  0001 C CNN
 F 3 "~" V 7790 2190 50  0001 C CNN
 	1    7790 2190
 	0    -1   -1   0   
@@ -1729,7 +1729,7 @@ U 1 1 60748C27
 P 7790 2590
 F 0 "D31" V 7790 2522 50  0000 R CNN
 F 1 "1N4148" V 7745 2522 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 7790 2590 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 7790 2590 50  0001 C CNN
 F 3 "~" V 7790 2590 50  0001 C CNN
 	1    7790 2590
 	0    -1   -1   0   
@@ -1937,7 +1937,7 @@ U 1 1 5DAD7ECF
 P 5945 2590
 F 0 "D28" V 5945 2522 50  0000 R CNN
 F 1 "1N4148" V 5900 2522 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 5945 2590 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 5945 2590 50  0001 C CNN
 F 3 "~" V 5945 2590 50  0001 C CNN
 	1    5945 2590
 	0    -1   -1   0   
@@ -1988,7 +1988,7 @@ U 1 1 5DAD50E5
 P 4145 1790
 F 0 "D14" V 4145 1722 50  0000 R CNN
 F 1 "1N4148" V 4100 1722 50  0001 R CNN
-F 2 "used_footprints:diode_SMD" V 4145 1790 50  0001 C CNN
+F 2 "used_footprints:diode_TH_SMD" V 4145 1790 50  0001 C CNN
 F 3 "~" V 4145 1790 50  0001 C CNN
 	1    4145 1790
 	0    -1   -1   0   
