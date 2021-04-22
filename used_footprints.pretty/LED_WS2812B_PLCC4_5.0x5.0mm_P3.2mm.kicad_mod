@@ -1,4 +1,4 @@
-(module LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 607AD7C8)
+(module LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 6081C654)
   (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
   (tags "LED RGB NeoPixel")
   (attr smd)
