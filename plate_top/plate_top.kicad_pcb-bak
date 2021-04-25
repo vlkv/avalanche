@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 134)
+    (drawings 132)
     (tracks 0)
     (zones 0)
-    (modules 35)
+    (modules 34)
     (nets 1)
   )
 
@@ -98,25 +98,6 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-  )
-
-  (module used_footprints:Switch_Reset_THT (layer F.Cu) (tedit 5E280C26) (tstamp 608613EF)
-    (at 228.1 75.6 99)
-    (path /5DBF73FF)
-    (fp_text reference SW32 (at 0 0.01 99) (layer Dwgs.User) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value SW_Push (at -0.02 -2.73 99) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -3 1.75) (end 3 1.75) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -3 1.75) (end -3 1.5) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -3 -1.75) (end -3 -1.5) (layer Dwgs.User) (width 0.15))
-    (fp_line (start -3 -1.75) (end 3 -1.75) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3 1.75) (end 3 1.5) (layer Dwgs.User) (width 0.15))
-    (fp_line (start 3 -1.75) (end 3 -1.5) (layer Dwgs.User) (width 0.15))
-    (pad 2 thru_hole circle (at -3.25 0 99) (size 2 2) (drill 1.3) (layers *.Cu *.Mask))
-    (pad 1 thru_hole circle (at 3.25 0 99) (size 2 2) (drill 1.3) (layers *.Cu *.Mask))
   )
 
   (module used_footprints:metallized_breakout_cutout (layer F.Cu) (tedit 6046921D) (tstamp 6085F3A3)
@@ -1957,10 +1938,9 @@
 
   (gr_arc (start 250.180613 105.189805) (end 251.05 105.68) (angle -93.90541746) (layer Edge.Cuts) (width 0.05) (tstamp 6085D46C))
   (gr_line (start 235.38 96.53) (end 250.610456 104.28905) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 221.831943 70.37174) (end 223.57 81.35) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 219.730203 57.134768) (end 223.57 81.35) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 232.571527 85.359283) (end 233.59 85.21) (angle -66.98409181) (layer Edge.Cuts) (width 0.05) (tstamp 6085D244))
   (gr_line (start 232.832337 84.363517) (end 223.57 81.35) (layer Edge.Cuts) (width 0.05) (tstamp 6085D243))
-  (gr_line (start 219.730203 57.134768) (end 220.508058 62.038259) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 218.69 56.25) (end 208.71 56.25) (layer Edge.Cuts) (width 0.05) (tstamp 608613FA))
   (gr_arc (start 218.732514 57.253873) (end 219.730203 57.134768) (angle -85.61722397) (layer Edge.Cuts) (width 0.05) (tstamp 6085CCFF))
   (gr_line (start 241.105348 94.158467) (end 241.34 95.64) (layer Cmts.User) (width 0.15) (tstamp 6085CBFC))
@@ -1977,7 +1957,6 @@
   (gr_line (start 167.71 131.85) (end 191.77 131.85) (layer Edge.Cuts) (width 0.05) (tstamp 6085F48E))
   (gr_line (start 236.503043 134.070973) (end 226.216802 148.22877) (layer Edge.Cuts) (width 0.05) (tstamp 6085F48D))
   (gr_line (start 233.59 85.21) (end 235.38 96.53) (layer Edge.Cuts) (width 0.05) (tstamp 6085CBF9))
-  (gr_line (start 220.508058 62.038259) (end 221.831943 70.37174) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 251.05 105.68) (end 236.77 133.7) (layer Edge.Cuts) (width 0.05) (tstamp 6085F2F5))
   (gr_line (start 236.503043 134.070973) (end 236.77 133.7) (layer Edge.Cuts) (width 0.05) (tstamp 6085F2F4))
   (dimension 157.500071 (width 0.15) (layer Dwgs.User)
