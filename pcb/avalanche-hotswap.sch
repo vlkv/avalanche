@@ -1253,17 +1253,6 @@ Connection ~ 1240 1190
 Wire Wire Line
 	1560 3015 2050 3015
 $Comp
-L Mechanical:MountingHole H13
-U 1 1 605332C5
-P 10330 690
-F 0 "H13" H 10430 736 50  0000 L CNN
-F 1 "MountingHole" H 10430 645 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 10330 690 50  0001 C CNN
-F 3 "~" H 10330 690 50  0001 C CNN
-	1    10330 690 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H15
 U 1 1 6053584A
 P 10340 915

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/vitvlkv/avalanche/pcb/avalanche-hotswap.sch)
-    (date "Чт 22 апр 2021 22:06:27")
+    (date "Пн 26 апр 2021 00:13:29")
     (tool "Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -506,13 +506,6 @@
       (libsource (lib avalanche-hotswap) (part LED) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 605D77A0))
-    (comp (ref H13)
-      (value MountingHole)
-      (footprint used_footprints:M2_HOLE_PCB)
-      (datasheet ~)
-      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 605332C5))
     (comp (ref H15)
       (value MountingHole)
       (footprint used_footprints:M2_HOLE_PCB)

@@ -2053,8 +2053,6 @@ F 3 "" H 1810 5395 60  0001 C CNN
 	1    1810 5395
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1610 5495 1500 5495
 $Comp
 L avalanche-hotswap:SK6812MINI_LED L28
 U 1 1 614A7669
@@ -2180,7 +2178,7 @@ Wire Wire Line
 	935  6130 870  6130
 Text GLabel 1605 4690 0    50   Input ~ 0
 ledB
-Text GLabel 1610 5295 0    50   Input ~ 0
+Text GLabel 1610 5495 0    50   Input ~ 0
 ledC
 Text GLabel 8085 6130 2    50   Input ~ 0
 ledC
@@ -3014,8 +3012,10 @@ Wire Wire Line
 Wire Wire Line
 	4855 4490 4705 4490
 Wire Wire Line
-	2055 5670 1500 5670
+	2245 5150 1500 5150
 Wire Wire Line
-	1500 5670 1500 5495
-Connection ~ 2055 5670
+	1500 5150 1500 5295
+Wire Wire Line
+	1500 5295 1610 5295
+Connection ~ 2245 5150
 $EndSCHEMATC
