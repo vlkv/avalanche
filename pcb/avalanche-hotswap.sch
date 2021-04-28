@@ -283,7 +283,7 @@ U 1 1 5DAC93EC
 P 6145 2490
 F 0 "SW28" H 6145 2645 50  0000 C CNN
 F 1 "SW_Push" H 6145 2684 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1.25u" H 6145 2690 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 6145 2690 50  0001 C CNN
 F 3 "~" H 6145 2690 50  0001 C CNN
 	1    6145 2490
 	1    0    0    -1  
@@ -294,7 +294,7 @@ U 1 1 5DAC93F2
 P 6745 2490
 F 0 "SW29" H 6745 2645 50  0000 C CNN
 F 1 "SW_Push" H 6745 2684 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1.25u" H 6745 2690 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 6745 2690 50  0001 C CNN
 F 3 "~" H 6745 2690 50  0001 C CNN
 	1    6745 2490
 	1    0    0    -1  
@@ -1160,41 +1160,6 @@ $EndComp
 Connection ~ 2050 3015
 Text GLabel 2745 3015 2    50   Input ~ 0
 DATA
-$Comp
-L avalanche-hotswap:LED J2
-U 1 1 605D77A0
-P 8620 3695
-F 0 "J2" H 8620 3905 50  0000 C CNN
-F 1 "LED" H 8620 3490 50  0000 C CNN
-F 2 "used_footprints:LED" H 8620 3695 50  0001 C CNN
-F 3 "" H 8620 3695 50  0001 C CNN
-	1    8620 3695
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0105
-U 1 1 605DF8D6
-P 8820 3595
-F 0 "#PWR0105" H 8820 3445 50  0001 C CNN
-F 1 "VCC" H 8860 3690 50  0000 L CNN
-F 2 "" H 8820 3595 50  0001 C CNN
-F 3 "" H 8820 3595 50  0001 C CNN
-	1    8820 3595
-	1    0    0    -1  
-$EndComp
-Text GLabel 8820 3695 2    50   Input ~ 0
-LED
-$Comp
-L power:GND #PWR0106
-U 1 1 605E60EC
-P 8820 3795
-F 0 "#PWR0106" H 8820 3545 50  0001 C CNN
-F 1 "GND" H 8985 3670 50  0000 R CNN
-F 2 "" H 8820 3795 50  0001 C CNN
-F 3 "" H 8820 3795 50  0001 C CNN
-	1    8820 3795
-	1    0    0    -1  
-$EndComp
 Text GLabel 2585 1140 2    50   Input ~ 0
 RST
 Text GLabel 9155 2340 0    50   Input ~ 0
