@@ -179,10 +179,10 @@ F 3 "~" H 6745 1490 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW13
+L Switch:SW_Push SW14
 U 1 1 5DAC0C7B
 P 4345 2490
-F 0 "SW13" H 4345 2645 50  0000 C CNN
+F 0 "SW14" H 4345 2645 50  0000 C CNN
 F 1 "SW_Push" H 4345 2684 50  0001 C CNN
 F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 4345 2690 50  0001 C CNN
 F 3 "~" H 4345 2690 50  0001 C CNN
@@ -190,10 +190,10 @@ F 3 "~" H 4345 2690 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW14
+L Switch:SW_Push SW13
 U 1 1 5DAC0C81
 P 4345 1690
-F 0 "SW14" H 4345 1845 50  0000 C CNN
+F 0 "SW13" H 4345 1845 50  0000 C CNN
 F 1 "SW_Push" H 4345 1884 50  0001 C CNN
 F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 4345 1890 50  0001 C CNN
 F 3 "~" H 4345 1890 50  0001 C CNN
@@ -2861,10 +2861,10 @@ F 3 "~" H 9410 2540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D31
+L Device:D_Small D32
 U 1 1 609231D8
 P 5345 2590
-F 0 "D31" V 5345 2522 50  0000 R CNN
+F 0 "D32" V 5345 2522 50  0000 R CNN
 F 1 "1N4148" V 5300 2522 50  0001 R CNN
 F 2 "used_footprints:diode_TH_SMD" V 5345 2590 50  0001 C CNN
 F 3 "~" V 5345 2590 50  0001 C CNN
@@ -2872,10 +2872,10 @@ F 3 "~" V 5345 2590 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW31
+L Switch:SW_Push SW32
 U 1 1 609231DE
 P 5545 2490
-F 0 "SW31" H 5545 2645 50  0000 C CNN
+F 0 "SW32" H 5545 2645 50  0000 C CNN
 F 1 "SW_Push" H 5545 2684 50  0001 C CNN
 F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 5545 2690 50  0001 C CNN
 F 3 "~" H 5545 2690 50  0001 C CNN
