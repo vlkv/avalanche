@@ -612,17 +612,6 @@ Connection ~ 6945 890
 Wire Wire Line
 	6945 890  6945 1290
 $Comp
-L Switch:SW_Push SW32
-U 1 1 5DBF73FF
-P 9410 2340
-F 0 "SW32" H 9410 2625 50  0000 C CNN
-F 1 "SW_Push" H 9410 2534 50  0000 C CNN
-F 2 "used_footprints:Switch_Reset_THT" H 9410 2540 50  0001 C CNN
-F 3 "~" H 9410 2540 50  0001 C CNN
-	1    9410 2340
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR08
 U 1 1 5DBF973E
 P 9610 2340
@@ -1704,13 +1693,6 @@ Connection ~ 4145 2690
 Wire Wire Line
 	4545 2090 4545 2490
 Connection ~ 4545 2090
-Text GLabel 5860 2490 0    50   Input ~ 0
-sw28r
-Text GLabel 6345 2780 3    50   Input ~ 0
-sw28c
-Wire Wire Line
-	6345 2490 6345 2780
-Connection ~ 6345 2490
 Text GLabel 8395 1445 2    50   Input ~ 0
 sw20r
 Text GLabel 8390 1690 2    50   Input ~ 0
@@ -1759,13 +1741,8 @@ F 3 "~" V 5945 2590 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4145 2690 5945 2690
-Wire Wire Line
 	5945 2690 6545 2690
 Connection ~ 5945 2690
-Wire Wire Line
-	5860 2490 5945 2490
-Connection ~ 5945 2490
 Wire Wire Line
 	7790 2090 7790 1935
 Wire Wire Line
@@ -2008,17 +1985,6 @@ F 3 "" H 1810 5395 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:SK6812MINI_LED L28
-U 1 1 614A7669
-P 7210 6230
-F 0 "L28" H 7210 6235 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 7210 6033 16  0000 C CNN
-F 2 "used_footprints:YS-SK6812MINI-E" H 7210 6230 60  0001 C CNN
-F 3 "" H 7210 6230 60  0001 C CNN
-	1    7210 6230
-	1    0    0    -1  
-$EndComp
-$Comp
 L avalanche-hotswap:SK6812MINI_LED L29
 U 1 1 614A7684
 P 6535 6230
@@ -2028,28 +1994,6 @@ F 2 "used_footprints:YS-SK6812MINI-E" H 6535 6230 60  0001 C CNN
 F 3 "" H 6535 6230 60  0001 C CNN
 	1    6535 6230
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0114
-U 1 1 614A769D
-P 8430 5985
-F 0 "#PWR0114" H 8430 5835 50  0001 C CNN
-F 1 "VCC" H 8470 6075 50  0000 L CNN
-F 2 "" H 8430 5985 50  0001 C CNN
-F 3 "" H 8430 5985 50  0001 C CNN
-	1    8430 5985
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 614A76A3
-P 8430 6505
-F 0 "#PWR0115" H 8430 6255 50  0001 C CNN
-F 1 "GND" V 8430 6395 50  0000 R CNN
-F 2 "" H 8430 6505 50  0001 C CNN
-F 3 "" H 8430 6505 50  0001 C CNN
-	1    8430 6505
-	-1   0    0    1   
 $EndComp
 $Comp
 L avalanche-hotswap:SK6812MINI_LED L30
@@ -2132,10 +2076,6 @@ Wire Wire Line
 	935  6130 870  6130
 Text GLabel 1605 4690 0    50   Input ~ 0
 ledB
-Text GLabel 1610 5495 0    50   Input ~ 0
-ledC
-Text GLabel 8085 6130 2    50   Input ~ 0
-ledC
 NoConn ~ 880  6330
 $Comp
 L avalanche-hotswap:Device_Jumper_NO_Small JP9
@@ -2523,17 +2463,6 @@ F 3 "" H 7210 5395 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:SK6812MINI_LED L27
-U 1 1 614A766F
-P 7885 6230
-F 0 "L27" H 7895 6235 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 7885 6033 16  0000 C CNN
-F 2 "used_footprints:YS-SK6812MINI-E" H 7885 6230 60  0001 C CNN
-F 3 "" H 7885 6230 60  0001 C CNN
-	1    7885 6230
-	1    0    0    -1  
-$EndComp
-$Comp
 L avalanche-hotswap:SK6812MINI_LED L37
 U 1 1 614E2B97
 P 1135 6230
@@ -2619,8 +2548,6 @@ Wire Wire Line
 Wire Wire Line
 	2055 5495 2055 5670
 Wire Wire Line
-	2055 5670 2730 5670
-Wire Wire Line
 	7010 5295 6970 5295
 Wire Wire Line
 	6970 5295 6970 5150
@@ -2676,33 +2603,14 @@ Wire Wire Line
 Wire Wire Line
 	2245 5150 2920 5150
 Wire Wire Line
-	7685 6130 7645 6130
-Wire Wire Line
-	7645 6130 7645 5985
-Connection ~ 7645 5985
-Wire Wire Line
-	7645 5985 8430 5985
-Wire Wire Line
-	7010 6130 6970 6130
-Wire Wire Line
-	6970 6130 6970 5985
-Connection ~ 6970 5985
-Wire Wire Line
-	6970 5985 7645 5985
-Wire Wire Line
 	6335 6130 6295 6130
 Wire Wire Line
 	6295 6130 6295 5985
-Connection ~ 6295 5985
-Wire Wire Line
-	6295 5985 6970 5985
 Wire Wire Line
 	5660 6130 5620 6130
 Wire Wire Line
 	5620 6130 5620 5985
 Connection ~ 5620 5985
-Wire Wire Line
-	5620 5985 6295 5985
 Wire Wire Line
 	4985 6130 4945 6130
 Wire Wire Line
@@ -2743,33 +2651,14 @@ Wire Wire Line
 Wire Wire Line
 	1570 6130 1570 5985
 Wire Wire Line
-	8085 6330 8130 6330
-Wire Wire Line
-	8130 6330 8130 6505
-Connection ~ 8130 6505
-Wire Wire Line
-	8130 6505 8430 6505
-Wire Wire Line
-	7410 6330 7455 6330
-Wire Wire Line
-	7455 6330 7455 6505
-Connection ~ 7455 6505
-Wire Wire Line
-	7455 6505 8130 6505
-Wire Wire Line
 	6735 6330 6780 6330
 Wire Wire Line
 	6780 6330 6780 6505
-Connection ~ 6780 6505
-Wire Wire Line
-	6780 6505 7455 6505
 Wire Wire Line
 	6060 6330 6105 6330
 Wire Wire Line
 	6105 6330 6105 6505
 Connection ~ 6105 6505
-Wire Wire Line
-	6105 6505 6780 6505
 Wire Wire Line
 	5385 6330 5430 6330
 Wire Wire Line
@@ -2869,18 +2758,6 @@ Wire Wire Line
 Wire Wire Line
 	2145 5495 2145 5295
 Wire Wire Line
-	7685 6330 7545 6330
-Wire Wire Line
-	7545 6330 7545 6130
-Wire Wire Line
-	7545 6130 7410 6130
-Wire Wire Line
-	7010 6330 6870 6330
-Wire Wire Line
-	6870 6330 6870 6130
-Wire Wire Line
-	6870 6130 6735 6130
-Wire Wire Line
 	6335 6330 6195 6330
 Wire Wire Line
 	6195 6330 6195 6130
@@ -2966,10 +2843,194 @@ Wire Wire Line
 Wire Wire Line
 	4855 4490 4705 4490
 Wire Wire Line
+	1500 5295 1610 5295
+Connection ~ 2245 5150
+Wire Wire Line
+	2055 5670 2730 5670
+Text GLabel 1610 5495 0    50   Input ~ 0
+ledC
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5DBF73FF
+P 9410 2340
+F 0 "SW33" H 9410 2625 50  0000 C CNN
+F 1 "SW_Push" H 9410 2534 50  0000 C CNN
+F 2 "used_footprints:Switch_Reset_THT" H 9410 2540 50  0001 C CNN
+F 3 "~" H 9410 2540 50  0001 C CNN
+	1    9410 2340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 609231D8
+P 5345 2590
+F 0 "D32" V 5345 2522 50  0000 R CNN
+F 1 "1N4148" V 5300 2522 50  0001 R CNN
+F 2 "used_footprints:diode_TH_SMD" V 5345 2590 50  0001 C CNN
+F 3 "~" V 5345 2590 50  0001 C CNN
+	1    5345 2590
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 609231DE
+P 5545 2490
+F 0 "SW32" H 5545 2645 50  0000 C CNN
+F 1 "SW_Push" H 5545 2684 50  0001 C CNN
+F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 5545 2690 50  0001 C CNN
+F 3 "~" H 5545 2690 50  0001 C CNN
+	1    5545 2490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4145 2690 5345 2690
+Wire Wire Line
+	5345 2690 5945 2690
+Connection ~ 5345 2690
+Connection ~ 5745 2090
+Wire Wire Line
+	5200 2490 5345 2490
+Connection ~ 5345 2490
+Text GLabel 5200 2770 3    50   Input ~ 0
+sw28r
+Wire Wire Line
+	5200 2490 5200 2770
+Wire Wire Line
 	2245 5150 1500 5150
 Wire Wire Line
 	1500 5150 1500 5295
+Text GLabel 5745 2790 3    50   Input ~ 0
+sw28c
 Wire Wire Line
-	1500 5295 1610 5295
-Connection ~ 2245 5150
+	5745 2090 5745 2490
+Wire Wire Line
+	5745 2490 5745 2790
+Connection ~ 5745 2490
+Wire Wire Line
+	6105 6505 6780 6505
+Wire Wire Line
+	5620 5985 6295 5985
+Wire Wire Line
+	6970 5985 7645 5985
+Wire Wire Line
+	6870 6130 6735 6130
+Wire Wire Line
+	6870 6330 6870 6130
+Wire Wire Line
+	7010 6330 6870 6330
+Wire Wire Line
+	7455 6330 7455 6505
+Wire Wire Line
+	7410 6330 7455 6330
+Connection ~ 6970 5985
+Wire Wire Line
+	6970 6130 6970 5985
+Wire Wire Line
+	7010 6130 6970 6130
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L38
+U 1 1 60FC11F2
+P 7210 6230
+F 0 "L38" H 7210 6235 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 7210 6033 16  0000 C CNN
+F 2 "used_footprints:YS-SK6812MINI-E" H 7210 6230 60  0001 C CNN
+F 3 "" H 7210 6230 60  0001 C CNN
+	1    7210 6230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7545 6130 7410 6130
+Wire Wire Line
+	7545 6330 7545 6130
+Wire Wire Line
+	7685 6330 7545 6330
+Wire Wire Line
+	8220 6130 8085 6130
+Wire Wire Line
+	8220 6330 8220 6130
+Wire Wire Line
+	8360 6330 8220 6330
+Wire Wire Line
+	8130 6505 8805 6505
+Connection ~ 8130 6505
+Wire Wire Line
+	8130 6330 8130 6505
+Wire Wire Line
+	8085 6330 8130 6330
+Wire Wire Line
+	8805 6505 9105 6505
+Connection ~ 8805 6505
+Wire Wire Line
+	8805 6330 8805 6505
+Wire Wire Line
+	8760 6330 8805 6330
+Wire Wire Line
+	7645 5985 8320 5985
+Connection ~ 7645 5985
+Wire Wire Line
+	7645 6130 7645 5985
+Wire Wire Line
+	7685 6130 7645 6130
+Wire Wire Line
+	8320 5985 9105 5985
+Connection ~ 8320 5985
+Wire Wire Line
+	8320 6130 8320 5985
+Wire Wire Line
+	8360 6130 8320 6130
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L27
+U 1 1 614A766F
+P 8560 6230
+F 0 "L27" H 8570 6235 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 8560 6033 16  0000 C CNN
+F 2 "used_footprints:YS-SK6812MINI-E" H 8560 6230 60  0001 C CNN
+F 3 "" H 8560 6230 60  0001 C CNN
+	1    8560 6230
+	1    0    0    -1  
+$EndComp
+Text GLabel 8760 6130 2    50   Input ~ 0
+ledC
+$Comp
+L power:GND #PWR0115
+U 1 1 614A76A3
+P 9105 6505
+F 0 "#PWR0115" H 9105 6255 50  0001 C CNN
+F 1 "GND" V 9105 6395 50  0000 R CNN
+F 2 "" H 9105 6505 50  0001 C CNN
+F 3 "" H 9105 6505 50  0001 C CNN
+	1    9105 6505
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 614A769D
+P 9105 5985
+F 0 "#PWR0114" H 9105 5835 50  0001 C CNN
+F 1 "VCC" H 9145 6075 50  0000 L CNN
+F 2 "" H 9105 5985 50  0001 C CNN
+F 3 "" H 9105 5985 50  0001 C CNN
+	1    9105 5985
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:SK6812MINI_LED L28
+U 1 1 614A7669
+P 7885 6230
+F 0 "L28" H 7885 6235 51  0000 C CNN
+F 1 "SK6812MINI_LED" H 7885 6033 16  0000 C CNN
+F 2 "used_footprints:YS-SK6812MINI-E" H 7885 6230 60  0001 C CNN
+F 3 "" H 7885 6230 60  0001 C CNN
+	1    7885 6230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6295 5985 6970 5985
+Connection ~ 6295 5985
+Wire Wire Line
+	6780 6505 7455 6505
+Connection ~ 6780 6505
+Connection ~ 7455 6505
+Wire Wire Line
+	7455 6505 8130 6505
 $EndSCHEMATC
