@@ -1694,29 +1694,29 @@ Wire Wire Line
 	4545 2090 4545 2490
 Connection ~ 4545 2090
 Text GLabel 8395 1445 2    50   Input ~ 0
-sw20r
+sw19r
 Text GLabel 8390 1690 2    50   Input ~ 0
-sw20c
+sw19c
 Wire Wire Line
 	8190 1690 8390 1690
 Text GLabel 8390 2090 2    50   Input ~ 0
-sw27c
+sw26c
 Wire Wire Line
 	8190 2090 8390 2090
 Text GLabel 8400 1935 2    50   Input ~ 0
-sw27r
+sw26r
 Text GLabel 10665 4105 2    50   Input ~ 0
 sw28r
 Text GLabel 10665 4305 2    50   Input ~ 0
 sw28c
 Text GLabel 10670 3650 2    50   Input ~ 0
-sw27c
+sw26c
 Text GLabel 10660 3450 2    50   Input ~ 0
-sw27r
+sw26r
 Text GLabel 10670 2805 2    50   Input ~ 0
-sw20r
+sw19r
 Text GLabel 10680 3005 2    50   Input ~ 0
-sw20c
+sw19c
 Wire Wire Line
 	10520 2805 10670 2805
 Wire Wire Line
@@ -3033,4 +3033,15 @@ Connection ~ 6780 6505
 Connection ~ 7455 6505
 Wire Wire Line
 	7455 6505 8130 6505
+$Comp
+L Mechanical:MountingHole HM13
+U 1 1 608FDE4C
+P 10350 675
+F 0 "HM13" H 10450 721 50  0000 L CNN
+F 1 "CaseHole" H 10450 630 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 10350 675 50  0001 C CNN
+F 3 "~" H 10350 675 50  0001 C CNN
+	1    10350 675 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
