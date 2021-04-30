@@ -1209,12 +1209,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H15
 U 1 1 6053584A
-P 10340 915
-F 0 "H15" H 10440 961 50  0000 L CNN
-F 1 "MountingHole" H 10440 870 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 10340 915 50  0001 C CNN
-F 3 "~" H 10340 915 50  0001 C CNN
-	1    10340 915 
+P 10325 1120
+F 0 "H15" H 10425 1166 50  0000 L CNN
+F 1 "MountingHole" H 10425 1075 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 10325 1120 50  0001 C CNN
+F 3 "~" H 10325 1120 50  0001 C CNN
+	1    10325 1120
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1316,12 +1316,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H16
 U 1 1 6044455C
-P 10360 1155
-F 0 "H16" H 10460 1201 50  0000 L CNN
-F 1 "MountingHole" H 10460 1110 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 10360 1155 50  0001 C CNN
-F 3 "~" H 10360 1155 50  0001 C CNN
-	1    10360 1155
+P 10345 1360
+F 0 "H16" H 10445 1406 50  0000 L CNN
+F 1 "MountingHole" H 10445 1315 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 10345 1360 50  0001 C CNN
+F 3 "~" H 10345 1360 50  0001 C CNN
+	1    10345 1360
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3042,6 +3042,17 @@ F 1 "CaseHole" H 10450 630 50  0000 L CNN
 F 2 "used_footprints:M2_HOLE_PCB" H 10350 675 50  0001 C CNN
 F 3 "~" H 10350 675 50  0001 C CNN
 	1    10350 675 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole HM14
+U 1 1 6094ED54
+P 10350 895
+F 0 "HM14" H 10450 941 50  0000 L CNN
+F 1 "CaseHole" H 10450 850 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 10350 895 50  0001 C CNN
+F 3 "~" H 10350 895 50  0001 C CNN
+	1    10350 895 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

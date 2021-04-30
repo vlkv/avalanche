@@ -1706,17 +1706,17 @@ Wire Wire Line
 Text GLabel 8400 1935 2    50   Input ~ 0
 sw26r
 Text GLabel 10665 4105 2    50   Input ~ 0
-sw26r
-Text GLabel 10665 4305 2    50   Input ~ 0
-sw26c
-Text GLabel 10670 3650 2    50   Input ~ 0
-sw19c
-Text GLabel 10660 3450 2    50   Input ~ 0
-sw19r
-Text GLabel 10670 2805 2    50   Input ~ 0
 sw28r
-Text GLabel 10680 3005 2    50   Input ~ 0
+Text GLabel 10665 4305 2    50   Input ~ 0
 sw28c
+Text GLabel 10670 3650 2    50   Input ~ 0
+sw26c
+Text GLabel 10660 3450 2    50   Input ~ 0
+sw26r
+Text GLabel 10670 2805 2    50   Input ~ 0
+sw19r
+Text GLabel 10680 3005 2    50   Input ~ 0
+sw19c
 Wire Wire Line
 	10520 2805 10670 2805
 Wire Wire Line

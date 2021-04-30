@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/vitvlkv/avalanche/pcb/avalanche-hotswap.sch)
-    (date "Чт 29 апр 2021 21:50:16")
+    (date "Пт 30 апр 2021 10:33:57")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -940,7 +940,14 @@
       (datasheet ~)
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 608FDE4C)))
+      (tstamp 608FDE4C))
+    (comp (ref HM14)
+      (value CaseHole)
+      (footprint used_footprints:M2_HOLE_PCB)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 6094ED54)))
   (libparts
     (libpart (lib Device) (part D_Small)
       (description "Diode, small symbol")
