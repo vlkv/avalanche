@@ -739,24 +739,24 @@ SCL
 Wire Wire Line
 	770  1340 855  1340
 $Comp
-L Device:R_Small R1
+L Device:R_Small R2
 U 1 1 5E5A5774
 P 855 1240
-F 0 "R1" H 900 1285 50  0000 L CNN
+F 0 "R2" H 900 1285 50  0000 L CNN
 F 1 "4.7K" H 900 1195 50  0000 L CNN
-F 2 "used_footprints:RESISTOR_mini" H 855 1240 50  0001 C CNN
+F 2 "used_footprints:Resistor_Hybrid_1205" H 855 1240 50  0001 C CNN
 F 3 "~" H 855 1240 50  0001 C CNN
 	1    855  1240
 	1    0    0    -1  
 $EndComp
 Connection ~ 855  1340
 $Comp
-L Device:R_Small R2
+L Device:R_Small R1
 U 1 1 5E5A67AE
 P 855 1540
-F 0 "R2" H 900 1585 50  0000 L CNN
+F 0 "R1" H 900 1585 50  0000 L CNN
 F 1 "4.7K" H 900 1495 50  0000 L CNN
-F 2 "used_footprints:RESISTOR_mini" H 855 1540 50  0001 C CNN
+F 2 "used_footprints:Resistor_Hybrid_1205" H 855 1540 50  0001 C CNN
 F 3 "~" H 855 1540 50  0001 C CNN
 	1    855  1540
 	1    0    0    -1  
