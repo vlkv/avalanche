@@ -1,4 +1,4 @@
-### Avalanche 2.0 keyboard build instuctions
+# The Avalanche keyboard build instuctions
 
 
 ## Diodes
@@ -34,6 +34,9 @@ keyboard. And this latency difference is noticable (subjectively).
 
 * For Serial you should short circuit the W1 jumper. Modify your qmk firmware to support Serial.
   Use TRS or TRRS cable to connect keyboard halves.
+
+This doc of the [QMK site](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_split_keyboard) has
+additional information.
 
 
 ## Break off the numbers row

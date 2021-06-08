@@ -1,26 +1,40 @@
-# Avalanche keyboard (info and stuff)
+# Avalanche keyboard
 
 Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you break off the 'digits' row) column staggered keys,
 5 thumb keys, 1 key for pinky (break off-able too) and 1 additional key for index finger (62 keys total). QMK firmware for Avalanche is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
 
-Avalanche design was inspired by
-* [Corne](https://github.com/foostan/crkbd) - for arc-shaped thumb cluster.
-* [Jorne](https://github.com/joric/jorne), [Jiran](https://github.com/Ladniy/jiran), [Jian](https://github.com/KGOH/Jian-Info) - for additional key for the pinky.
-* [Lily58](https://github.com/kata0510/Lily58) - for additional key for the index finger.
-* [Kyria](https://github.com/splitkb/kyria) - for additional key for the thumb.
-* [Reviung41](https://github.com/gtips/reviung) - for V shaped general layout.
+Avalanche design was inspired by a number of great keyboards. You may read more about it
+[in my reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
 
-## Images
 
-![Avalanche v1.0 First Build](/images/avalanche_v1-0.jpg)
-![Avalanche PCBs 3D view](/images/avalanche62_PCBs_3d_model.png)
-![Avalanche PCBs 3D view](/images/avalanche50_PCBs_3d_model.png)
-![Avalanche PCBs 3D view](/images/avalanche48_PCBs_3d_model.png)
-![Avalanche PCBs model](/images/avalanche_mockup_03.png)
+![Avalanche v1.0 First Build](/images/avalanche_v2-0.jpg)
+
 
 ## Layout tester
 
-Cut [left half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_left_A4.pdf) and [right half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_right_A4.pdf) from some piece of a cardboard, insert switches, put on the keycaps and try the layout.
+Cut [left half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_left_A4.pdf) and
+[right half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_right_A4.pdf)
+from some piece of a cardboard, insert switches, put on the keycaps and try the layout.
+
+
+## Support the project
+
+I have spend many hours, efforts and money designing and building prototypes of the Avalanche. If you like the board
+and you want to thank the creator you may:
+* Become a patron [at Patreon](https://www.patreon.com/vitvlkv).
+* Donate via PayPal [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=99MYK4CNR8DP2).
+
+
+## Gerber files
+
+* Version 2.0
+  * [PCB](https://github.com/vlkv/avalanche/blob/v2.0/pcb/Gerbers_pcb.zip)
+  * [Top plate](https://github.com/vlkv/avalanche/blob/v2.0/plate_top/Gerbers_plate_top.zip)
+  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.0/plate_bottom/Gerbers_plate_bottom.zip)
+  * TODO: Add ProMicro/OLED cover gerber files...
+
+## Release notes
+Are [here](https://github.com/vlkv/avalanche/blob/master/release_notes.md).
 
 ## Parts list
 
@@ -55,24 +69,24 @@ Optional for I2C connection (instead of serial)
 
 | #  | Name                          | Quantity | Example URL                                           |
 |----|-------------------------------|----------|-------------------------------------------------------|
-| 19 | Resistor 4.7K (through hole)        | 2        | https://aliexpress.ru/item/32882582185.html |
+| 19 | Resistor 4.7K (through hole)  | 2        | https://aliexpress.ru/item/32882582185.html |
 
 Optional
 
 | #  | Name                          | Quantity | Example URL                                           |
 |----|-------------------------------|----------|-------------------------------------------------------|
-| 20 | OLED screen                         | 2        | https://aliexpress.ru/item/32798439084.html |
+| 20 | OLED screen                   | 2        | https://aliexpress.ru/item/32798439084.html           |
 
 ## Build instructions
-Avalanche does not have own bulid instructions yet. But there are a lot of relevant information in:
-* [Joric wiki](https://github.com/joric/jorne/wiki)
+
+Are [here](https://github.com/vlkv/avalanche/blob/master/build_instructions.md). These instructions are very brief
+and insufficient as a detaild build instructions for a beginner. That is why (if you are a beginner) I recommend you
+to also read these resourses:
 * [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
 * [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
+* [Joric wiki](https://github.com/joric/jorne/wiki)
 
-## Serial vs I2C
-I found some info [here](https://github.com/foostan/crkbd/issues/17#issuecomment-523431198). And here on [QMK site](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_split_keyboard). To be short:
-* break DATA jumper(J1)
-* place 4.7k resistors in R1 and R2. This gives us the VCC-SCL and the VCC-SDA connections
-* finally to connect both halves of the keeb, jump the P1-R1(closest hole) and P2-R2(again closest hole)
-* Use TRRS cable (4 wires) and not TRS (3 wires)
-* Modify your QMK firmware to switch on the I2C
+
+## Firmware
+
+Is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
