@@ -4,7 +4,7 @@ The Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you br
 5 thumb keys, 1 additional key for the pinky (break off-able too) and 2 additional keys for the index finger (64 keys total).
 
 Avalanche design was inspired by a number of great keyboards. You may read more about it
-[in my reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
+in my very first [reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
 
 
 ![The Avalanche keyboard](/images/avalanche_v2-0.jpg)
@@ -79,6 +79,7 @@ Optional
 |----|-------------------------------|----------|-------------------------------------------------------|
 | 21 | OLED screen                   | 2        | https://aliexpress.ru/item/32798439084.html           |
 
+
 ## Build instructions
 
 Are [here](https://github.com/vlkv/avalanche/blob/master/build_instructions.md). These instructions are very brief
@@ -88,6 +89,9 @@ to also read these resourses:
 * [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
 * [Joric wiki](https://github.com/joric/jorne/wiki)
 
+
+## Chat group
+There is a [chat group in Telegram](https://t.me/avalanche_kb), where you may chat about the project or ask some questions/help.
 
 ## Firmware
 
