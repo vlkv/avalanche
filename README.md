@@ -1,3 +1,78 @@
-# Avalanche keyboard
+# Avalanche keyboard (info and stuff)
 
-Avalanche keyboard is an ergonomic split keyboard. More info is [here](https://github.com/vlkv/avalanche_info).
+Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you break off the 'digits' row) column staggered keys,
+5 thumb keys, 1 key for pinky (break off-able too) and 1 additional key for index finger (62 keys total). QMK firmware for Avalanche is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
+
+Avalanche design was inspired by
+* [Corne](https://github.com/foostan/crkbd) - for arc-shaped thumb cluster.
+* [Jorne](https://github.com/joric/jorne), [Jiran](https://github.com/Ladniy/jiran), [Jian](https://github.com/KGOH/Jian-Info) - for additional key for the pinky.
+* [Lily58](https://github.com/kata0510/Lily58) - for additional key for the index finger.
+* [Kyria](https://github.com/splitkb/kyria) - for additional key for the thumb.
+* [Reviung41](https://github.com/gtips/reviung) - for V shaped general layout.
+
+## Images
+
+![Avalanche v1.0 First Build](/images/avalanche_v1-0.jpg)
+![Avalanche PCBs 3D view](/images/avalanche62_PCBs_3d_model.png)
+![Avalanche PCBs 3D view](/images/avalanche50_PCBs_3d_model.png)
+![Avalanche PCBs 3D view](/images/avalanche48_PCBs_3d_model.png)
+![Avalanche PCBs model](/images/avalanche_mockup_03.png)
+
+## Layout tester
+
+Cut [left half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_left_A4.pdf) and [right half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_right_A4.pdf) from some piece of a cardboard, insert switches, put on the keycaps and try the layout.
+
+## Parts list
+
+| #  | Name                          | Quantity | Example URL                                           |
+|----|-------------------------------|----------|-------------------------------------------------------|
+| 1  | PCB                           | 2        | |
+| 2  | Top plate                     | 2        | |
+| 3  | Bottom plate                  | 2        | |
+| 4  | ProMicro (ATmega32U4 5V/16MHz)| 2        | https://aliexpress.ru/item/2010847161.html            |
+| 5  | Sockets for ProMicro 3.5mm    | 2        | https://aliexpress.ru/item/32360715483.html           |
+| 6  | Kailh hotswap sockets         | 64       | https://aliexpress.ru/item/32903471019.html           |
+| 7  | Diode 1N4148 (SMD or through hole)  | 64       | https://aliexpress.ru/item/32881432301.html |
+| 8  | TRRS sockets PJ320A                 | 2        | https://aliexpress.ru/item/32368285821.html |
+| 9  | TRRS Cable (straight connectors)    | 1        |  |
+| 10 | Reset button (DIP switch)           | 2        | https://aliexpress.ru/item/4000209910403.html |
+| 11 | Bumpons for bottom plate (set)      | 1        | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
+| 12 | M2 screws 3mm                       | 18       | https://aliexpress.ru/item/32976056190.html |
+| 13 | M2 standoffs 3mm                    | 18       | https://aliexpress.ru/item/32597776358.html |
+| 14 | Rotary encoder                      | 2        | https://aliexpress.ru/item/32976046900.html |
+| 15 | Knob (for rotary encoders)          | 2        | https://www.aliexpress.com/item/33004945608.html |
+| 16 | Keyboard switch (Cherry-MX compatible) | 64 | |
+| 17 | Keycaps set (Cherry-MX compatible)     | 1 | |
+
+Optional LED. Choose either backlight or per-switch (not both)
+
+| #  | Name                          | Quantity | Example URL                                           |
+|----|-------------------------------|----------|-------------------------------------------------------|
+| 17 | LED (backlight) WS2812B             | 12       | https://aliexpress.ru/item/32774508291.html |
+| 18 | LED (per switch) SK6812 MINI-E      | 64       | https://aliexpress.ru/item/4000475685852.html |
+
+Optional for I2C connection (instead of serial)
+
+| #  | Name                          | Quantity | Example URL                                           |
+|----|-------------------------------|----------|-------------------------------------------------------|
+| 19 | Resistor 4.7K (through hole)        | 2        | https://aliexpress.ru/item/32882582185.html |
+
+Optional
+
+| #  | Name                          | Quantity | Example URL                                           |
+|----|-------------------------------|----------|-------------------------------------------------------|
+| 20 | OLED screen                         | 2        | https://aliexpress.ru/item/32798439084.html |
+
+## Build instructions
+Avalanche does not have own bulid instructions yet. But there are a lot of relevant information in:
+* [Joric wiki](https://github.com/joric/jorne/wiki)
+* [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
+* [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
+
+## Serial vs I2C
+I found some info [here](https://github.com/foostan/crkbd/issues/17#issuecomment-523431198). And here on [QMK site](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_split_keyboard). To be short:
+* break DATA jumper(J1)
+* place 4.7k resistors in R1 and R2. This gives us the VCC-SCL and the VCC-SDA connections
+* finally to connect both halves of the keeb, jump the P1-R1(closest hole) and P2-R2(again closest hole)
+* Use TRRS cable (4 wires) and not TRS (3 wires)
+* Modify your QMK firmware to switch on the I2C
