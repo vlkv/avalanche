@@ -69,9 +69,9 @@ Optional LED. Choose either backlight or per-switch (not both)
 
 Optional for I2C connection (instead of serial)
 
-| #  | Name                          | Quantity | Example URL                                           |
-|----|-------------------------------|----------|-------------------------------------------------------|
-| 20 | Resistor 4.7K (through hole)  | 2        | https://aliexpress.ru/item/32882582185.html           |
+| #  | Name                                 | Quantity | Example URL                                           |
+|----|--------------------------------------|----------|-------------------------------------------------------|
+| 20 | Resistor 4.7K (through hole or SMD)  | 2        | https://aliexpress.ru/item/32882582185.html           |
 
 Optional
 
@@ -91,4 +91,5 @@ to also read these resourses:
 
 ## Firmware
 
-Is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
+* [QMK](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
+* TODO: Need to support ZMK for wireless.
