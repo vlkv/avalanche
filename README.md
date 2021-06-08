@@ -1,13 +1,13 @@
 # Avalanche keyboard
 
-Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you break off the 'digits' row) column staggered keys,
-5 thumb keys, 1 key for pinky (break off-able too) and 1 additional key for index finger (62 keys total). QMK firmware for Avalanche is [here](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
+The Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you break off the 'digits' row) column staggered keys,
+5 thumb keys, 1 additional key for the pinky (break off-able too) and 2 additional keys for the index finger (64 keys total).
 
 Avalanche design was inspired by a number of great keyboards. You may read more about it
 [in my reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
 
 
-![Avalanche v1.0 First Build](/images/avalanche_v2-0.jpg)
+![The Avalanche keyboard](/images/avalanche_v2-0.jpg)
 
 
 ## Layout tester
@@ -19,8 +19,8 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
 
 ## Support the project
 
-I have spend many hours, efforts and money designing and building prototypes of the Avalanche. If you like the board
-and you want to thank the creator you may:
+I have spent significant amount of time, money and effort designing, building prototypes, fixing issues and bugs in
+the Avalanche keyboard. If you like the keyboard and you want to thank the creator you may:
 * Become a patron [at Patreon](https://www.patreon.com/vitvlkv).
 * Donate via PayPal [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=99MYK4CNR8DP2).
 
