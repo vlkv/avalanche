@@ -1,5 +1,10 @@
 ## Release notes
 
+### v2.1
+
+* Fixed issue with R1 resistor.
+
+
 ### v2.0
 
 * Moved (a bit) thumb cluster to the center making the fourth thumb button more comfortable.
@@ -16,7 +21,7 @@
 
 Issues:
 * Resistor R1 is turned upside down, making it harder to enable I2C.
-* New footprints for the switch sockets have somewhat loose holes. Need to change the footprints.
+
 
 ### v1.1
 

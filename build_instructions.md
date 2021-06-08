@@ -42,7 +42,7 @@ additional information.
 ### Break off the numbers row
 
 * Break off the numbers row, if you do not need/like it.
-* If you are using per-switch LEDs, then short circuit the J1, J2, J3 jumpers.
+* If you are using per-switch LEDs, then short circuit the J9, J10, J11 jumpers.
 
 
 ### Choose per-switch or backlight LEDs
