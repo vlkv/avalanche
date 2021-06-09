@@ -1,5 +1,7 @@
 # The Avalanche keyboard
 
+**ATTENTION: I've just recently found some weird problems with the keyboard v2.0..2.1 Please do not order the PCBs production until I debug those problems and report back that everything is OK!**
+
 The Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you **break off the 'digits' row**) column staggered keys,
 5 thumb keys, **1 additional key for the pinky** (break off-able too) and 2 additional keys for the index finger (64 keys total).
 
