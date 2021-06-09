@@ -54,6 +54,6 @@ It is not recommended to install both per-switch and backlight LEDs (for aesteti
 
 
 ### Rotary encoders
-
+* IMPORTANT NOTE: Only 1 rotary encoder could be installed on each half.
 * Solder all 7 pins of rotary encoders to the PCB this fixes the encoder the best.
 * Do not install both kailh socket and rotary encoder into the same switch slot on the PCB. Install either one.
