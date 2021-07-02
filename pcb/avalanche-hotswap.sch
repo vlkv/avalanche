@@ -1398,30 +1398,6 @@ F 3 "~" V 7155 1790 50  0001 C CNN
 	1    7155 1790
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW19
-U 1 1 605336C7
-P 7990 1690
-F 0 "SW19" H 7990 1845 50  0000 C CNN
-F 1 "SW_Push" H 7990 1884 50  0001 C CNN
-F 2 "used_footprints:CherryMX_MidHeight_Hotswap_1u" H 7990 1890 50  0001 C CNN
-F 3 "~" H 7990 1890 50  0001 C CNN
-	1    7990 1690
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D19
-U 1 1 605336CD
-P 7790 1790
-F 0 "D19" V 7790 1722 50  0000 R CNN
-F 1 "1N4148" V 7745 1722 50  0001 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 7790 1790 50  0001 C CNN
-F 3 "~" V 7790 1790 50  0001 C CNN
-	1    7790 1790
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8190 840  8190 1690
 Wire Wire Line
 	6545 1090 7155 1090
 Connection ~ 6545 1090
@@ -1439,9 +1415,6 @@ Connection ~ 6545 1890
 Wire Wire Line
 	7555 1290 7555 1690
 Connection ~ 7555 1290
-Wire Wire Line
-	7155 1890 7790 1890
-Connection ~ 7155 1890
 Wire Wire Line
 	3505 2290 4145 2290
 $Comp
@@ -1534,9 +1507,6 @@ F 3 "~" H 7990 2290 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8190 1690 8190 2090
-Connection ~ 8190 1690
-Wire Wire Line
 	7155 2290 7790 2290
 Connection ~ 7155 2290
 $Comp
@@ -1587,17 +1557,6 @@ $EndComp
 Wire Wire Line
 	1560 2665 2050 2665
 $Comp
-L Device:Rotary_Encoder_Switch ENC1
-U 1 1 6071F2CB
-P 10220 2905
-F 0 "ENC1" H 10220 3272 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 10220 3181 50  0000 C CNN
-F 2 "used_footprints:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified" H 10070 3065 50  0001 C CNN
-F 3 "~" H 10220 3165 50  0001 C CNN
-	1    10220 2905
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Rotary_Encoder_Switch ENC2
 U 1 1 607429F7
 P 10220 3550
@@ -1635,12 +1594,9 @@ $EndComp
 Text GLabel 9730 2805 0    50   Input ~ 0
 encA
 Wire Wire Line
-	9920 2805 9825 2805
-Wire Wire Line
 	9920 3450 9825 3450
 Wire Wire Line
 	9825 3450 9825 2805
-Connection ~ 9825 2805
 Wire Wire Line
 	9825 2805 9730 2805
 Wire Wire Line
@@ -1652,7 +1608,6 @@ Text GLabel 9135 3005 0    50   Input ~ 0
 encB
 Wire Wire Line
 	9255 3650 9255 3005
-Connection ~ 9255 3005
 Wire Wire Line
 	9255 3005 9135 3005
 Wire Wire Line
@@ -1670,12 +1625,9 @@ F 3 "" H 9345 2905 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9920 2905 9630 2905
-Wire Wire Line
 	9920 3550 9630 3550
 Wire Wire Line
 	9630 3550 9630 2905
-Connection ~ 9630 2905
 Wire Wire Line
 	9630 2905 9345 2905
 Wire Wire Line
@@ -1684,8 +1636,6 @@ Wire Wire Line
 	9630 4205 9630 3550
 Connection ~ 9630 3550
 Wire Wire Line
-	9255 3005 9920 3005
-Wire Wire Line
 	9255 3650 9920 3650
 Wire Wire Line
 	9255 4305 9925 4305
@@ -1693,12 +1643,6 @@ Connection ~ 4145 2690
 Wire Wire Line
 	4545 2090 4545 2490
 Connection ~ 4545 2090
-Text GLabel 8395 1445 2    50   Input ~ 0
-sw19r
-Text GLabel 8390 1690 2    50   Input ~ 0
-sw19c
-Wire Wire Line
-	8190 1690 8390 1690
 Text GLabel 8390 2090 2    50   Input ~ 0
 sw26c
 Wire Wire Line
@@ -1713,14 +1657,6 @@ Text GLabel 10670 3650 2    50   Input ~ 0
 sw26c
 Text GLabel 10660 3450 2    50   Input ~ 0
 sw26r
-Text GLabel 10670 2805 2    50   Input ~ 0
-sw19r
-Text GLabel 10680 3005 2    50   Input ~ 0
-sw19c
-Wire Wire Line
-	10520 2805 10670 2805
-Wire Wire Line
-	10520 3005 10680 3005
 Wire Wire Line
 	10520 3450 10660 3450
 Wire Wire Line
@@ -1748,11 +1684,6 @@ Wire Wire Line
 Wire Wire Line
 	7790 1935 8400 1935
 Connection ~ 7790 2090
-Wire Wire Line
-	7790 1690 7790 1445
-Wire Wire Line
-	7790 1445 8395 1445
-Connection ~ 7790 1690
 Wire Wire Line
 	3505 1890 4145 1890
 Wire Wire Line
@@ -1804,17 +1735,6 @@ F 1 "SK6812MINI_LED" H 5855 4393 16  0000 C CNN
 F 2 "used_footprints:YS-SK6812MINI-E" H 5855 4590 60  0001 C CNN
 F 3 "" H 5855 4590 60  0001 C CNN
 	1    5855 4590
-	1    0    0    -1  
-$EndComp
-$Comp
-L avalanche-hotswap:SK6812MINI_LED L11
-U 1 1 612DAE1D
-P 5180 4590
-F 0 "L11" H 5180 4590 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 5180 4393 16  0000 C CNN
-F 2 "used_footprints:YS-SK6812MINI-E" H 5180 4590 60  0001 C CNN
-F 3 "" H 5180 4590 60  0001 C CNN
-	1    5180 4590
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2284,19 +2204,10 @@ Connection ~ 6110 4865
 Wire Wire Line
 	6110 4865 6785 4865
 Wire Wire Line
-	5380 4690 5435 4690
-Wire Wire Line
-	5435 4690 5435 4865
-Connection ~ 5435 4865
-Wire Wire Line
-	5435 4865 6110 4865
-Wire Wire Line
 	4705 4690 4760 4690
 Wire Wire Line
 	4760 4690 4760 4865
 Connection ~ 4760 4865
-Wire Wire Line
-	4760 4865 5435 4865
 Wire Wire Line
 	4030 4690 4085 4690
 Wire Wire Line
@@ -2353,19 +2264,10 @@ Connection ~ 5625 4345
 Wire Wire Line
 	5625 4345 6300 4345
 Wire Wire Line
-	4980 4490 4950 4490
-Wire Wire Line
-	4950 4490 4950 4345
-Connection ~ 4950 4345
-Wire Wire Line
-	4950 4345 5625 4345
-Wire Wire Line
 	4305 4490 4275 4490
 Wire Wire Line
 	4275 4490 4275 4345
 Connection ~ 4275 4345
-Wire Wire Line
-	4275 4345 4950 4345
 Wire Wire Line
 	3630 4490 3600 4490
 Wire Wire Line
@@ -2408,8 +2310,6 @@ Wire Wire Line
 	5655 4690 5515 4690
 Wire Wire Line
 	5515 4690 5515 4490
-Wire Wire Line
-	5515 4490 5380 4490
 Wire Wire Line
 	4305 4690 4165 4690
 Wire Wire Line
@@ -2837,12 +2737,6 @@ Wire Wire Line
 	870  5985 870  6130
 Connection ~ 1570 5985
 Wire Wire Line
-	4980 4690 4855 4690
-Wire Wire Line
-	4855 4690 4855 4490
-Wire Wire Line
-	4855 4490 4705 4490
-Wire Wire Line
 	1500 5295 1610 5295
 Connection ~ 2245 5150
 Wire Wire Line
@@ -3055,4 +2949,12 @@ F 3 "~" H 10350 895 50  0001 C CNN
 	1    10350 895 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8190 840  8190 2090
+Wire Wire Line
+	4275 4345 5625 4345
+Wire Wire Line
+	4760 4865 6110 4865
+Wire Wire Line
+	4705 4490 5515 4490
 $EndSCHEMATC
