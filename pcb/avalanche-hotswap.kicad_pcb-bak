@@ -302,7 +302,7 @@
   )
 
   (module used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 6081C654) (tstamp 60E24BB4)
-    (at 192.08 133.76 348)
+    (at 194.54 131.27 348)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
     (path /6056DC12)
@@ -655,7 +655,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60466559) (tstamp 608C4DAA)
-    (at 212.87 112.67 346.5)
+    (at 199.19 106.19 346.5)
     (path /6094ED54)
     (fp_text reference HM14 (at 0 2.7 166.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -757,7 +757,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB5B6) (tstamp 608BA444)
-    (at 129.83 104.78 342)
+    (at 129.6 105.86 342)
     (path /608FDE4C)
     (fp_text reference HM13 (at 0 2.7 162) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5316,7 +5316,7 @@
   )
 
   (module used_footprints:avalanche_Jumper (layer F.Cu) (tedit 5BF1A705) (tstamp 6042CF32)
-    (at 197.568992 92.568861 90)
+    (at 192.778992 92.258861 90)
     (path /605ADD76)
     (attr smd)
     (fp_text reference W1 (at -2.286 0.127 90) (layer F.SilkS) hide
@@ -5881,7 +5881,7 @@
   )
 
   (module used_footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 606F3E26) (tstamp 606FA4D1)
-    (at 194.778993 84.328862 90)
+    (at 189.988993 84.018862 90)
     (path /5E5A67AE)
     (fp_text reference R1 (at 0.05 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5910,7 +5910,7 @@
   )
 
   (module used_footprints:Resistor_Hybrid_1205 (layer F.Cu) (tedit 606F3E26) (tstamp 60380642)
-    (at 197.57899 84.328861 270)
+    (at 192.78899 84.018861 270)
     (path /5E5A5774)
     (fp_text reference R2 (at 0.05 -0.05) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6077,7 +6077,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60466559) (tstamp 60862118)
-    (at 197.587138 101.405976 351)
+    (at 198.83 78.22 351)
     (path /6041583E)
     (fp_text reference HM12 (at 0 2.7 171) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6173,7 +6173,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB5A7) (tstamp 608B9FA9)
-    (at 154.61 109.14 348)
+    (at 152.02 110.65 348)
     (path /5DC1BC70)
     (fp_text reference HM4 (at 0 2.7 168) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6185,7 +6185,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB54E) (tstamp 5F65730C)
-    (at 206.25 118.09 352.5)
+    (at 190.53 135.25 352.5)
     (path /5DC14B86)
     (fp_text reference HM3 (at 0 2.7 172.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6209,7 +6209,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB569) (tstamp 608B9F97)
-    (at 218.228157 121.25738 340.5)
+    (at 218.36 128.49738 340.5)
     (path /5DC03D38)
     (fp_text reference HM1 (at 0 2.7 160.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6233,7 +6233,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 6085DB1F) (tstamp 60442FB4)
-    (at 211.10456 105.12825)
+    (at 219.3 102.86)
     (path /6053584A)
     (fp_text reference H15 (at 0 2.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8094,7 +8094,7 @@
   )
 
   (module used_footprints:Switch_Reset_THT (layer F.Cu) (tedit 5E280C26) (tstamp 6085FC14)
-    (at 221.19 114.86 90)
+    (at 221.18 118.54 90)
     (path /5DBF73FF)
     (fp_text reference SW0 (at 0 0.01 90) (layer Dwgs.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8215,7 +8215,7 @@
   )
 
   (module used_footprints:1pin_conn (layer F.Cu) (tedit 5AD20A86) (tstamp 606FA4FC)
-    (at 194.778991 90.128859)
+    (at 189.988991 89.818859)
     (descr "Resitance 3 pas")
     (tags R)
     (path /6051604B)
@@ -8252,7 +8252,7 @@
   )
 
   (module used_footprints:1pin_conn (layer F.Cu) (tedit 5AD20A86) (tstamp 6042CF27)
-    (at 197.578992 90.128862)
+    (at 192.788992 89.818862)
     (descr "Resitance 3 pas")
     (tags R)
     (path /605177CE)
@@ -8351,11 +8351,11 @@
   (gr_circle (center 90.245895 62.582328) (end 92.3093 63.020918) (layer Cmts.User) (width 0.15) (tstamp 608C5B60))
   (gr_circle (center 69.206291 76.481683) (end 71.269695 76.920273) (layer Cmts.User) (width 0.15) (tstamp 608C5B60))
   (gr_circle (center 87.767188 81.469063) (end 89.830592 81.907653) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
-  (gr_circle (center 129.76 104.720498) (end 131.782633 105.319628) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
-  (gr_circle (center 154.6105 109.14) (end 156.701954 109.415344) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
+  (gr_circle (center 129.6 105.86) (end 131.622633 106.45913) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
+  (gr_circle (center 152.0205 110.65) (end 154.111954 110.925344) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
   (gr_circle (center 191.824604 98.522396) (end 193.916059 98.797739) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
-  (gr_circle (center 218.209504 121.34) (end 220.232138 121.939132) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
-  (gr_circle (center 206.25 118.09) (end 208.3595 118.09) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
+  (gr_circle (center 218.36 128.49738) (end 220.469504 128.49738) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
+  (gr_circle (center 190.53 135.25) (end 192.6395 135.25) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
   (gr_arc (start 107.982456 104.21105) (end 108.985633 104.25) (angle -78.47451895) (layer Edge.Cuts) (width 0.05) (tstamp 608B7288))
   (gr_line (start 127.907487 122.702944) (end 109.809906 122.700517) (layer Edge.Cuts) (width 0.05) (tstamp 608B7226))
   (gr_line (start 108.985633 104.25) (end 108.982898 121.71) (layer Edge.Cuts) (width 0.05) (tstamp 608B7222))
@@ -8782,7 +8782,7 @@
   (segment (start 212.063408 92.283389) (end 214.368494 92.28339) (width 0.5) (layer F.Cu) (net 24))
   (segment (start 214.603408 92.5183) (end 214.603408 93.653277) (width 0.5) (layer F.Cu) (net 24) (status 20))
   (segment (start 214.368494 92.28339) (end 214.603408 92.5183) (width 0.5) (layer F.Cu) (net 24))
-  (segment (start 197.638992 82.868862) (end 197.578993 82.928862) (width 0.5) (layer F.Cu) (net 24) (status 30))
+  (segment (start 192.848992 82.558862) (end 192.788993 82.618862) (width 0.5) (layer F.Cu) (net 24) (status 30))
   (segment (start 98.229357 58.311534) (end 97.361845 58.197324) (width 0.25) (layer F.Cu) (net 24) (tstamp 6089E7BD) (status 30))
   (segment (start 98.036971 57.857539) (end 97.838681 57.831434) (width 0.25) (layer F.Cu) (net 24) (tstamp 6089E7BA) (status 30))
   (segment (start 140.309226 56.958179) (end 140.015781 56.895805) (width 0.25) (layer F.Cu) (net 24) (status 30))
@@ -9247,9 +9247,9 @@
   (segment (start 182.95588 128.996229) (end 183.63851 129.86882) (width 0.5) (layer F.Cu) (net 24) (tstamp 608BE460))
   (via (at 182.95588 128.996229) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 24))
   (segment (start 185.954108 133.435557) (end 185.963446 133.439141) (width 0.5) (layer B.Cu) (net 24))
-  (segment (start 194.778994 80.518862) (end 197.578993 80.518861) (width 0.5) (layer B.Cu) (net 24) (status 30))
-  (segment (start 194.778994 80.518862) (end 194.778992 82.928862) (width 0.5) (layer F.Cu) (net 24) (status 30))
-  (segment (start 197.578993 80.518861) (end 197.578993 82.928862) (width 0.5) (layer F.Cu) (net 24) (status 30))
+  (segment (start 189.988994 80.208862) (end 192.788993 80.208861) (width 0.5) (layer B.Cu) (net 24) (status 30))
+  (segment (start 189.988994 80.208862) (end 189.988992 82.618862) (width 0.5) (layer F.Cu) (net 24) (status 30))
+  (segment (start 192.788993 80.208861) (end 192.788993 82.618862) (width 0.5) (layer F.Cu) (net 24) (status 30))
   (segment (start 210.089575 83.48237) (end 210.089576 91.58595) (width 0.5) (layer B.Cu) (net 25) (tstamp 607A99E8))
   (segment (start 210.088958 79.331167) (end 210.088959 87.434747) (width 0.5) (layer B.Cu) (net 25) (tstamp 607A99E8))
   (segment (start 206.219765 68.571595) (end 217.525206 68.571593) (width 0.5) (layer F.Cu) (net 25) (status 10))
@@ -9786,8 +9786,8 @@
   (segment (start 210.344908 93.653277) (end 210.988397 93.009788) (width 0.25) (layer F.Cu) (net 26))
   (segment (start 216.258315 90.352157) (end 216.715451 90.981349) (width 0.25) (layer B.Cu) (net 26))
   (segment (start 216.402466 89.442034) (end 216.258315 90.352157) (width 0.25) (layer B.Cu) (net 26))
-  (segment (start 197.600105 85.749973) (end 197.578992 85.728863) (width 0.25) (layer F.Cu) (net 26) (status 30))
-  (segment (start 197.578992 85.728863) (end 197.578992 88.138862) (width 0.5) (layer F.Cu) (net 26) (status 30))
+  (segment (start 192.810105 85.439973) (end 192.788992 85.418863) (width 0.25) (layer F.Cu) (net 26) (status 30))
+  (segment (start 192.788992 85.418863) (end 192.788992 87.828862) (width 0.5) (layer F.Cu) (net 26) (status 30))
   (segment (start 204.920952 77.535847) (end 214.610952 77.535848) (width 0.25) (layer F.Cu) (net 27) (status 10))
   (segment (start 218.966697 78.731592) (end 221.459766 78.731593) (width 0.25) (layer F.Cu) (net 27) (status 20))
   (segment (start 217.770951 77.535846) (end 218.966697 78.731592) (width 0.25) (layer F.Cu) (net 27))
@@ -9804,7 +9804,7 @@
   (segment (start 212.06341 93.653278) (end 212.063407 93.208391) (width 0.25) (layer F.Cu) (net 27) (status 10))
   (segment (start 214.540952 91.655849) (end 214.603407 91.593392) (width 0.25) (layer F.Cu) (net 27))
   (segment (start 212.063407 93.208391) (end 211.438407 92.583391) (width 0.25) (layer F.Cu) (net 27))
-  (segment (start 194.778993 85.728861) (end 194.778992 88.138862) (width 0.5) (layer F.Cu) (net 27) (status 30))
+  (segment (start 189.988993 85.418861) (end 189.988992 87.828862) (width 0.5) (layer F.Cu) (net 27) (status 30))
   (segment (start 151.186658 127.184161) (end 160.078026 131.425125) (width 0.25) (layer F.Cu) (net 28) (tstamp 608A9C64))
   (segment (start 151.80636 121.613262) (end 150.318514 124.732598) (width 0.25) (layer F.Cu) (net 28) (tstamp 608A9C61) (status 10))
   (segment (start 150.318514 124.732598) (end 151.186658 127.184161) (width 0.25) (layer F.Cu) (net 28) (tstamp 608A9C5E))
@@ -10128,8 +10128,8 @@
   (segment (start 214.632183 94.682814) (end 214.603406 94.654038) (width 0.25) (layer B.Cu) (net 40) (status 30))
   (segment (start 217.172184 94.682812) (end 217.143407 94.654037) (width 0.25) (layer F.Cu) (net 41) (status 30))
   (segment (start 217.172184 94.682812) (end 217.143407 94.654037) (width 0.25) (layer B.Cu) (net 41) (status 30))
-  (segment (start 197.578992 90.128862) (end 197.878991 90.128861) (width 0.25) (layer F.Cu) (net 42) (status 30))
-  (segment (start 197.607348 92.030124) (end 197.568992 92.068481) (width 0.25) (layer F.Cu) (net 42) (status 30))
+  (segment (start 192.788992 89.818862) (end 193.088991 89.818861) (width 0.25) (layer F.Cu) (net 42) (status 30))
+  (segment (start 192.817348 91.720124) (end 192.778992 91.758481) (width 0.25) (layer F.Cu) (net 42) (status 30))
   (segment (start 66.5551 65.997973) (end 66.727282 66.222366) (width 0.25) (layer B.Cu) (net 43) (tstamp 6089DFBF) (status 30))
   (segment (start 79.585093 27.16652) (end 79.732589 26.046187) (width 0.25) (layer F.Cu) (net 43) (tstamp 6089DFBC) (status 10))
   (segment (start 79.732589 26.046187) (end 81.135052 24.970039) (width 0.25) (layer F.Cu) (net 43) (tstamp 6089DFB9))
@@ -10644,7 +10644,7 @@
   (segment (start 218.706696 68.57159) (end 221.459766 68.571593) (width 0.25) (layer F.Cu) (net 50) (status 20))
   (segment (start 217.510948 67.375848) (end 218.706696 68.57159) (width 0.25) (layer F.Cu) (net 50))
   (segment (start 204.92095 67.375849) (end 204.6617 67.334786) (width 0.25) (layer F.Cu) (net 50) (status 30))
-  (segment (start 197.643613 93.143861) (end 197.584114 93.084361) (width 0.25) (layer F.Cu) (net 50) (status 30))
+  (segment (start 192.853613 92.833861) (end 192.794114 92.774361) (width 0.25) (layer F.Cu) (net 50) (status 30))
   (segment (start 219.590951 92.205845) (end 220.160951 92.775848) (width 0.25) (layer B.Cu) (net 51) (status 20))
   (segment (start 206.219766 93.971591) (end 206.475208 93.971594) (width 0.25) (layer F.Cu) (net 51) (status 30))
   (segment (start 207.915951 92.289434) (end 208.227049 91.978336) (width 0.25) (layer F.Cu) (net 51))
@@ -10668,8 +10668,8 @@
   (segment (start 189.282877 157.828315) (end 191.289863 156.360782) (width 0.25) (layer F.Cu) (net 51) (tstamp 60DF492F) (status 20))
   (segment (start 188.137631 157.645524) (end 189.282877 157.828315) (width 0.25) (layer F.Cu) (net 51) (tstamp 60DF492C))
   (segment (start 182.813831 148.507161) (end 184.322958 147.285468) (width 0.25) (layer B.Cu) (net 51) (tstamp 60DF4929) (status 20))
-  (segment (start 194.788201 90.138073) (end 194.778991 90.128859) (width 0.25) (layer B.Cu) (net 52) (status 30))
-  (segment (start 194.77899 90.210762) (end 194.778991 90.128859) (width 0.25) (layer F.Cu) (net 52) (status 30))
+  (segment (start 189.998201 89.828073) (end 189.988991 89.818859) (width 0.25) (layer B.Cu) (net 52) (status 30))
+  (segment (start 189.98899 89.900762) (end 189.988991 89.818859) (width 0.25) (layer F.Cu) (net 52) (status 30))
   (segment (start 115.881604 120.298589) (end 111.627531 119.624813) (width 0.25) (layer F.Cu) (net 53) (status 10))
   (segment (start 110.938473 118.676408) (end 111.381605 115.878592) (width 0.25) (layer F.Cu) (net 53) (status 20))
   (segment (start 111.627531 119.624813) (end 110.938473 118.676408) (width 0.25) (layer F.Cu) (net 53))
