@@ -11,14 +11,14 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
-    (36 B.SilkS user)
-    (37 F.SilkS user)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
+    (36 B.SilkS user hide)
+    (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -6479,7 +6479,7 @@
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB569) (tstamp 608B9F97)
-    (at 212.992195 110.650934 340.5)
+    (at 210.672195 112.990934 340.5)
     (path /5DC03D38)
     (fp_text reference HM1 (at 0 2.7 160.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8364,7 +8364,7 @@
   (gr_circle (center 129.461461 103.59821) (end 131.524862 104.036801) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
   (gr_circle (center 151.717251 108.410611) (end 153.780651 108.849202) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
   (gr_circle (center 199.2 84.75) (end 201.309457 84.75) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
-  (gr_circle (center 212.992195 110.650934) (end 215.101722 110.650926) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
+  (gr_circle (center 210.672195 112.990934) (end 212.781722 112.990926) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
   (gr_circle (center 190.377555 132.752524) (end 192.487073 132.752529) (layer Cmts.User) (width 0.15) (tstamp 608C5B2E))
   (gr_arc (start 107.784664 101.734618) (end 108.787836 101.773547) (angle -84.89869178) (layer Edge.Cuts) (width 0.05) (tstamp 608B7288))
   (gr_line (start 127.709691 120.226492) (end 109.61212 120.224073) (layer Edge.Cuts) (width 0.05) (tstamp 608B7226))
