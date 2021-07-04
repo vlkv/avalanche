@@ -5,7 +5,7 @@
     (drawings 144)
     (tracks 0)
     (zones 0)
-    (modules 16)
+    (modules 14)
     (nets 1)
   )
 
@@ -136,18 +136,6 @@
     (pad "" np_thru_hole circle (at 0 0 352.5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60466559) (tstamp 60E2312B)
-    (at 205.15 78.07 351)
-    (path /6041583E)
-    (fp_text reference HM12 (at 0 2.7 171) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CaseHole (at 0 -2.6 171) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0 351) (size 4 4) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB601) (tstamp 60E230C2)
     (at 74.95867 76.247473 352.5)
     (path /5DC1BC76)
@@ -218,18 +206,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 6085DB1F) (tstamp 60E22F67)
-    (at 218.98 103.72)
-    (path /6053584A)
-    (fp_text reference H15 (at 0 2.7) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole (at 0 -2.6) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0.033741 0.106591) (size 4 4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB55C) (tstamp 60E22F44)

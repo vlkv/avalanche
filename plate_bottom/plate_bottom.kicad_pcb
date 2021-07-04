@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 144)
+    (drawings 142)
     (tracks 0)
     (zones 0)
     (modules 14)
@@ -55,7 +55,7 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 4 4)
+    (pad_size 2.2 2.2)
     (pad_drill 2.2)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
@@ -98,6 +98,30 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60E1FEBF) (tstamp 610BE161)
+    (at 138.606105 60.769332 348)
+    (path /60415838)
+    (fp_text reference HM11 (at 0 2.7 168) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CaseHole (at 0 -2.6 168) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60E1FEB1) (tstamp 610BE15D)
+    (at 174.590949 74.869116 348)
+    (path /60415832)
+    (fp_text reference HM10 (at 0 2.7 168) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value CaseHole (at 0 -2.6 168) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB5B6) (tstamp 60E2315F)
@@ -172,34 +196,10 @@
     (pad "" np_thru_hole circle (at 0 0 340.5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB624) (tstamp 60E22FA4)
-    (at 138.011567 60.664674 348)
-    (path /60415838)
-    (fp_text reference HM11 (at 0 2.7 168) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CaseHole (at 0 -2.6 168) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB5A7) (tstamp 60E22F94)
     (at 157.667251 110.630611 348)
     (path /5DC1BC70)
     (fp_text reference HM4 (at 0 2.7 168) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value CaseHole (at 0 -2.6 168) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
-  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB635) (tstamp 60E22F90)
-    (at 173.969161 74.74843 348)
-    (path /60415832)
-    (fp_text reference HM10 (at 0 2.7 168) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CaseHole (at 0 -2.6 168) (layer F.Fab) hide
@@ -381,8 +381,6 @@
   (gr_circle (center 93.51939 81.212623) (end 95.582779 81.651185) (layer Cmts.User) (width 0.15) (tstamp 60E22F30))
   (gr_circle (center 74.958497 76.225236) (end 77.02188 76.66383) (layer Cmts.User) (width 0.15) (tstamp 60E22F2F))
   (gr_circle (center 95.998102 62.325863) (end 98.061514 62.764462) (layer Cmts.User) (width 0.15) (tstamp 60E22F2E))
-  (gr_circle (center 137.964742 60.644482) (end 140.028155 61.083082) (layer Cmts.User) (width 0.15) (tstamp 60E22F2D))
-  (gr_circle (center 173.937738 74.751982) (end 176.001129 75.19057) (layer Cmts.User) (width 0.15) (tstamp 60E22F2C))
   (gr_line (start 200.502193 41.443556) (end 200.502214 78.513558) (layer Cmts.User) (width 0.15) (tstamp 60E22F2B))
   (gr_line (start 210.906185 150.113866) (end 226.042184 138.503538) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F2A))
   (gr_line (start 196.272191 131.903545) (end 199.402205 135.113547) (layer Cmts.User) (width 0.15) (tstamp 60E22F29))
