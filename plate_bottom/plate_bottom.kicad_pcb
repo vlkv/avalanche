@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 142)
+    (drawings 146)
     (tracks 0)
     (zones 0)
     (modules 14)
@@ -98,6 +98,18 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60E30F49) (tstamp 60FED110)
+    (at 204.566053 86.954833 348)
+    (path /6044455C)
+    (fp_text reference H16 (at 0 2.7 168) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole (at 0 -2.6 168) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 60E1FEBF) (tstamp 610BE161)
@@ -208,18 +220,6 @@
     (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB55C) (tstamp 60E22F44)
-    (at 205.15 86.97 348)
-    (path /6044455C)
-    (fp_text reference H16 (at 0 2.7 168) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole (at 0 -2.6 168) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 348) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  )
-
   (module used_footprints:M2_HOLE_PCB (layer F.Cu) (tedit 608BB614) (tstamp 60E22F35)
     (at 96.005913 62.32559 352.5)
     (path /60415826)
@@ -268,7 +268,15 @@
     (pad "" np_thru_hole circle (at 0 0 352.5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 229.192195 112.403559) (end 226.042189 114.823552) (layer Edge.Cuts) (width 0.05) (tstamp 60E2315E))
+  (gr_line (start 208.566053 86.954833) (end 204.566053 86.954833) (layer Dwgs.User) (width 0.15) (tstamp 60FED117))
+  (gr_line (start 204.566053 86.954833) (end 207.083336 83.846249) (layer Dwgs.User) (width 0.15) (tstamp 60FED116))
+  (gr_line (start 200.502338 78.513367) (end 208.562328 85.043358) (layer Cmts.User) (width 0.15) (tstamp 60FED115))
+  (gr_line (start 206.166304 83.103653) (end 208.046999 84.626605) (layer Dwgs.User) (width 0.15) (tstamp 60FED114))
+  (gr_line (start 208.562328 85.043358) (end 208.562348 100.723351) (layer Cmts.User) (width 0.15) (tstamp 60FED10F))
+  (gr_line (start 229.192203 62.463549) (end 229.192213 133.929713) (layer Edge.Cuts) (width 0.05) (tstamp 60FE0748))
+  (gr_arc (start 225.217361 134.12252) (end 227.489505 137.389626) (angle -57.95998997) (layer Edge.Cuts) (width 0.05) (tstamp 60FE0747))
+  (gr_line (start 226.042183 138.503528) (end 227.489505 137.389626) (layer Edge.Cuts) (width 0.05) (tstamp 60FE0746))
+  (gr_line (start 210.906185 150.113866) (end 226.042183 138.503528) (layer Edge.Cuts) (width 0.05) (tstamp 60FE0745))
   (gr_arc (start 74.844825 62.938767) (end 75.836298 63.069274) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60E2315D))
   (gr_arc (start 83.089839 23.295806) (end 83.220347 22.304323) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60E2315C))
   (gr_arc (start 124.820867 26.774676) (end 124.690341 27.766117) (angle -88.5432648) (layer Edge.Cuts) (width 0.05) (tstamp 60E2315B))
@@ -282,7 +290,6 @@
   (gr_arc (start 199.168643 42.288362) (end 200.146797 42.496282) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60E23153))
   (gr_line (start 177.657997 117.537863) (end 181.455814 119.919517) (layer Cmts.User) (width 0.15) (tstamp 60E23152))
   (gr_line (start 133.650411 103.521887) (end 137.603496 103.922534) (layer Cmts.User) (width 0.15) (tstamp 60E23151))
-  (gr_line (start 226.042184 138.503538) (end 226.042189 114.823552) (layer Edge.Cuts) (width 0.05) (tstamp 60E23150))
   (gr_line (start 200.502214 78.513558) (end 208.562196 85.043555) (layer Cmts.User) (width 0.15) (tstamp 60E2314F))
   (gr_line (start 184.27219 146.713548) (end 243.53014 87.444815) (layer Cmts.User) (width 0.15) (tstamp 60E23134))
   (gr_line (start 184.27219 146.713548) (end 245.061307 89.016313) (layer Cmts.User) (width 0.15) (tstamp 60E2312F))
@@ -316,7 +323,6 @@
   (gr_arc (start 113.734664 103.954618) (end 114.737836 103.993547) (angle -84.89869178) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F9F))
   (gr_circle (center 196.327555 134.972524) (end 198.437073 134.972529) (layer Cmts.User) (width 0.15) (tstamp 60E22F9E))
   (gr_circle (center 216.622195 115.210934) (end 218.731722 115.210926) (layer Cmts.User) (width 0.15) (tstamp 60E22F9D))
-  (gr_circle (center 205.15 86.97) (end 207.259457 86.97) (layer Cmts.User) (width 0.15) (tstamp 60E22F9C))
   (gr_circle (center 157.667251 110.630611) (end 159.730651 111.069202) (layer Cmts.User) (width 0.15) (tstamp 60E22F9B))
   (gr_circle (center 135.411461 105.81821) (end 137.474862 106.256801) (layer Cmts.User) (width 0.15) (tstamp 60E22F9A))
   (gr_line (start 133.906607 44.865962) (end 140.509109 46.269357) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F99))
@@ -347,7 +353,6 @@
   (gr_arc (start 80.556315 42.539741) (end 80.686827 41.548306) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F5E))
   (gr_arc (start 153.475915 44.425009) (end 153.579888 43.93594) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F5D))
   (gr_arc (start 149.56334 43.593355) (end 149.459367 44.082441) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F5C))
-  (gr_line (start 229.192205 62.463555) (end 229.192195 112.403559) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F5B))
   (gr_line (start 210.906185 150.113866) (end 196.727977 160.995954) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F5A))
   (gr_arc (start 227.206792 62.467147) (end 229.192205 62.463555) (angle -92.64101847) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F59))
   (gr_arc (start 74.265777 78.829134) (end 74.761493 78.894379) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F58))
@@ -382,7 +387,6 @@
   (gr_circle (center 74.958497 76.225236) (end 77.02188 76.66383) (layer Cmts.User) (width 0.15) (tstamp 60E22F2F))
   (gr_circle (center 95.998102 62.325863) (end 98.061514 62.764462) (layer Cmts.User) (width 0.15) (tstamp 60E22F2E))
   (gr_line (start 200.502193 41.443556) (end 200.502214 78.513558) (layer Cmts.User) (width 0.15) (tstamp 60E22F2B))
-  (gr_line (start 210.906185 150.113866) (end 226.042184 138.503538) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F2A))
   (gr_line (start 196.272191 131.903545) (end 199.402205 135.113547) (layer Cmts.User) (width 0.15) (tstamp 60E22F29))
   (gr_arc (start 171.277986 52.298331) (end 171.381949 51.809242) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F28))
   (gr_arc (start 167.367499 51.456892) (end 167.263538 51.945974) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 60E22F27))
