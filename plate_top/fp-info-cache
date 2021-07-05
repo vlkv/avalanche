@@ -1,4 +1,4 @@
-37231106993640
+38879900458640
 used_footprints
 1pin_conn
 Resitance 3 pas
@@ -104,6 +104,13 @@ rotary encoder
 0
 7
 6
+used_footprints
+Switch_MSK-12C01-07
+
+
+0
+14
+4
 used_footprints
 Switch_Reset_THT
 
