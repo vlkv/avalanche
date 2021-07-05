@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 156)
+    (drawings 154)
     (tracks 0)
     (zones 0)
     (modules 27)
@@ -106,7 +106,7 @@
     (tags R)
     (path /604F1B9A)
     (autoplace_cost180 10)
-    (fp_text reference SW12 (at -0.65 -3.5 180) (layer F.Fab)
+    (fp_text reference SW12 (at -0.65 -3.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0.000001 -8.6 180) (layer F.Fab) hide
@@ -140,7 +140,7 @@
     (tags R)
     (path /605336C7)
     (autoplace_cost180 10)
-    (fp_text reference SW19 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW19 (at -0.04 -3.53 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -174,7 +174,7 @@
     (tags R)
     (path /60748C2D)
     (autoplace_cost180 10)
-    (fp_text reference SW32 (at -0.04 -3.53 307.5) (layer F.Fab)
+    (fp_text reference SW32 (at -0.04 -3.53 307.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 307.5) (layer F.Fab) hide
@@ -208,7 +208,7 @@
     (tags R)
     (path /5DABCF79)
     (autoplace_cost180 10)
-    (fp_text reference SW7 (at -0.04 -3.53 352.5) (layer F.Fab)
+    (fp_text reference SW7 (at -0.04 -3.53 352.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 352.5) (layer F.Fab) hide
@@ -242,7 +242,7 @@
     (tags R)
     (path /5DAC93F2)
     (autoplace_cost180 10)
-    (fp_text reference SW30 (at -0.04 -3.53 334.5) (layer F.Fab)
+    (fp_text reference SW30 (at -0.04 -3.53 334.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.599999 334.5) (layer F.Fab) hide
@@ -276,7 +276,7 @@
     (tags R)
     (path /604F1B9A)
     (autoplace_cost180 10)
-    (fp_text reference SW12 (at -0.65 -3.5 348) (layer F.Fab)
+    (fp_text reference SW12 (at -0.65 -3.5 348) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0.000002 -8.6 348) (layer F.Fab) hide
@@ -310,7 +310,7 @@
     (tags R)
     (path /5DABCF8B)
     (autoplace_cost180 10)
-    (fp_text reference SW10 (at -0.04 -3.529999 348) (layer F.Fab)
+    (fp_text reference SW10 (at -0.04 -3.529999 348) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0.000002 -8.6 348) (layer F.Fab) hide
@@ -344,7 +344,7 @@
     (tags R)
     (path /5DAB8373)
     (autoplace_cost180 10)
-    (fp_text reference SW4 (at -0.04 -3.529999 348) (layer F.Fab)
+    (fp_text reference SW4 (at -0.04 -3.529999 348) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0.000002 -8.6 348) (layer F.Fab) hide
@@ -378,7 +378,7 @@
     (tags R)
     (path /5DAC4A66)
     (autoplace_cost180 10)
-    (fp_text reference SW20 (at -0.04 -3.53 352.5) (layer F.Fab)
+    (fp_text reference SW20 (at -0.04 -3.53 352.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 352.5) (layer F.Fab) hide
@@ -412,7 +412,7 @@
     (tags R)
     (path /609231DE)
     (autoplace_cost180 10)
-    (fp_text reference SW28 (at -0.04 -3.53 180) (layer F.Fab)
+    (fp_text reference SW28 (at -0.04 -3.53 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 180) (layer F.Fab) hide
@@ -446,7 +446,7 @@
     (tags R)
     (path /5DAB46E1)
     (autoplace_cost180 10)
-    (fp_text reference SW1 (at -0.04 -3.53 352.5) (layer F.Fab)
+    (fp_text reference SW1 (at -0.04 -3.53 352.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 352.5) (layer F.Fab) hide
@@ -480,7 +480,7 @@
     (tags R)
     (path /604A6082)
     (autoplace_cost180 10)
-    (fp_text reference SW6 (at -0.04 -3.529999 348) (layer F.Fab)
+    (fp_text reference SW6 (at -0.04 -3.529999 348) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0.000002 -8.6 348) (layer F.Fab) hide
@@ -514,7 +514,7 @@
     (tags R)
     (path /5DAC0C7B)
     (autoplace_cost180 10)
-    (fp_text reference SW27 (at -0.04 -3.53 352.5) (layer F.Fab)
+    (fp_text reference SW27 (at -0.04 -3.53 352.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 -8.6 352.5) (layer F.Fab) hide
@@ -760,7 +760,6 @@
   (gr_arc (start 113.299614 119.327797) (end 112.292104 119.328471) (angle -79.64238239) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D5B3))
   (gr_line (start 70.862604 95.489427) (end 111.419679 100.833824) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D5B2))
   (gr_arc (start 205.067306 84.447617) (end 206.057315 84.447625) (angle -55.3) (layer Cmts.User) (width 0.05) (tstamp 60E3D5B1))
-  (gr_circle (center 96.12776 40.718634) (end 98.219212 40.993974) (layer Cmts.User) (width 0.15) (tstamp 60E3D592))
   (gr_line (start 196.933559 39.18518) (end 180.256167 35.640269) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D591))
   (gr_arc (start 196.725656 40.163299) (end 197.703806 40.37123) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D590))
   (gr_line (start 202.062942 85.889954) (end 202.062941 80.741119) (layer Dwgs.User) (width 0.15) (tstamp 60E3D58F))
@@ -846,7 +845,6 @@
   (gr_circle (center 72.515515 74.100159) (end 74.578902 74.538753) (layer Cmts.User) (width 0.15) (tstamp 60E3D3DF))
   (gr_line (start 88.933246 39.821886) (end 96.170799 40.774707) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D3DE))
   (gr_circle (center 155.224264 108.505542) (end 157.287659 108.944144) (layer Cmts.User) (width 0.15) (tstamp 60E3D3DD))
-  (gr_circle (center 93.555119 60.200804) (end 95.618548 60.639394) (layer Cmts.User) (width 0.15) (tstamp 60E3D3DC))
   (gr_line (start 226.749217 60.338484) (end 226.749217 115.85) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D3C1))
   (gr_line (start 158.558536 44.410746) (end 158.040828 46.846313) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D3A6))
   (gr_line (start 158.425955 47.439354) (end 165.028454 48.842766) (layer Edge.Cuts) (width 0.05) (tstamp 60E3D3A5))
