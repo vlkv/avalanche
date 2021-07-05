@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 160)
+    (drawings 162)
     (tracks 4354)
     (zones 0)
     (modules 146)
@@ -8548,6 +8548,12 @@
     )
   )
 
+  (gr_text reset (at 224.83 104.72 90) (layer B.SilkS) (tstamp 60E410A7)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text reset (at 224.83 104.77 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_line (start 222.748882 117.209953) (end 222.748886 112.061124) (layer Dwgs.User) (width 0.15) (tstamp 60FED947))
   (gr_line (start 222.748882 117.209953) (end 225.266169 114.101364) (layer Dwgs.User) (width 0.15) (tstamp 60FEDDA1))
   (gr_line (start 226.74889 117.209954) (end 222.748882 117.209953) (layer Dwgs.User) (width 0.15) (tstamp 60E31EF0))
