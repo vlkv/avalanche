@@ -1022,17 +1022,6 @@ F 3 "" H 10425 6040 50  0001 C CNN
 	1    10425 6040
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VCC #PWR0103
-U 1 1 604DC151
-P 10415 5170
-F 0 "#PWR0103" H 10415 5020 50  0001 C CNN
-F 1 "VCC" V 10410 5295 50  0000 L CNN
-F 2 "" H 10415 5170 50  0001 C CNN
-F 3 "" H 10415 5170 50  0001 C CNN
-	1    10415 5170
-	0    1    1    0   
-$EndComp
 Text GLabel 10415 5310 2    50   Input ~ 0
 SCL
 Text GLabel 10410 5450 2    50   Input ~ 0
@@ -1041,17 +1030,6 @@ Text GLabel 10425 5640 2    50   Input ~ 0
 SDA
 Text GLabel 10425 5770 2    50   Input ~ 0
 SCL
-$Comp
-L power:VCC #PWR0104
-U 1 1 604E5C28
-P 10425 5900
-F 0 "#PWR0104" H 10425 5750 50  0001 C CNN
-F 1 "VCC" V 10420 6025 50  0000 L CNN
-F 2 "" H 10425 5900 50  0001 C CNN
-F 3 "" H 10425 5900 50  0001 C CNN
-	1    10425 5900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10225 6040 9980 6040
 Wire Wire Line
@@ -3126,4 +3104,8 @@ Text GLabel 1655 2815 2    50   Input ~ 0
 PIN21
 Wire Wire Line
 	1560 2815 1655 2815
+Text GLabel 10425 5900 2    50   Input ~ 0
+PIN21
+Text GLabel 10415 5170 2    50   Input ~ 0
+PIN21
 $EndSCHEMATC
