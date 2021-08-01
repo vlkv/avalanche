@@ -26,6 +26,11 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
 
 ## Gerber files
 
+* Version 2.2.
+  * [PCB](https://github.com/vlkv/avalanche/blob/v2.2/pcb/Gerbers_pcb.zip)
+  * [Top plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_top/Gerbers_plate_top.zip)
+  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_bottom/Gerbers_plate_bottom.zip)
+  * TODO: Add ProMicro/OLED cover gerber files...
 * Version 2.1.
   * Known issues in this version:
     *  https://github.com/vlkv/avalanche/issues/8
@@ -33,7 +38,6 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
   * [PCB](https://github.com/vlkv/avalanche/blob/v2.1/pcb/Gerbers_pcb.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v2.1/plate_top/Gerbers_plate_top.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.1/plate_bottom/Gerbers_plate_bottom.zip)
-  * TODO: Add ProMicro/OLED cover gerber files...
 * Version 1.1.
   * [PCB](https://github.com/vlkv/avalanche/blob/v1.1/pcb/Gerbers_pcb.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v1.1/plate_top/Gerbers_plate_top.zip)
