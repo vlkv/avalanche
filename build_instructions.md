@@ -51,7 +51,7 @@ It is not recommended to install both per-switch and backlight LEDs (for aesteti
 
 * For backlight LEDs, just solder them
 
-* For per-switch LEDs, you should short circuit the data-in to data-out pins on all backlight LEDs.
+* For per-switch LEDs, you should short circuit the data-in of the first backlight LED with the data-in of the first per-key LED with some wire (or data-in to data-out pins on all backlight LEDs). Of course, it is supposed that you do not install the backlight LEDs at all.
 
 
 ### Rotary encoders
