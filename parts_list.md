@@ -14,7 +14,7 @@
 | 10 | Reset button (DIP switch)              | 2        | https://aliexpress.ru/item/4000209910403.html         |
 | 11 | Bumpons for bottom plate (set)         | 1        | https://aliexpress.ru/item/32912066603.html or https://aliexpress.ru/item/32680543746.html |
 | 12 | M2 screws 3mm                          | 18       | https://aliexpress.ru/item/32976056190.html           |
-| 13 | M2 standoffs 3mm                       | 18       | https://aliexpress.ru/item/32597776358.html           |
+| 13 | M2 standoffs 7mm                       | 18       | https://aliexpress.ru/item/32597776358.html           |
 | 14 | Rotary encoder                         | 2        | https://aliexpress.ru/item/32976046900.html           |
 | 15 | Knob (for rotary encoders)             | 2        | https://www.aliexpress.com/item/33004945608.html      |
 | 16 | Keyboard switch (Cherry-MX compatible) | 64       | |
