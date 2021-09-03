@@ -68,7 +68,7 @@ Is [here](https://github.com/vlkv/avalanche/blob/master/parts_list.md).
 ## Build instructions
 
 Are [here](https://github.com/vlkv/avalanche/blob/master/build_instructions.md). These instructions are very brief
-and insufficient as a detaild build instructions for a beginner. That is why (if you are a beginner) I recommend you
+and insufficient as a detailed build instructions for a beginner. That is why (if you are a beginner) I recommend you
 to also read these resourses:
 * [ErgoTravel Build Instructions](https://github.com/jpconstantineau/ErgoTravel/blob/master/BuildInstructions.md)
 * [Jian Build Instructons](https://telegra.ph/Gajd-po-sborke-Jian-12-08)
