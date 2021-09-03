@@ -31,11 +31,15 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
 
 
 * Version 3.0.
+  * Known issues:
+    * Still not fixed! https://github.com/vlkv/avalanche/issues/8
   * [PCB](https://github.com/vlkv/avalanche/blob/v3.0/pcb/Gerbers_pcb_v3_0.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v3.0/plate_top/Gerbers_plate_top_v3_0.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v3.0/plate_bottom/Gerbers_plate_bottom_v3_0.zip)
   * TODO: Add ProMicro/OLED cover gerber files...
 * Version 2.2.
+  * Known issues:
+    * Still not fixed! https://github.com/vlkv/avalanche/issues/8
   * [PCB](https://github.com/vlkv/avalanche/blob/v2.2/pcb/Gerbers_pcb.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_top/Gerbers_plate_top.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_bottom/Gerbers_plate_bottom.zip)
