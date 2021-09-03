@@ -9,13 +9,14 @@ you can use their wires as a pins for ProMicros.
 
 ### Switch sockets
 
-Just solder them. It is simple.
+I recommend the following way of soldering the switch sockets. Take the top plate, insert all switches into the top plate holes. Then place the top plate onto the PCB. Take switch sockets and place them to their dedicated places on the bottom side of the PCB. The switch sockets will be fixed with the switch pins stopping them from falling away or move anywhere around. Now solder the switch sockets to the PCB (with comfort).
 
 
 ### ProMicro sockets
 
-Solder the sockets to the PCBs. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins.
-Otherwise the pins could be soldered with the sockets.
+Solder the sockets to the PCBs. Solder one pin, check that the row of sockets is positioned with a straight 90 degrees angle to the PCB. Resolder if it is not. Only after that solder other pins. When soldering the socket's pins keep your soldering iron away from the unused pads. You should not short circuit unused pads with the pins.
+
+Solder the pins (remember the pieces of wire left from the diodes?) to the ProMicros. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins. Otherwise the pins could be soldered with the sockets.
 
 
 ### Reset switch and TRRS socket
@@ -50,7 +51,7 @@ It is not recommended to install both per-switch and backlight LEDs (for aesteti
 
 * For backlight LEDs, just solder them
 
-* For per-switch LEDs, you should short circuit the data-in to data-out pins on all backlight LEDs.
+* For per-switch LEDs, you should short circuit the data-in of the first backlight LED with the data-in of the first per-key LED with some wire (or data-in to data-out pins on all backlight LEDs). Of course, it is supposed that you do not install the backlight LEDs at all.
 
 
 ### Rotary encoders
