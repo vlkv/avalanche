@@ -36,7 +36,7 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
   * [PCB](https://github.com/vlkv/avalanche/blob/v3.0/pcb/Gerbers_pcb_v3_0.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v3.0/plate_top/Gerbers_plate_top_v3_0.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v3.0/plate_bottom/Gerbers_plate_bottom_v3_0.zip)
-  * [Cover](https://github.com/vlkv/avalanche/blob/v3.0/cover/Gerbers_cover_v3_0.zip).
+  * [Cover](https://github.com/vlkv/avalanche/blob/master/cover/Gerbers_cover_v3_0.zip). TODO: use git tag in this URI
 * [Version 2.2](https://github.com/vlkv/avalanche/tree/v2.2).
   * Known issues:
     * Still not fixed! https://github.com/vlkv/avalanche/issues/8
