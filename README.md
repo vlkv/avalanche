@@ -6,8 +6,11 @@ The Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you **
 Avalanche design was inspired by a number of great keyboards. You may read more about it
 in my very first [reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
 
-![The Avalanche keyboard](/images/avalanche_v2-0.jpg)
+![The Avalanche keyboard v3](/images/avalanche_v3-0.jpg)
+Avalanche v3
 
+![The Avalanche keyboard v2](/images/avalanche_v2-0.jpg)
+Avalanche v2
 
 ## Support the project
 
@@ -26,11 +29,28 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
 
 ## Gerber files
 
-* Version 2.1
+
+* Version 3.0.
+  * [PCB](https://github.com/vlkv/avalanche/blob/v3.0/pcb/Gerbers_pcb.zip)
+  * [Top plate](https://github.com/vlkv/avalanche/blob/v3.0/plate_top/Gerbers_plate_top.zip)
+  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v3.0/plate_bottom/Gerbers_plate_bottom.zip)
+  * TODO: Add ProMicro/OLED cover gerber files...
+* Version 2.2.
+  * [PCB](https://github.com/vlkv/avalanche/blob/v2.2/pcb/Gerbers_pcb.zip)
+  * [Top plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_top/Gerbers_plate_top.zip)
+  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_bottom/Gerbers_plate_bottom.zip)
+  * TODO: Add ProMicro/OLED cover gerber files...
+* Version 2.1.
+  * Known issues in this version:
+    *  https://github.com/vlkv/avalanche/issues/8
+    *  https://github.com/vlkv/avalanche/issues/9
   * [PCB](https://github.com/vlkv/avalanche/blob/v2.1/pcb/Gerbers_pcb.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v2.1/plate_top/Gerbers_plate_top.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.1/plate_bottom/Gerbers_plate_bottom.zip)
-  * TODO: Add ProMicro/OLED cover gerber files...
+* Version 1.1.
+  * [PCB](https://github.com/vlkv/avalanche/blob/v1.1/pcb/Gerbers_pcb.zip)
+  * [Top plate](https://github.com/vlkv/avalanche/blob/v1.1/plate_top/Gerbers_plate_top.zip)
+  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v1.1/plate_bottom/Gerbers_plate_bottom.zip)
 
 
 ## Release notes
