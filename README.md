@@ -22,8 +22,8 @@ the Avalanche keyboard. If you like the keyboard and you want to thank the creat
 
 ## Layout tester
 
-Cut [left half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_left_A4.pdf) and
-[right half](https://github.com/vlkv/avalanche_info/blob/master/layout_tester/Avalanche_v2_0_right_A4.pdf)
+Cut [left half](https://github.com/vlkv/avalanche/blob/master/layout_tester/Avalanche_v3_0_left_A4.pdf) and
+[right half](https://github.com/vlkv/avalanche/blob/master/layout_tester/Avalanche_v3_0_right_A4.pdf)
 from some piece of a cardboard, insert switches, put on the keycaps and try the layout.
 
 
