@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name avalanche-hotswap)(type Legacy)(uri ${KIPRJMOD}/avalanche-hotswap.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri /home/vitvlkv/thinkb/symbols/promicro.lib)(options "")(descr ""))
+  (lib (name pin_pad)(type Legacy)(uri /home/vitvlkv/thinkb/symbols/pin_pad.lib)(options "")(descr ""))
 )

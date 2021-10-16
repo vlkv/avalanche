@@ -1150,39 +1150,6 @@ F 3 "~" H 10325 1120 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:SK6812MINI_LED L3
-U 1 1 60550286
-P 6140 3825
-F 0 "L3" H 6140 3830 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 6140 4022 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6140 3825 60  0001 C CNN
-F 3 "" H 6140 3825 60  0001 C CNN
-	1    6140 3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L avalanche-hotswap:SK6812MINI_LED L2
-U 1 1 6056046A
-P 6755 3820
-F 0 "L2" H 6760 3820 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 6755 4017 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6755 3820 60  0001 C CNN
-F 3 "" H 6755 3820 60  0001 C CNN
-	1    6755 3820
-	1    0    0    -1  
-$EndComp
-$Comp
-L avalanche-hotswap:SK6812MINI_LED L1
-U 1 1 605637A3
-P 7450 3820
-F 0 "L1" H 7455 3820 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 7450 4017 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7450 3820 60  0001 C CNN
-F 3 "" H 7450 3820 60  0001 C CNN
-	1    7450 3820
-	1    0    0    -1  
-$EndComp
-$Comp
 L avalanche-hotswap:SK6812MINI_LED L8
 U 1 1 60567077
 P 7205 4590
@@ -1193,47 +1160,8 @@ F 3 "" H 7205 4590 60  0001 C CNN
 	1    7205 4590
 	1    0    0    -1  
 $EndComp
-$Comp
-L avalanche-hotswap:SK6812MINI_LED L6
-U 1 1 6056DC12
-P 4220 3825
-F 0 "L6" H 4225 3835 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 4220 3628 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4220 3825 60  0001 C CNN
-F 3 "" H 4220 3825 60  0001 C CNN
-	1    4220 3825
-	1    0    0    -1  
-$EndComp
-Text GLabel 8260 3720 2    50   Input ~ 0
+Text GLabel 8080 4490 2    50   Input ~ 0
 LED
-Wire Wire Line
-	4020 3725 3905 3725
-Wire Wire Line
-	6555 3920 6450 3920
-Wire Wire Line
-	4020 3925 3980 3925
-$Comp
-L avalanche-hotswap:SK6812MINI_LED L4
-U 1 1 6043664D
-P 5575 3825
-F 0 "L4" H 5575 3835 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 5575 3628 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5575 3825 60  0001 C CNN
-F 3 "" H 5575 3825 60  0001 C CNN
-	1    5575 3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 60493A43
-P 8440 4100
-F 0 "#PWR0110" H 8440 3850 50  0001 C CNN
-F 1 "GND" V 8440 3990 50  0000 R CNN
-F 2 "" H 8440 4100 50  0001 C CNN
-F 3 "" H 8440 4100 50  0001 C CNN
-	1    8440 4100
-	-1   0    0    1   
-$EndComp
 $Comp
 L Mechanical:MountingHole H16
 U 1 1 6044455C
@@ -1678,10 +1606,6 @@ F 3 "~" V 4145 1790 50  0001 C CNN
 	1    4145 1790
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3980 3925 0    50   Input ~ 0
-ledA
-Text GLabel 8080 4490 2    50   Input ~ 0
-ledA
 $Comp
 L power:GND #PWR0109
 U 1 1 610F9892
@@ -2001,121 +1925,6 @@ F 3 "" H 4155 5870 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2545 3015 2745 3015
-Wire Wire Line
-	7650 3920 7650 4100
-Wire Wire Line
-	8260 4100 8440 4100
-$Comp
-L avalanche-hotswap:SK6812MINI_LED L5
-U 1 1 60436647
-P 4920 3825
-F 0 "L5" H 4920 3825 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 4920 3628 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4920 3825 60  0001 C CNN
-F 3 "" H 4920 3825 60  0001 C CNN
-	1    4920 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 3920 7105 3920
-Wire Wire Line
-	7105 3920 7105 3720
-Wire Wire Line
-	7105 3720 6955 3720
-Wire Wire Line
-	6450 3920 6450 3725
-Wire Wire Line
-	6450 3725 6340 3725
-Wire Wire Line
-	7250 3720 7200 3720
-Wire Wire Line
-	7200 3720 7200 3580
-Wire Wire Line
-	7810 3580 8440 3580
-Wire Wire Line
-	6555 3720 6515 3720
-Wire Wire Line
-	6515 3720 6515 3580
-Connection ~ 6515 3580
-Wire Wire Line
-	6515 3580 7200 3580
-Wire Wire Line
-	5375 3725 5315 3725
-Wire Wire Line
-	5315 3725 5315 3580
-Connection ~ 5315 3580
-Wire Wire Line
-	3905 3580 3905 3725
-Wire Wire Line
-	5940 3925 5860 3925
-Wire Wire Line
-	5860 3925 5860 3725
-Wire Wire Line
-	5860 3725 5775 3725
-Wire Wire Line
-	5375 3925 5240 3925
-Wire Wire Line
-	5240 3925 5240 3725
-Wire Wire Line
-	5120 3725 5240 3725
-Wire Wire Line
-	4720 3925 4560 3925
-Wire Wire Line
-	4560 3925 4560 3725
-Wire Wire Line
-	4560 3725 4420 3725
-Wire Wire Line
-	4660 3725 4660 3580
-Wire Wire Line
-	4660 3725 4720 3725
-Connection ~ 4660 3580
-Wire Wire Line
-	4660 3580 5315 3580
-Wire Wire Line
-	3905 3580 4660 3580
-Wire Wire Line
-	4420 3925 4475 3925
-Wire Wire Line
-	4475 3925 4475 4100
-Wire Wire Line
-	4475 4100 5165 4100
-Wire Wire Line
-	5120 3925 5165 3925
-Wire Wire Line
-	5165 3925 5165 4100
-Connection ~ 5165 4100
-Wire Wire Line
-	5165 4100 5800 4100
-Wire Wire Line
-	5775 3925 5800 3925
-Wire Wire Line
-	5800 3925 5800 4100
-Connection ~ 5800 4100
-Wire Wire Line
-	5800 4100 6390 4100
-Wire Wire Line
-	5910 3725 5910 3580
-Connection ~ 5910 3580
-Wire Wire Line
-	5910 3580 6515 3580
-Wire Wire Line
-	5315 3580 5910 3580
-Wire Wire Line
-	5940 3725 5910 3725
-Wire Wire Line
-	6340 3925 6390 3925
-Wire Wire Line
-	6390 3925 6390 4100
-Connection ~ 6390 4100
-Wire Wire Line
-	6390 4100 7040 4100
-Wire Wire Line
-	6955 3920 7040 3920
-Wire Wire Line
-	7040 3920 7040 4100
-Connection ~ 7040 4100
-Wire Wire Line
-	7040 4100 7650 4100
 $Comp
 L avalanche-hotswap:SK6812MINI_LED L7
 U 1 1 6056A5E2
@@ -2928,37 +2737,6 @@ F 3 "~" H 10350 895 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L avalanche-hotswap:SK6812MINI_LED L0
-U 1 1 60F967B0
-P 8060 3820
-F 0 "L0" H 8065 3820 51  0000 C CNN
-F 1 "SK6812MINI_LED" H 8060 4017 16  0000 C CNN
-F 2 "used_footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8060 3820 60  0001 C CNN
-F 3 "" H 8060 3820 60  0001 C CNN
-	1    8060 3820
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8260 3920 8260 4100
-Wire Wire Line
-	7860 3920 7740 3920
-Wire Wire Line
-	7860 3720 7810 3720
-Wire Wire Line
-	7810 3720 7810 3580
-Wire Wire Line
-	7650 4100 8260 4100
-Connection ~ 8260 4100
-Connection ~ 7650 4100
-Wire Wire Line
-	7200 3580 7810 3580
-Connection ~ 7200 3580
-Connection ~ 7810 3580
-Wire Wire Line
-	7650 3720 7740 3720
-Wire Wire Line
-	7740 3720 7740 3920
-$Comp
 L Switch:SW_SPDT SW33
 U 1 1 60E86B75
 P 3200 820
@@ -3043,17 +2821,6 @@ Connection ~ 2050 3015
 Wire Wire Line
 	2050 3150 2050 3015
 NoConn ~ 3395 1775
-$Comp
-L power:VCC #PWR0105
-U 1 1 61DFDEA9
-P 8440 3580
-F 0 "#PWR0105" H 8440 3430 50  0001 C CNN
-F 1 "VCC" V 8505 3620 50  0000 L CNN
-F 2 "" H 8440 3580 50  0001 C CNN
-F 3 "" H 8440 3580 50  0001 C CNN
-	1    8440 3580
-	0    1    1    0   
-$EndComp
 $Comp
 L power:VCC #PWR0106
 U 1 1 61E4BF7F

@@ -1,4 +1,4 @@
-19246199423307634
+19248042355383634
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83159,6 +83159,13 @@ avalanche_Jumper
 0
 2
 2
+used_footprints
+bumpon_mark
+Resitance 3 pas
+R
+0
+0
+0
 used_footprints
 diode_SMD
 Resitance 3 pas
