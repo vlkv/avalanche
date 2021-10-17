@@ -992,17 +992,6 @@ $EndComp
 Text GLabel 8080 4490 2    50   Input ~ 0
 LED
 $Comp
-L Mechanical:MountingHole H16
-U 1 1 6044455C
-P 10345 1360
-F 0 "H16" H 10445 1406 50  0000 L CNN
-F 1 "MountingHole" H 10445 1315 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 10345 1360 50  0001 C CNN
-F 3 "~" H 10345 1360 50  0001 C CNN
-	1    10345 1360
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW6
 U 1 1 604A6082
 P 7355 890
