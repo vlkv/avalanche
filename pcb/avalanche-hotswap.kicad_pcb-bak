@@ -7987,7 +7987,7 @@
   (gr_line (start 122.601627 105.855703) (end 104.72649 108.684393) (layer Edge.Cuts) (width 0.05) (tstamp 608B7226))
   (gr_line (start 101.026061 90.589995) (end 103.75469 107.835437) (layer Edge.Cuts) (width 0.05) (tstamp 608B7222))
   (gr_arc (start 104.74969 107.677158) (end 103.75469 107.835437) (angle -79.64238239) (layer Edge.Cuts) (width 0.05) (tstamp 608B7221))
-  (gr_line (start 94.293313 13.745863) (end 100.021399 13.747956) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 95.074338 13.746739) (end 98.931433 13.744112) (layer Edge.Cuts) (width 0.05))
   (gr_text W1 (at 180.720836 72.902595 9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
