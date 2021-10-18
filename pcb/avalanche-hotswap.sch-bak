@@ -992,17 +992,6 @@ $EndComp
 Text GLabel 8080 4490 2    50   Input ~ 0
 LED
 $Comp
-L Mechanical:MountingHole H16
-U 1 1 6044455C
-P 10345 1360
-F 0 "H16" H 10445 1406 50  0000 L CNN
-F 1 "MountingHole" H 10445 1315 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 10345 1360 50  0001 C CNN
-F 3 "~" H 10345 1360 50  0001 C CNN
-	1    10345 1360
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW6
 U 1 1 604A6082
 P 7355 890
@@ -2700,4 +2689,191 @@ Text GLabel 1655 2815 2    50   Input ~ 0
 PIN21
 Wire Wire Line
 	1560 2815 1655 2815
+$Comp
+L avalanche-hotswap:OLED J2
+U 1 1 617C368C
+P 9620 5250
+F 0 "J2" H 9537 4875 50  0000 C CNN
+F 1 "OLED" H 9537 4966 50  0000 C CNN
+F 2 "used_footprints:OLED_4Pin_SSD1306" H 9537 4967 50  0001 C CNN
+F 3 "" H 9620 5250 50  0000 C CNN
+	1    9620 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP1
+U 1 1 61833367
+P 10210 5100
+F 0 "JP1" H 10210 5150 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5194 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5100 50  0001 C CNN
+F 3 "" H 10210 5100 50  0001 C CNN
+	1    10210 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP2
+U 1 1 61834597
+P 10210 5200
+F 0 "JP2" H 10210 5250 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5294 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5200 50  0001 C CNN
+F 3 "" H 10210 5200 50  0001 C CNN
+	1    10210 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP3
+U 1 1 618D8EE3
+P 10210 5300
+F 0 "JP3" H 10210 5350 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5394 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5300 50  0001 C CNN
+F 3 "" H 10210 5300 50  0001 C CNN
+	1    10210 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP4
+U 1 1 618D8EE9
+P 10210 5400
+F 0 "JP4" H 10210 5450 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5494 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5400 50  0001 C CNN
+F 3 "" H 10210 5400 50  0001 C CNN
+	1    10210 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9820 5200 9930 5200
+Wire Wire Line
+	9820 5300 9990 5300
+Wire Wire Line
+	9820 5400 10050 5400
+$Comp
+L power:GND #PWR0101
+U 1 1 61A6568A
+P 10310 5100
+F 0 "#PWR0101" H 10310 4850 50  0001 C CNN
+F 1 "GND" V 10310 4980 50  0000 R CNN
+F 2 "" H 10310 5100 50  0001 C CNN
+F 3 "" H 10310 5100 50  0001 C CNN
+	1    10310 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 61A9FC6D
+P 10310 5200
+F 0 "#PWR0102" H 10310 5050 50  0001 C CNN
+F 1 "VCC" V 10310 5330 50  0000 L CNN
+F 2 "" H 10310 5200 50  0001 C CNN
+F 3 "" H 10310 5200 50  0001 C CNN
+	1    10310 5200
+	0    1    1    0   
+$EndComp
+Text GLabel 10310 5400 2    50   Input ~ 0
+SDA
+Text GLabel 10310 5300 2    50   Input ~ 0
+SCL
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP5
+U 1 1 61B1A484
+P 10210 5590
+F 0 "JP5" H 10210 5640 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5684 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5590 50  0001 C CNN
+F 3 "" H 10210 5590 50  0001 C CNN
+	1    10210 5590
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP6
+U 1 1 61B1A48A
+P 10210 5690
+F 0 "JP6" H 10210 5740 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5784 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5690 50  0001 C CNN
+F 3 "" H 10210 5690 50  0001 C CNN
+	1    10210 5690
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP7
+U 1 1 61B1A490
+P 10210 5790
+F 0 "JP7" H 10210 5840 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5884 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5790 50  0001 C CNN
+F 3 "" H 10210 5790 50  0001 C CNN
+	1    10210 5790
+	1    0    0    -1  
+$EndComp
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP8
+U 1 1 61B1A496
+P 10210 5890
+F 0 "JP8" H 10210 5940 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 10210 5984 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 10210 5890 50  0001 C CNN
+F 3 "" H 10210 5890 50  0001 C CNN
+	1    10210 5890
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61B1A4A0
+P 10310 5890
+F 0 "#PWR0103" H 10310 5640 50  0001 C CNN
+F 1 "GND" V 10310 5770 50  0000 R CNN
+F 2 "" H 10310 5890 50  0001 C CNN
+F 3 "" H 10310 5890 50  0001 C CNN
+	1    10310 5890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 61B1A4A6
+P 10310 5790
+F 0 "#PWR0104" H 10310 5640 50  0001 C CNN
+F 1 "VCC" V 10310 5920 50  0000 L CNN
+F 2 "" H 10310 5790 50  0001 C CNN
+F 3 "" H 10310 5790 50  0001 C CNN
+	1    10310 5790
+	0    1    1    0   
+$EndComp
+Text GLabel 10310 5590 2    50   Input ~ 0
+SDA
+Text GLabel 10310 5690 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	9820 5100 9870 5100
+Wire Wire Line
+	9870 5590 9870 5100
+Wire Wire Line
+	9870 5590 10110 5590
+Connection ~ 9870 5100
+Wire Wire Line
+	9870 5100 10110 5100
+Wire Wire Line
+	9930 5690 9930 5200
+Wire Wire Line
+	9930 5690 10110 5690
+Connection ~ 9930 5200
+Wire Wire Line
+	9930 5200 10110 5200
+Wire Wire Line
+	9990 5790 9990 5300
+Wire Wire Line
+	9990 5790 10110 5790
+Connection ~ 9990 5300
+Wire Wire Line
+	9990 5300 10110 5300
+Wire Wire Line
+	10050 5890 10050 5400
+Wire Wire Line
+	10050 5890 10110 5890
+Connection ~ 10050 5400
+Wire Wire Line
+	10050 5400 10110 5400
 $EndSCHEMATC
