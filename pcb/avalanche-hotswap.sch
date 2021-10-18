@@ -2544,17 +2544,6 @@ F 3 "~" H 10350 675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole HM14
-U 1 1 6094ED54
-P 10350 895
-F 0 "HM14" H 10450 941 50  0000 L CNN
-F 1 "CaseHole" H 10450 850 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 10350 895 50  0001 C CNN
-F 3 "~" H 10350 895 50  0001 C CNN
-	1    10350 895 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_SPDT SW33
 U 1 1 60E86B75
 P 3200 820
@@ -2876,4 +2865,15 @@ Wire Wire Line
 Connection ~ 10050 5400
 Wire Wire Line
 	10050 5400 10110 5400
+$Comp
+L Mechanical:MountingHole HM14
+U 1 1 6094ED54
+P 10350 895
+F 0 "HM14" H 10450 941 50  0000 L CNN
+F 1 "CaseHole" H 10450 850 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 10350 895 50  0001 C CNN
+F 3 "~" H 10350 895 50  0001 C CNN
+	1    10350 895 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
