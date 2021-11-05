@@ -1,4 +1,4 @@
-40505407637640
+42347130023640
 used_footprints
 1pin_conn
 Resitance 3 pas
@@ -78,6 +78,13 @@ MJ-4PP-9
 4
 used_footprints
 OLED_4Pin
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+used_footprints
+OLED_4Pin_SSD1306
 Connecteur 6 pins
 CONN DEV
 0
