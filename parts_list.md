@@ -39,4 +39,5 @@ Optional
 
 | #  | Name                          | Quantity | Example URL                                           |
 |----|-------------------------------|----------|-------------------------------------------------------|
-| 21 | OLED screen                   | 2        | https://aliexpress.ru/item/32798439084.html           |
+| 21 | OLED screen (for v1..v3)      | 2        | https://aliexpress.ru/item/32798439084.html           |
+| 22 | OLED screen (for v4)          | 2        | https://aliexpress.ru/item/32896971385.html           |

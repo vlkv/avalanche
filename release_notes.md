@@ -1,5 +1,22 @@
 ## Release notes
 
+
+### v4
+* Compacted and redesigned stuff around ProMicro.
+* Column stagger was made less agressive.
+* Less angle for the "pinky stagger" of the 5th and 6th colums.
+* Changed OLED to horizontal one (SSD1306 128x64).
+* Removed support for the background lighting (so, there is only per-switch lighting on board).
+* Since v4.1: Changed the edge cuts of the PCB a little bit, so after breaking the numbers row the PCB is
+  more neat and pretty. ATTENTION: this required changing the position of the three top mounting holes, so
+  the top/bottom plates of **v4.0 and v4.1 are not compatible**.
+
+### v3
+
+* Changed the thumb cluster (see the image).
+* Since v3.1: Fixed issue with per-switch LEDs facing down. Now, they facing up.
+
+
 ### v2.1
 
 * Fixed issue with R1 resistor.
