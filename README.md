@@ -6,6 +6,9 @@ The Avalanche keyboard is an ergonomic split keyboard with 4x6 (or 3x6 if you **
 Avalanche design was inspired by a number of great keyboards. You may read more about it
 in my very first [reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
 
+![The Avalanche keyboard v4](/images/avalanche_v4-1.jpg)
+Avalanche v4
+
 ![The Avalanche keyboard v3](/images/avalanche_v3-0.jpg)
 Avalanche v3
 
