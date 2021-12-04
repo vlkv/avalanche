@@ -33,10 +33,16 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
 ## Gerber files
 
 * [Version 4.1](https://github.com/vlkv/avalanche/tree/v4.1)
+  Please avoid to order PCB production of this version, wait for v4.2 with fix of issue #10.
+  * Known issues:
+    * https://github.com/vlkv/avalanche/issues/10
   * [PCB](https://github.com/vlkv/avalanche/blob/v4.1/pcb/Gerbers_pcb_v4_1.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v4.1/plate_top/Gerbers_plate_top_v4_1.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v4.1/plate_bottom/Gerbers_plate_bottom_v4_1.zip)
 * [Version 4.0](https://github.com/vlkv/avalanche/tree/v4.0)
+  * Please avoid to order PCB production of this version, wait for v4.2 with fix of issue #10.
+  * Known issues:
+    * https://github.com/vlkv/avalanche/issues/10
   * [PCB](https://github.com/vlkv/avalanche/blob/v4.0/pcb/Gerbers_pcb_v4_0.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v4.0/plate_top/Gerbers_plate_top_v4_0.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v4.0/plate_bottom/Gerbers_plate_bottom_v4_0.zip)
