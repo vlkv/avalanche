@@ -32,20 +32,10 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
 
 ## Gerber files
 
-* [Version 4.1](https://github.com/vlkv/avalanche/tree/v4.1)
-  Please avoid to order PCB production of this version, wait for v4.2 with fix of issue #10.
-  * Known issues:
-    * https://github.com/vlkv/avalanche/issues/10
-  * [PCB](https://github.com/vlkv/avalanche/blob/v4.1/pcb/Gerbers_pcb_v4_1.zip)
+* [Version 4.2](https://github.com/vlkv/avalanche/tree/v4.2)
+  * [PCB](https://github.com/vlkv/avalanche/blob/v4.2/pcb/Gerbers_pcb_v4_2.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v4.1/plate_top/Gerbers_plate_top_v4_1.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v4.1/plate_bottom/Gerbers_plate_bottom_v4_1.zip)
-* [Version 4.0](https://github.com/vlkv/avalanche/tree/v4.0)
-  * Please avoid to order PCB production of this version, wait for v4.2 with fix of issue #10.
-  * Known issues:
-    * https://github.com/vlkv/avalanche/issues/10
-  * [PCB](https://github.com/vlkv/avalanche/blob/v4.0/pcb/Gerbers_pcb_v4_0.zip)
-  * [Top plate](https://github.com/vlkv/avalanche/blob/v4.0/plate_top/Gerbers_plate_top_v4_0.zip)
-  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v4.0/plate_bottom/Gerbers_plate_bottom_v4_0.zip)
 * [Version 3.1](https://github.com/vlkv/avalanche/tree/v3.1).
   * [PCB](https://github.com/vlkv/avalanche/blob/v3.1/pcb/Gerbers_pcb_v3_1.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v3.1/plate_top/Gerbers_plate_top_v3_0.zip)
@@ -65,13 +55,6 @@ from some piece of a cardboard, insert switches, put on the keycaps and try the 
   * [Top plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_top/Gerbers_plate_top.zip)
   * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.2/plate_bottom/Gerbers_plate_bottom.zip)
   * TODO: Add ProMicro/OLED cover gerber files...
-* [Version 2.1](https://github.com/vlkv/avalanche/tree/v2.1).
-  * Known issues in this version:
-    *  https://github.com/vlkv/avalanche/issues/8
-    *  https://github.com/vlkv/avalanche/issues/9
-  * [PCB](https://github.com/vlkv/avalanche/blob/v2.1/pcb/Gerbers_pcb.zip)
-  * [Top plate](https://github.com/vlkv/avalanche/blob/v2.1/plate_top/Gerbers_plate_top.zip)
-  * [Bottom plate](https://github.com/vlkv/avalanche/blob/v2.1/plate_bottom/Gerbers_plate_bottom.zip)
 * [Version 1.1](https://github.com/vlkv/avalanche/tree/v1.1).
   * [PCB](https://github.com/vlkv/avalanche/blob/v1.1/pcb/Gerbers_pcb.zip)
   * [Top plate](https://github.com/vlkv/avalanche/blob/v1.1/plate_top/Gerbers_plate_top.zip)
