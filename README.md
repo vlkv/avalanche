@@ -7,7 +7,7 @@ Avalanche design was inspired by a number of great keyboards. You may read more 
 in my very first [reddit post](https://www.reddit.com/r/MechanicalKeyboards/comments/mkwddp/introducing_the_avalanche_yet_another_one_ergo/).
 
 ![The Avalanche keyboard v4](/images/avalanche_v4-1.jpg)
-Avalanche v4 (It's a build in progress by [u/chewiedies](https://www.reddit.com/user/chewiedies))
+Avalanche v4 (Awesome 40% and 60% builds by [u/chewiedies](https://www.reddit.com/user/chewiedies))
 
 ![The Avalanche keyboard v3](/images/avalanche_v3-0.jpg)
 Avalanche v3
