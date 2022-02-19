@@ -3,38 +3,54 @@
 
 ### Diodes
 
-Both SMD and through-hole types of diodes are supported. I recommend through-hole ones, because (after you solder them)
-you can use their wires as a pins for ProMicros.
+Both SMD and through-hole types of diodes are supported. The stripe on the diode should match the silk screen so that the line on the diode is on the same side.
+
+Through-hole diodes are nice when using Mill-Max sockets because the trimmed diode wires can be used as the ProMicro pins.
 
 
-### Switch sockets
+### Switch hotswap sockets
 
-I recommend the following way of soldering the switch sockets. Take the top plate, insert all switches into the top plate holes. Then place the top plate onto the PCB. Take switch sockets and place them to their dedicated places on the bottom side of the PCB. The switch sockets will be fixed with the switch pins stopping them from falling away or move anywhere around. Now solder the switch sockets to the PCB (with comfort).
+Install the hotswap sockets on the same side as the diodes.
 
+I recommend the following way of soldering the hotswap sockets. Take the top plate, insert all switches into the top plate holes. Then place the top plate onto the PCB. Take switch sockets and place them to their dedicated places on the bottom side of the PCB. The switch sockets will be fixed with the switch pins stopping them from falling away or move anywhere around. Now solder the switch sockets to the PCB (with comfort).
+
+### Component locations
+
+![v4 Component locations](images/avalanche_v4-component_locations.jpg)
 
 ### ProMicro sockets
 
-Solder the sockets to the PCBs. Solder one pin, check that the row of sockets is positioned with a straight 90 degrees angle to the PCB. Resolder if it is not. Only after that solder other pins. When soldering the socket's pins keep your soldering iron away from the unused pads. You should not short circuit unused pads with the pins.
+Mill-Max headers must be used, standard header pins do not fit.
 
-Solder the pins (remember the pieces of wire left from the diodes?) to the ProMicros. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins. Otherwise the pins could be soldered with the sockets.
+Install the ProMicro on the opposite side as the sockets and diodes. Install the ProMicro upside down for a cleaner look, the silk screen indicates where the headers should be seated. To install the ProMicro right side up, use the other header position.
+
+Solder the sockets to the PCBs. Solder one pin, adjust by resoldering the one pin until socket is positioned at 90 degrees. Only after that solder other pins. Be careful when soldering the socket's pins to avoid bridging the unused pads. You should not short circuit unused pads with the pins.
+
+For low profile Mill-Max type headers, you can now solder the ProMicro header pins. This is a good time to re-use the diode legs if through-hole diodes were used. Solid core 24 AWG wire also works very well. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins. Otherwise the pins could be soldered with the sockets.
 
 
 ### Reset switch and TRRS socket
 
-Just solder them. It is simple.
+Solder them on the same side as the ProMicro.
+
+### OLED
+
+Install headers below the ProMicro sockets and bridge the nearby pads on the same side as the OLED. If the ProMicro has already been installed you may need to remobe it in order to access the pads.
 
 
 ### Choose Serial or I2C
-I recommend to use I2C, because it provides less latency in communication between the halves of the
-keyboard. And this latency difference is noticable (subjectively).
+I2C provides less latency in communication between the halves of the keyboard. This latency difference begins to be noticible when typing above 100 words per minute.
 
-* For I2C you should solder resistors R1, R2 on the master (left by default) half.
-  Then connect P1 with R1 (closest hole) and P2 with R2 (again the closest hole).
-  Modify your qmk firmware to support I2C.
+* I2C: On the master board (left by default) solder 4.7k resistors R1, R2.
+  On the secondary board (right by default) connect P1 to R1 and P2 to R2 (the closest holes to each).
+  Modify your qmk firmware `config.h` with `#define USE_I2C` instead of `#define USE_SERIAL`.
   Use only TRRS cable to connect keyboard halves.
 
-* For Serial you should short circuit the W1 jumper. Modify your qmk firmware to support Serial.
+* Serial: On both halves you should short circuit the W1 jumper.
+  Modify your qmk firmware `config.h` with `#define USE_SERIAL` instead of `#define USE_I2C`.
   Use TRS or TRRS cable to connect keyboard halves.
+
+![Communication wiring](images/communication_wiring.jpg)
 
 This doc of the [QMK site](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_split_keyboard) has
 additional information.
