@@ -29,11 +29,13 @@ Solder the sockets to the PCBs. Solder one pin, adjust by resoldering the one pi
 For low profile Mill-Max type headers, you can now solder the ProMicro header pins. This is a good time to re-use the diode legs if through-hole diodes were used. Solid core 24 AWG wire also works very well. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins, otherwise solder could leak into the sockets.
 
 
-### Reset switch, TRRS socket, toggle switch.
+### Reset switch, TRRS socket, toggle switches.
 
 Solder them on the same side as the ProMicro.
 
-The toggle switch controls power to the OLED and LEDs, which is useful for wireless builds. For wired builds the switch can be replaced, and permenantly enabled, by connecting the SW34 pads with a wire.
+SW33 toggle switch (not pictured) can be used in wireless builds to disconnect the battery.
+
+SW34 toggle switch controls power to the OLED Screen and LEDs, which is useful for wireless builds. For wired builds the switch can be replaced, and permenantly enabled, by connecting the SW34 pads with a wire.
 
 ### OLED
 
