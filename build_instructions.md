@@ -26,16 +26,18 @@ Install the ProMicro on the opposite side as the sockets and diodes. Install the
 
 Solder the sockets to the PCBs. Solder one pin, adjust by resoldering the one pin until socket is positioned at 90 degrees. Only after that solder other pins. Be careful when soldering the socket's pins to avoid bridging the unused pads. You should not short circuit unused pads with the pins.
 
-For low profile Mill-Max type headers, you can now solder the ProMicro header pins. This is a good time to re-use the diode legs if through-hole diodes were used. Solid core 24 AWG wire also works very well. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins. Otherwise the pins could be soldered with the sockets.
+For low profile Mill-Max type headers, you can now solder the ProMicro header pins. This is a good time to re-use the diode legs if through-hole diodes were used. Solid core 24 AWG wire also works very well. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins, otherwise solder could leak into the sockets.
 
 
-### Reset switch and TRRS socket
+### Reset switch, TRRS socket, toggle switch.
 
 Solder them on the same side as the ProMicro.
 
+The toggle switch controls power to the OLED and LEDs, which is useful for wireless builds. For wired builds the switch can be replaced, and permenantly enabled, by connecting the SW34 pads with a wire.
+
 ### OLED
 
-Install headers below the ProMicro sockets and bridge the nearby pads on the same side as the OLED. If the ProMicro has already been installed you may need to remobe it in order to access the pads.
+Install headers below the ProMicro sockets and bridge the nearby pads on the same side as the OLED. If the ProMicro has already been installed you may need to remove it in order to access the pads.
 
 
 ### Choose Serial or I2C
