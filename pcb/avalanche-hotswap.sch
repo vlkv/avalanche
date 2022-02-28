@@ -25,17 +25,6 @@ F 3 "" H 3400 1155 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR07
-U 1 1 5DAAD041
-P 3395 1575
-F 0 "#PWR07" H 3395 1425 50  0001 C CNN
-F 1 "VCC" V 3460 1615 50  0000 L CNN
-F 2 "" H 3395 1575 50  0001 C CNN
-F 3 "" H 3395 1575 50  0001 C CNN
-	1    3395 1575
-	0    1    1    0   
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5DAAF1CB
 P 10545 1715
@@ -2555,17 +2544,6 @@ F 3 "~" H 3200 820 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPDT SW34
-U 1 1 60E8D9C8
-P 3195 1675
-F 0 "SW34" H 3195 1868 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 3195 1869 50  0001 C CNN
-F 2 "used_footprints:Switch_MSK-12C01-07" H 3195 1675 50  0001 C CNN
-F 3 "~" H 3195 1675 50  0001 C CNN
-	1    3195 1675
-	1    0    0    -1  
-$EndComp
-$Comp
 L avalanche-hotswap:i2c_pin P3
 U 1 1 60F0C961
 P 3600 720
@@ -2627,7 +2605,6 @@ Wire Wire Line
 Connection ~ 2050 3015
 Wire Wire Line
 	2050 3150 2050 3015
-NoConn ~ 3395 1775
 $Comp
 L power:VCC #PWR0106
 U 1 1 61E4BF7F
@@ -2664,9 +2641,7 @@ $EndComp
 Text GLabel 2995 1240 2    50   Input ~ 0
 PIN21
 Wire Wire Line
-	2995 1675 2875 1675
-Wire Wire Line
-	2875 1675 2875 1240
+	2995 1800 2875 1800
 Connection ~ 2875 1240
 Wire Wire Line
 	2875 1240 2995 1240
@@ -2875,5 +2850,57 @@ F 2 "used_footprints:M2_HOLE_PCB" H 10350 895 50  0001 C CNN
 F 3 "~" H 10350 895 50  0001 C CNN
 	1    10350 895 
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 5DAAD041
+P 3395 1700
+F 0 "#PWR07" H 3395 1550 50  0001 C CNN
+F 1 "VCC" V 3460 1740 50  0000 L CNN
+F 2 "" H 3395 1700 50  0001 C CNN
+F 3 "" H 3395 1700 50  0001 C CNN
+	1    3395 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW34
+U 1 1 60E8D9C8
+P 3195 1800
+F 0 "SW34" H 3195 1993 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 3195 1994 50  0001 C CNN
+F 2 "used_footprints:Switch_MSK-12C01-07" H 3195 1800 50  0001 C CNN
+F 3 "~" H 3195 1800 50  0001 C CNN
+	1    3195 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3395 1900
+Wire Wire Line
+	2875 1240 2875 1490
+$Comp
+L avalanche-hotswap:Device_Jumper_NO_Small JP12
+U 1 1 624A0715
+P 3150 1490
+F 0 "JP12" H 3155 1555 50  0000 C CNN
+F 1 "Device_Jumper_NO_Small" H 3150 1584 50  0001 C CNN
+F 2 "used_footprints:avalanche_Jumper" H 3150 1490 50  0001 C CNN
+F 3 "" H 3150 1490 50  0001 C CNN
+	1    3150 1490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1490 2875 1490
+Connection ~ 2875 1490
+Wire Wire Line
+	2875 1490 2875 1800
+$Comp
+L power:VCC #PWR0105
+U 1 1 626B88D6
+P 3250 1490
+F 0 "#PWR0105" H 3250 1340 50  0001 C CNN
+F 1 "VCC" V 3315 1530 50  0000 L CNN
+F 2 "" H 3250 1490 50  0001 C CNN
+F 3 "" H 3250 1490 50  0001 C CNN
+	1    3250 1490
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
