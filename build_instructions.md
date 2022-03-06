@@ -1,5 +1,8 @@
 ## The Avalanche keyboard build instuctions
 
+### Break off the numbers row and pinky key
+
+If desired, break off the number row and/or pinky key
 
 ### Diodes
 
@@ -29,11 +32,13 @@ Solder the sockets to the PCBs. Solder one pin, adjust by resoldering the one pi
 For low profile Mill-Max type headers, you can now solder the ProMicro header pins. This is a good time to re-use the diode legs if through-hole diodes were used. Solid core 24 AWG wire also works very well. Put some painter's tape (or similar) between sockets and ProMicros before soldering the pins, otherwise solder could leak into the sockets.
 
 
-### Reset switch, TRRS socket, toggle switch.
+### Reset switch, TRRS socket, toggle switches.
 
 Solder them on the same side as the ProMicro.
 
-The toggle switch controls power to the OLED and LEDs, which is useful for wireless builds. For wired builds the switch can be replaced, and permenantly enabled, by connecting the SW34 pads with a wire.
+SW33 toggle switch (not pictured) can be used in wireless builds to disconnect the battery.
+
+SW34 toggle switch controls power to the OLED Screen and LEDs, which is useful for wireless builds. For wired builds the switch can be replaced, and permenantly enabled, by connecting the SW34 pads with a wire.
 
 ### OLED
 
@@ -57,19 +62,19 @@ I2C provides less latency in communication between the halves of the keyboard. T
 This doc of the [QMK site](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_split_keyboard) has
 additional information.
 
+### LEDs
 
-### Break off the numbers row
+Install LEDs on the same side of the PCB as the hotswap sockets. The ground pin on the LED is indicated with a notched lead, line this up with the angle mark on the PCB. This component can be damaged if it gets too hot, so be careful not to dwell with the soldering iron for more than 2-3 seconds, and keep the temperature low.
 
-* Break off the numbers row, if you do not need/like it.
-* If you are using per-switch LEDs, then short circuit the J9, J10, J11 jumpers.
+One way to approach this component is to put a blob of solder on each ground pad first. With tweezers carefully hold the LED in position above the blob and quickly attach it to the blob. Once attached, used the tweezers to gently push down on the LED to fully seat it to the PCB. Inspect the alignment and carefully adjust as needed. Once in the correct location, the remaining pins can be soldered. It is easy to bridge the legs so closely inspect your work with a loupe or multimeter.
 
+* Short circuit the J9, J10, J11 jumpers if you are not using the number row.
 
-### Choose per-switch or backlight LEDs
-It is not recommended to install both per-switch and backlight LEDs (for aestetical reasons).
+#### v3 and earlier
 
-* For backlight LEDs, just solder them
+* Backlight LEDs available in earlier revisions. Solder them in. This component is much more difficult than the other type of LED, though a similar approach can be taken. Good luck.
 
-* For per-switch LEDs, you should short circuit the data-in of the first backlight LED with the data-in of the first per-key LED with some wire (or data-in to data-out pins on all backlight LEDs). Of course, it is supposed that you do not install the backlight LEDs at all.
+* For per-switch LEDs, short circuit the data-in of the first backlight LED with the data-in of the first per-key LED using a wire (or data-in to data-out pins on all backlight LEDs). Of course, it is supposed that you do not install the backlight LEDs at all.
 
 
 ### Rotary encoders

@@ -42,8 +42,8 @@ Optional OLED Screen
 | 21 | OLED screen (for v1..v3)      | 2        | https://aliexpress.ru/item/32798439084.html           |
 | 22 | OLED screen (for v4)          | 2        | https://aliexpress.ru/item/32896971385.html           |
 
-Optional OLED Screen/LED power toggle switch
+Optional power toggle switches. SW33 for battery, SW34 for OLED Screen and LEDs.
 
 | #  | Name                          | Quantity | Example URL                                           |
 |----|-------------------------------|----------|-------------------------------------------------------|
-| 23 | Side access toggle switch     | 2        | https://aliexpress.ru/item/4001295557976.html         |
+| 23 | Side access toggle switch     | 2-4      | https://aliexpress.ru/item/4001295557976.html         |
