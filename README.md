@@ -88,4 +88,4 @@ There is a [chat group in Telegram](https://t.me/avalanche_kb), where you may ch
 ## Firmware
 
 * [QMK](https://github.com/vlkv/qmk_firmware/tree/master/keyboards/avalanche).
-* TODO: Need to support ZMK for wireless.
+* [ZMK from our friend romones](https://github.com/romones/zmk-config). According to him: "Keyboard works, encoders work. I couldn’t figure out lights and displays. And if you plan to use it note there is an override for a dead pin in right overlay".
