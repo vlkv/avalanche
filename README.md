@@ -20,7 +20,6 @@ Avalanche v2
 I have spent significant amount of time, money and effort designing, building prototypes, fixing issues and bugs in
 the Avalanche keyboard. If you like the keyboard and you want to thank the creator you may:
 * Become a patron [at Patreon](https://www.patreon.com/vitvlkv).
-* Donate via PayPal [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=99MYK4CNR8DP2).
 
 
 ## Layout tester
